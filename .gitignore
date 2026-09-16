@@ -126,3 +126,12 @@ docs/papers/figures/envs/
 # SLURM stderr/stdout logs
 *.err
 *.out
+
+# Study runtime artifacts stay outside this source checkout.
+.env
+.env.*
+__pycache__/
+.pytest_cache/
+*.pth
+*.pt
+.venv/

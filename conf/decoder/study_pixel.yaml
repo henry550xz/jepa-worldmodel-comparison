@@ -1,0 +1,3 @@
+_target_: study.pixel.PixelDecoder
+image_size: ${img_size}
+channels: 64

@@ -1,0 +1,18 @@
+{
+  "horizons": [1, 2, 4, 8, 16, 32],
+  "horizon_units": "model_steps",
+  "probe_hidden_widths": [0, 128],
+  "state_fields": ["pusher_x", "pusher_y", "block_x", "block_y", "block_angle", "pusher_vx", "pusher_vy"],
+  "planning": {
+    "goal_horizon": 5,
+    "rollout_horizon": 5,
+    "execute_prefix": 1,
+    "max_replans": 10,
+    "cem_samples": 300,
+    "cem_elites": 30,
+    "cem_iterations": 30,
+    "frameskip": 5,
+    "simulator_early_stop": false
+  },
+  "status": "draft; requires frozen episode partitions and worker adapters"
+}
