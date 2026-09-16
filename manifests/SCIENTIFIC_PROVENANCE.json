@@ -1,0 +1,123 @@
+{
+  "upstream_url": "https://github.com/YilunKuang/lpworldmodel",
+  "upstream_baseline_sha": "bdd812d9432cccda8c350086006401b436f91982",
+  "internal_export_sha": "0e013ff99fbd07676bc9dc178dff78e3418d2e98",
+  "historical_experiments": {
+    "upstream_reproduction": "0f1720a0be0c73a98a16ce48936c052d7aaee3a6",
+    "matched_pilot": "40d8c7840a0a7e96933a42e10c60a926b272430e",
+    "feedback_control": "23083327db0c21eb1a4787e032313c7691778d06",
+    "control_open_loop": "1e7fbc592d1b44be09cba7a5cc00f83acc0bf3b7"
+  },
+  "pixel_checkpoint_sha256": "9e1eca55448f073c44ffaf4f0790203767402ffc45d73aeee6bfa169011672f5",
+  "files": [
+    {
+      "path": "study/__init__.py",
+      "source_sha256": "bd0f83f10bfd1a2ea769fc35e532b69acd3b608c9534247657d4ddc67955cff3",
+      "release_sha256": "bd0f83f10bfd1a2ea769fc35e532b69acd3b608c9534247657d4ddc67955cff3",
+      "byte_identical_to_internal_export": true
+    },
+    {
+      "path": "study/acquire_pusht.py",
+      "source_sha256": "add4b8105a74089b94cebab61f23f5b3cf9a56627ff7cb6ada1a6fc37d676ba5",
+      "release_sha256": "c414381a69b493032a300c68dd34ab9c8f75089124d283e057a63423b55c094d",
+      "byte_identical_to_internal_export": false
+    },
+    {
+      "path": "study/adapters.py",
+      "source_sha256": "f15423fb0e7a777db4aecf9464843d5d1acbd8a9456fbc15b06452c5f84ee520",
+      "release_sha256": "f15423fb0e7a777db4aecf9464843d5d1acbd8a9456fbc15b06452c5f84ee520",
+      "byte_identical_to_internal_export": true
+    },
+    {
+      "path": "study/evaluate_common.py",
+      "source_sha256": "054f81ed20aafe9afe4435174499eb811bcc73655c8f225a444e082901e9eb8a",
+      "release_sha256": "f69d947ee1e8172a027a8e1e888d0a1ac54d7b3075b07bfe1e43acbd6b91ce2e",
+      "byte_identical_to_internal_export": false
+    },
+    {
+      "path": "study/evaluation.py",
+      "source_sha256": "3f1b74730d1c4c32e6da7aee8a2e1eed95c639d838a70a749a81543e25684d64",
+      "release_sha256": "3f1b74730d1c4c32e6da7aee8a2e1eed95c639d838a70a749a81543e25684d64",
+      "byte_identical_to_internal_export": true
+    },
+    {
+      "path": "study/instrument.py",
+      "source_sha256": "4d2ac5b282b94a8da6cf59cf96087bb7d42c3f225b3d603070501a79302a76e3",
+      "release_sha256": "4d2ac5b282b94a8da6cf59cf96087bb7d42c3f225b3d603070501a79302a76e3",
+      "byte_identical_to_internal_export": true
+    },
+    {
+      "path": "study/instrument_plan.py",
+      "source_sha256": "96cf895c1e38112d8a2aa30a53597dfba2066982fc58533fa80f91701ff7ca14",
+      "release_sha256": "96cf895c1e38112d8a2aa30a53597dfba2066982fc58533fa80f91701ff7ca14",
+      "byte_identical_to_internal_export": true
+    },
+    {
+      "path": "study/manifests.py",
+      "source_sha256": "5a0415dcdbf217de1bff7c15783305df095bfa31bfcdf8a2c2239f090fc19f47",
+      "release_sha256": "8ae23eb41792dcd6a6315e0c2450848f8e549a579c8c94cc4289c18fdf24a769",
+      "byte_identical_to_internal_export": false
+    },
+    {
+      "path": "study/matched_training.py",
+      "source_sha256": "1f4bb1191b2c6c33550e3dcdb05c9a596e76d319ae6ab9d18172b2f795d525ac",
+      "release_sha256": "1f4bb1191b2c6c33550e3dcdb05c9a596e76d319ae6ab9d18172b2f795d525ac",
+      "byte_identical_to_internal_export": true
+    },
+    {
+      "path": "study/partitions.py",
+      "source_sha256": "262500d80dd249f3f7943c869b79560db1151d74e49b7de9c702e940238746fe",
+      "release_sha256": "262500d80dd249f3f7943c869b79560db1151d74e49b7de9c702e940238746fe",
+      "byte_identical_to_internal_export": true
+    },
+    {
+      "path": "study/pixel.py",
+      "source_sha256": "dc13d9e7bd9a30ea74f068e7e128d42f0ef8bfbf3113f5452db4239534e24b23",
+      "release_sha256": "dc13d9e7bd9a30ea74f068e7e128d42f0ef8bfbf3113f5452db4239534e24b23",
+      "byte_identical_to_internal_export": true
+    },
+    {
+      "path": "study/plan_official.py",
+      "source_sha256": "f12e41b3517d99bc4e405d7d9abedc3e4c062e1069ddabe78b2c28871c402631",
+      "release_sha256": "7dec72218e9548f15c836f67ad1589698705f19e71ca1328d6e3a308c83a81ae",
+      "byte_identical_to_internal_export": false
+    },
+    {
+      "path": "study/probes.py",
+      "source_sha256": "f310b53d7070c1b4d6b8dcd01130fab1cfb21870302233c42d6a208cecfd0811",
+      "release_sha256": "f310b53d7070c1b4d6b8dcd01130fab1cfb21870302233c42d6a208cecfd0811",
+      "byte_identical_to_internal_export": true
+    },
+    {
+      "path": "study/readiness_eval.py",
+      "source_sha256": "239aab52c56a1dbb901d35ec9f20092ec6e9b17ca0479fd91e48824919113cf5",
+      "release_sha256": "94d142187b44da1aeeb41ad997459fb014c76a65e55f499790d54dbc7803f32f",
+      "byte_identical_to_internal_export": false
+    },
+    {
+      "path": "study/reencode_control.py",
+      "source_sha256": "43f615a8245ccfee08a4abf06817cc79c212bf2d42a222ce0c3bfd2e3f02d1c7",
+      "release_sha256": "4025a8ee74a3137443e60000095d4844c7627eccd49f175c9156ec1c7c1216a9",
+      "byte_identical_to_internal_export": false
+    },
+    {
+      "path": "study/run.py",
+      "source_sha256": "5961b5f5d5474daf5247ff7db6a63f52907a847a06ad093f408e698a48d1528a",
+      "release_sha256": "222688fd3c8a6ed85d2bd39bc572af8e1a2f2911c68319ea9f8bad992063a618",
+      "byte_identical_to_internal_export": false
+    },
+    {
+      "path": "study/summarize_reencode.py",
+      "source_sha256": "d14e5be83639f39fea2753fbb6941d968d7a2528f63af416cb37a150edfa8514",
+      "release_sha256": "9b9898b1b28a33313c290a4b6fc77f9b5a02286a0cdc6fb9c459c531c211681e",
+      "byte_identical_to_internal_export": false
+    }
+  ],
+  "retained_summary_hashes": {
+    "pilot-summary.json": "5b30d2274b6251aeac5b1acc28c996a3d14520a685d2509d2741e1476c0b2532",
+    "reencode-summary.json": "cac113f58da3e22c38255617944e768758bb111416aab4dd859c96d863a44af3"
+  },
+  "release_note": "Scientific functions retained; portable workspace/run arguments and provenance metadata adapted. Release commits are current packaging events, not historical experiment timestamps.",
+  "pixel_probe_sha256": "bd752782380ef143bd8f2e4cfb96c58b72054dcce502072192c773d30089ed4d",
+  "partition_sha256": "69594de7b00defca169abef54c1e9d2e9e1910ed7ef81e66e3dfa00a67478d4e"
+}

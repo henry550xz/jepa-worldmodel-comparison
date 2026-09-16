@@ -1,0 +1,17 @@
+{
+  "tested_source_commit": "1425eef",
+  "tests": {
+    "full_cpu_suite_passed": 28,
+    "skipped": 0
+  },
+  "imports": "all scientific entry points passed with CUDA hidden",
+  "hydra_configs": "pixel, gaussian, sparse pilot resolved: seed0 batch32 two epochs history3 num_pred1",
+  "cli_help": "run/evaluate_common/reencode_control/acquire_pusht/plan_official passed",
+  "secret_scan": "No credential patterns found across all clean refs/reflogs and working tree. Pattern-based scan, not proof of absence. No dedicated scanner installed.",
+  "licenses": "LICENSE, NOTICE and lpwm_swm/NOTICE byte-identical to upstream",
+  "largest_tracked_file_bytes": 383297,
+  "private_paths_or_operational_documents": false,
+  "readme_links": "checked by test suite",
+  "historical_results": "checked against retained summaries and planning metrics; no new full experiments for packaging",
+  "scope": "CPU correctness tests, imports, configuration/CLI resolution; not fresh environment installation or full retraining"
+}

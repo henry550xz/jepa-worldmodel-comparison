@@ -1,0 +1,377 @@
+[
+  {
+    "method": "sparse",
+    "run_id": "sparse-s0-20260914T230335-6f99643d9771",
+    "training_seconds": 37789.417591252364,
+    "evaluation_seconds": 1009.5358761269599,
+    "peak_allocated_GiB": 7.809892177581787,
+    "peak_reserved_GiB": 8.130859375,
+    "checkpoint_bytes": 463190601,
+    "final_success": 1,
+    "ever_success": 14,
+    "final_cost_mean": 0.013905426677233495,
+    "planning_seconds_mean": 1.5724345704037697,
+    "ranking": {
+      "top1_regret": 0.010296156353433616,
+      "spearman": -0.11459981684981684,
+      "topk_overlap": 0.07200000000000001,
+      "best_in_topk": 0.06
+    },
+    "probes": {
+      "linear": {
+        "validation_normalized_mse": 0.21682167053222656,
+        "seed": 0,
+        "steps": 500,
+        "test_metrics": {
+          "pusher_position_rmse": 26.21832501667927,
+          "block_position_rmse": 27.026985969034993,
+          "angle_mae_rad": 0.5303649944615404
+        },
+        "active_features": 334,
+        "total_features": 384
+      },
+      "mlp": {
+        "validation_normalized_mse": 0.10248827189207077,
+        "seed": 0,
+        "steps": 500,
+        "test_metrics": {
+          "pusher_position_rmse": 15.406751788511894,
+          "block_position_rmse": 19.296855036529482,
+          "angle_mae_rad": 0.24792163769567266
+        },
+        "active_features": 334,
+        "total_features": 384
+      }
+    },
+    "horizons": {
+      "1": {
+        "episodes": 124,
+        "representation": {
+          "pusher_position_rmse": 27.903406439700316,
+          "block_position_rmse": 35.24422948031552,
+          "angle_mae_rad": 0.840312795642382
+        },
+        "prediction": {
+          "pusher_position_rmse": 61.270107745464514,
+          "block_position_rmse": 40.28460709100676,
+          "angle_mae_rad": 1.1920481837932269
+        }
+      },
+      "2": {
+        "episodes": 124,
+        "representation": {
+          "pusher_position_rmse": 26.268158771268208,
+          "block_position_rmse": 34.24714167993082,
+          "angle_mae_rad": 0.8268392488545484
+        },
+        "prediction": {
+          "pusher_position_rmse": 59.079068443269946,
+          "block_position_rmse": 40.027707911039336,
+          "angle_mae_rad": 1.1202474400786055
+        }
+      },
+      "4": {
+        "episodes": 124,
+        "representation": {
+          "pusher_position_rmse": 24.262766789283074,
+          "block_position_rmse": 32.075953879356874,
+          "angle_mae_rad": 0.7278201916016231
+        },
+        "prediction": {
+          "pusher_position_rmse": 56.789472237363924,
+          "block_position_rmse": 38.37513284161681,
+          "angle_mae_rad": 1.0250255569481583
+        }
+      },
+      "8": {
+        "episodes": 124,
+        "representation": {
+          "pusher_position_rmse": 24.81034016893758,
+          "block_position_rmse": 29.424990216230274,
+          "angle_mae_rad": 0.5314923232515473
+        },
+        "prediction": {
+          "pusher_position_rmse": 56.9375972974053,
+          "block_position_rmse": 38.19931921672878,
+          "angle_mae_rad": 0.7002999822610643
+        }
+      },
+      "16": {
+        "episodes": 106,
+        "representation": {
+          "pusher_position_rmse": 18.783151259742034,
+          "block_position_rmse": 20.528556789296598,
+          "angle_mae_rad": 0.3360452731426472
+        },
+        "prediction": {
+          "pusher_position_rmse": 56.17562989623978,
+          "block_position_rmse": 54.78139461862399,
+          "angle_mae_rad": 0.5103994443587928
+        }
+      },
+      "32": {
+        "episodes": 4,
+        "representation": {
+          "pusher_position_rmse": 20.77111576102105,
+          "block_position_rmse": 8.357677172242694,
+          "angle_mae_rad": 0.11305145919322968
+        },
+        "prediction": {
+          "pusher_position_rmse": 51.763256970381335,
+          "block_position_rmse": 52.53902338377866,
+          "angle_mae_rad": 0.34034596383571625
+        }
+      }
+    }
+  },
+  {
+    "method": "gaussian",
+    "run_id": "gaussian-s0-20260914T230335-40a3cf2cc7af",
+    "training_seconds": 38471.398432286456,
+    "evaluation_seconds": 969.7826764238998,
+    "peak_allocated_GiB": 7.809892177581787,
+    "peak_reserved_GiB": 8.130859375,
+    "checkpoint_bytes": 463190601,
+    "final_success": 6,
+    "ever_success": 30,
+    "final_cost_mean": 0.006170778741283811,
+    "planning_seconds_mean": 1.5052531268130989,
+    "ranking": {
+      "top1_regret": 0.004153635722468607,
+      "spearman": 0.27089468864468863,
+      "topk_overlap": 0.156,
+      "best_in_topk": 0.2
+    },
+    "probes": {
+      "linear": {
+        "validation_normalized_mse": 0.269540011882782,
+        "seed": 0,
+        "steps": 500,
+        "test_metrics": {
+          "pusher_position_rmse": 30.555652443933255,
+          "block_position_rmse": 29.95823923587327,
+          "angle_mae_rad": 0.6971664655903685
+        },
+        "active_features": 384,
+        "total_features": 384
+      },
+      "mlp": {
+        "validation_normalized_mse": 0.17816069722175598,
+        "seed": 0,
+        "steps": 500,
+        "test_metrics": {
+          "pusher_position_rmse": 21.91983557145779,
+          "block_position_rmse": 25.44440477660536,
+          "angle_mae_rad": 0.43612417213157484
+        },
+        "active_features": 384,
+        "total_features": 384
+      }
+    },
+    "horizons": {
+      "1": {
+        "episodes": 124,
+        "representation": {
+          "pusher_position_rmse": 31.828811300041714,
+          "block_position_rmse": 39.59643787734039,
+          "angle_mae_rad": 1.1691979582553849
+        },
+        "prediction": {
+          "pusher_position_rmse": 34.1060100939072,
+          "block_position_rmse": 39.4241403180907,
+          "angle_mae_rad": 1.2029191601184568
+        }
+      },
+      "2": {
+        "episodes": 124,
+        "representation": {
+          "pusher_position_rmse": 30.3334441000143,
+          "block_position_rmse": 39.195920627029174,
+          "angle_mae_rad": 1.155024016796884
+        },
+        "prediction": {
+          "pusher_position_rmse": 32.731295887805175,
+          "block_position_rmse": 39.26635970325667,
+          "angle_mae_rad": 1.1607056512114942
+        }
+      },
+      "4": {
+        "episodes": 124,
+        "representation": {
+          "pusher_position_rmse": 28.889446969526915,
+          "block_position_rmse": 36.97973876738165,
+          "angle_mae_rad": 1.039353826362154
+        },
+        "prediction": {
+          "pusher_position_rmse": 32.289989471710896,
+          "block_position_rmse": 37.77982486814403,
+          "angle_mae_rad": 1.0613279336636703
+        }
+      },
+      "8": {
+        "episodes": 124,
+        "representation": {
+          "pusher_position_rmse": 25.653408800949943,
+          "block_position_rmse": 30.810216924066285,
+          "angle_mae_rad": 0.7088303327910739
+        },
+        "prediction": {
+          "pusher_position_rmse": 28.41791890798616,
+          "block_position_rmse": 35.929426985651254,
+          "angle_mae_rad": 0.7431518783862344
+        }
+      },
+      "16": {
+        "episodes": 106,
+        "representation": {
+          "pusher_position_rmse": 19.930637592887646,
+          "block_position_rmse": 21.611488138670897,
+          "angle_mae_rad": 0.38511296246855403
+        },
+        "prediction": {
+          "pusher_position_rmse": 25.966023324068633,
+          "block_position_rmse": 47.83471112166003,
+          "angle_mae_rad": 0.43622609732025064
+        }
+      },
+      "32": {
+        "episodes": 4,
+        "representation": {
+          "pusher_position_rmse": 16.570815820518817,
+          "block_position_rmse": 6.864345818130259,
+          "angle_mae_rad": 0.07546956837177277
+        },
+        "prediction": {
+          "pusher_position_rmse": 26.087036389103684,
+          "block_position_rmse": 24.983302996797388,
+          "angle_mae_rad": 0.3952784314751625
+        }
+      }
+    }
+  },
+  {
+    "method": "pixel",
+    "run_id": "pixel-s0-20260914T230335-3649012fd387",
+    "training_seconds": 37801.42746391706,
+    "evaluation_seconds": 1255.715491936542,
+    "peak_allocated_GiB": 7.700788974761963,
+    "peak_reserved_GiB": 8.888671875,
+    "checkpoint_bytes": 478069041,
+    "final_success": 0,
+    "ever_success": 15,
+    "final_cost_mean": 0.05741953245945032,
+    "planning_seconds_mean": 1.528094598904252,
+    "ranking": {
+      "top1_regret": 0.008755559077835642,
+      "spearman": -0.07622161172161171,
+      "topk_overlap": 0.048,
+      "best_in_topk": 0.02
+    },
+    "probes": {
+      "linear": {
+        "validation_normalized_mse": 0.28954872488975525,
+        "seed": 0,
+        "steps": 500,
+        "test_metrics": {
+          "pusher_position_rmse": 88.14112709900319,
+          "block_position_rmse": 36.75208637233935,
+          "angle_mae_rad": 0.3644839863813544
+        },
+        "active_features": 384,
+        "total_features": 384
+      },
+      "mlp": {
+        "validation_normalized_mse": 0.1495288610458374,
+        "seed": 0,
+        "steps": 500,
+        "test_metrics": {
+          "pusher_position_rmse": 75.24217974362864,
+          "block_position_rmse": 19.963655963786945,
+          "angle_mae_rad": 0.1486839537295198
+        },
+        "active_features": 384,
+        "total_features": 384
+      }
+    },
+    "horizons": {
+      "1": {
+        "episodes": 124,
+        "representation": {
+          "pusher_position_rmse": 91.82543968036016,
+          "block_position_rmse": 39.540304054335415,
+          "angle_mae_rad": 0.3640123826535354
+        },
+        "prediction": {
+          "pusher_position_rmse": 213.0171404952816,
+          "block_position_rmse": 169.8275333063822,
+          "angle_mae_rad": 1.5696032895453367
+        }
+      },
+      "2": {
+        "episodes": 124,
+        "representation": {
+          "pusher_position_rmse": 96.72011737003093,
+          "block_position_rmse": 40.583384094620236,
+          "angle_mae_rad": 0.40645202867024294
+        },
+        "prediction": {
+          "pusher_position_rmse": 207.03235847392222,
+          "block_position_rmse": 143.98262554232898,
+          "angle_mae_rad": 1.5684203230073612
+        }
+      },
+      "4": {
+        "episodes": 124,
+        "representation": {
+          "pusher_position_rmse": 85.35186027989475,
+          "block_position_rmse": 46.0175370598417,
+          "angle_mae_rad": 0.5074946522359569
+        },
+        "prediction": {
+          "pusher_position_rmse": 178.48940467328902,
+          "block_position_rmse": 131.3806033426996,
+          "angle_mae_rad": 1.2725473239393563
+        }
+      },
+      "8": {
+        "episodes": 124,
+        "representation": {
+          "pusher_position_rmse": 78.69629562430808,
+          "block_position_rmse": 42.54622989874538,
+          "angle_mae_rad": 0.4316394348389994
+        },
+        "prediction": {
+          "pusher_position_rmse": 163.87535368606027,
+          "block_position_rmse": 118.53652027393214,
+          "angle_mae_rad": 1.0179175947805164
+        }
+      },
+      "16": {
+        "episodes": 106,
+        "representation": {
+          "pusher_position_rmse": 66.73401142805618,
+          "block_position_rmse": 35.18286903123834,
+          "angle_mae_rad": 0.3899041355310257
+        },
+        "prediction": {
+          "pusher_position_rmse": 168.39195781988315,
+          "block_position_rmse": 94.92412658211623,
+          "angle_mae_rad": 0.6244795637250584
+        }
+      },
+      "32": {
+        "episodes": 4,
+        "representation": {
+          "pusher_position_rmse": 16.715137367936897,
+          "block_position_rmse": 22.184972410138524,
+          "angle_mae_rad": 0.2587544322013855
+        },
+        "prediction": {
+          "pusher_position_rmse": 179.62662277972134,
+          "block_position_rmse": 41.33853638269515,
+          "angle_mae_rad": 0.299239031970501
+        }
+      }
+    }
+  }
+]
