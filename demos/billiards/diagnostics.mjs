@@ -1,14 +1,14 @@
-// Read-only visual explanations of the retained 1,000-update screening.
+// Read-only visual explanations of the selected retained evaluation.
 const methods = ['pixel', 'gaussian', 'sparse'];
 const titles = {pixel: 'Pixel', gaussian: 'Gaussian JEPA', sparse: 'Sparse LpWM'};
 const fmt = x => x.toFixed(3);
 
-export function mountDiagnostics(data, metrics) {
+export function mountDiagnostics(data, metrics, selected) {
   const root = document.getElementById('diagnostics');
   root.innerHTML = `
     <p class="eyebrow">REPRESENTATION & PREDICTION</p>
     <h2>What the models recover</h2>
-    <p>Preliminary comparison · 1,000 updates per method · identical RGB histories. We examine visual prediction, physical-state recovery and performance around interactions. These early results do not establish a ranking of objectives.</p>
+    <p>${selected.label} · identical RGB histories across objectives. These diagnostic results do not establish a ranking of objectives.</p>
     <div class="controls">
       <label>Inspect model <select id="diag-method">${methods.map(m => `<option value="${m}">${titles[m]}</option>`).join('')}</select></label>
       <label>Forecast horizon <select id="diag-horizon">${[1,2,4,8,16,32].map(h => `<option value="${h}" ${h===8?'selected':''}>H${h} · ${(h*data.dt).toFixed(2)} s</option>`).join('')}</select></label>
@@ -29,7 +29,7 @@ export function mountDiagnostics(data, metrics) {
         <p>Actual saved Pixel output at the selected horizon, regardless of the model selected above. Top: truth. Bottom: predicted RGB. Each row contains XY / XZ / YZ views.</p>
         <img id="diag-rgb" alt="Top row: ground truth balls in three views. Bottom row: Pixel RGB forecast." />
         <p>At this training budget, Pixel predictions are largely uniform and do not recover the visible balls. Foreground-sensitive evaluation is therefore important alongside aggregate image loss.</p>
-        <p class="note">Pixel features also show little variation across held-out images. Further training and readout diagnostics are needed to distinguish optimization, representation and decoder effects.</p>
+        <p class="note">The completed pilot still underperforms image persistence. Fitting and readout diagnostics are needed to distinguish optimization, representation and decoder effects.</p>
       </article>
       <article class="diag-card"><h3>4. State validity and event coverage</h3>
         <p>Fraction of estimated initial states satisfying the exact simulator’s constraints.</p><div id="diag-validity"></div>
@@ -39,7 +39,7 @@ export function mountDiagnostics(data, metrics) {
       </article>
     </div>
     <p class="diag-takeaway"><strong>Research direction:</strong> Establish learning and state-recovery behavior under matched training budgets, then measure sensitivity to scene complexity, appearance and model depth. The current results motivate these controls; they do not isolate an objective-level limitation.</p>
-    <details><summary>Data and evaluation protocol</summary><p>Run: billiards-3d-screen-791-v1. Source: <code>${data.source_sha}</code>. Trajectory: ${data.episode}. Charts use <a href="results/metrics.json">saved metrics</a> and <a href="results/playback.json">saved playback</a>. These analyses use fixed recorded results and remain unchanged when the interactive sandbox is edited. The demo does not run live learned-model inference.</p></details>`;
+    <details><summary>Data and evaluation protocol</summary><p>Run: ${selected.run}. Source: <code>${data.source_sha}</code>. Trajectory: ${data.episode}. Charts use <a href="${selected.path}/metrics.json">saved metrics</a> and <a href="${selected.path}/playback.json">saved playback</a>. These analyses use fixed recorded results and remain unchanged when the interactive sandbox is edited. The demo does not run live learned-model inference.</p></details>`;
 
   function update() {
     const method = document.getElementById('diag-method').value;
@@ -74,7 +74,7 @@ export function mountDiagnostics(data, metrics) {
     }).join('');
     const v=metrics.methods[method].horizons[h];
     document.getElementById('diag-interpretation').textContent = `${titles[method]}: rollout error is ${(v.predicted.position_rmse/v.true_future_probe.position_rmse).toFixed(1)}× the actual-future probe error at H${h}. ${method==='pixel'?'The predicted-feature readout produces coordinates far outside the physical domain at this training budget.':'The similar errors in both paths indicate that state recovery from actual-image features also limits this comparison.'}`;
-    document.getElementById('diag-rgb').src=`results/pixel-h${h}.png`;
+    document.getElementById('diag-rgb').src=`${selected.path}/pixel-h${h}.png`;
     document.getElementById('diag-validity').innerHTML=methods.map(m=>{
       const r=metrics.methods[m].supervised_image_to_state_to_physics;
       return `<div class="diag-bar-label">${titles[m]}<strong>${r.valid_initial_states}/${r.total} valid</strong></div><div class="diag-valid-track" aria-label="${r.total-r.valid_initial_states} rejected of ${r.total}"><span style="width:${100*r.valid_initial_states/r.total}%"></span></div>`;

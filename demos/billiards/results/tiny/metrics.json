@@ -1,0 +1,1037 @@
+{
+  "scope": "image-only physical readout; permutation scores are set metrics",
+  "methods": {
+    "pixel": {
+      "layers": {
+        "block_01": {
+          "position_rmse": 0.2147326619077591,
+          "velocity_rmse": 0.187256215176422,
+          "permutation_position_rmse": 0.20348381640316796,
+          "permutation_velocity_rmse": 0.19053123210913847
+        },
+        "block_02": {
+          "position_rmse": 0.21490391973406112,
+          "velocity_rmse": 0.18764465185166787,
+          "permutation_position_rmse": 0.2037029161002724,
+          "permutation_velocity_rmse": 0.19086083338403673
+        },
+        "block_03": {
+          "position_rmse": 0.21486607438856123,
+          "velocity_rmse": 0.18746266080191046,
+          "permutation_position_rmse": 0.2037588266569027,
+          "permutation_velocity_rmse": 0.19085314029429848
+        },
+        "block_04": {
+          "position_rmse": 0.21477532855856918,
+          "velocity_rmse": 0.18742237000397946,
+          "permutation_position_rmse": 0.2037338906554797,
+          "permutation_velocity_rmse": 0.19088408273313343
+        },
+        "block_05": {
+          "position_rmse": 0.21487352358165807,
+          "velocity_rmse": 0.1873454442884518,
+          "permutation_position_rmse": 0.20382886327078606,
+          "permutation_velocity_rmse": 0.19075408289039475
+        },
+        "block_06": {
+          "position_rmse": 0.2149462255325334,
+          "velocity_rmse": 0.18735495121748658,
+          "permutation_position_rmse": 0.20390444392956486,
+          "permutation_velocity_rmse": 0.19051783117439858
+        },
+        "block_07": {
+          "position_rmse": 0.21499164975340498,
+          "velocity_rmse": 0.1873782301081747,
+          "permutation_position_rmse": 0.2040129910284047,
+          "permutation_velocity_rmse": 0.19066431983704596
+        },
+        "block_08": {
+          "position_rmse": 0.21513884321362697,
+          "velocity_rmse": 0.18742723824943405,
+          "permutation_position_rmse": 0.20408193408831674,
+          "permutation_velocity_rmse": 0.1905481195738042
+        },
+        "block_09": {
+          "position_rmse": 0.21518898180867496,
+          "velocity_rmse": 0.1874671595940277,
+          "permutation_position_rmse": 0.20412977752921874,
+          "permutation_velocity_rmse": 0.19047133542726272
+        },
+        "block_10": {
+          "position_rmse": 0.21510173869667454,
+          "velocity_rmse": 0.1874519529114591,
+          "permutation_position_rmse": 0.20409653470364636,
+          "permutation_velocity_rmse": 0.1902394217805114
+        },
+        "block_11": {
+          "position_rmse": 0.21510676956659874,
+          "velocity_rmse": 0.18755155217202563,
+          "permutation_position_rmse": 0.20412937450640928,
+          "permutation_velocity_rmse": 0.19030972591924208
+        },
+        "block_12": {
+          "position_rmse": 0.21503860515102188,
+          "velocity_rmse": 0.18757077579604495,
+          "permutation_position_rmse": 0.20400211568627036,
+          "permutation_velocity_rmse": 0.19034499320207499
+        },
+        "linked": {
+          "position_rmse": 0.21416928279130834,
+          "velocity_rmse": 0.18778671247051384,
+          "permutation_position_rmse": 0.20294443685451855,
+          "permutation_velocity_rmse": 0.1900749785651952
+        }
+      },
+      "horizons": {
+        "1": {
+          "predicted": {
+            "position_rmse": 1327.8493370866586,
+            "velocity_rmse": 1320.9465579290331,
+            "permutation_position_rmse": 1327.7630885154451,
+            "permutation_velocity_rmse": 1320.9625874924325
+          },
+          "true_future_probe": {
+            "position_rmse": 0.19070091653995513,
+            "velocity_rmse": 0.21032114543175665,
+            "permutation_position_rmse": 0.1784326642720262,
+            "permutation_velocity_rmse": 0.20917338899667587
+          }
+        },
+        "2": {
+          "predicted": {
+            "position_rmse": 2001.1573977325777,
+            "velocity_rmse": 1850.2070752025552,
+            "permutation_position_rmse": 2001.0676363846487,
+            "permutation_velocity_rmse": 1850.2119350096118
+          },
+          "true_future_probe": {
+            "position_rmse": 0.18734538290536273,
+            "velocity_rmse": 0.20800013189384783,
+            "permutation_position_rmse": 0.1782474388576591,
+            "permutation_velocity_rmse": 0.20220688624011543
+          }
+        },
+        "4": {
+          "predicted": {
+            "position_rmse": 955.8845660084887,
+            "velocity_rmse": 1179.7888664424381,
+            "permutation_position_rmse": 955.7782022844847,
+            "permutation_velocity_rmse": 1179.703308859394
+          },
+          "true_future_probe": {
+            "position_rmse": 0.183422613141887,
+            "velocity_rmse": 0.2036334386917013,
+            "permutation_position_rmse": 0.17699058444899746,
+            "permutation_velocity_rmse": 0.19155385856636845
+          }
+        },
+        "8": {
+          "predicted": {
+            "position_rmse": 285.1961387080564,
+            "velocity_rmse": 256.66863508895267,
+            "permutation_position_rmse": 285.15050721977775,
+            "permutation_velocity_rmse": 256.66511777866316
+          },
+          "true_future_probe": {
+            "position_rmse": 0.18433983296947326,
+            "velocity_rmse": 0.18484987164000144,
+            "permutation_position_rmse": 0.17800405021492485,
+            "permutation_velocity_rmse": 0.1745821765641731
+          }
+        },
+        "16": {
+          "predicted": {
+            "position_rmse": 297.2593489276407,
+            "velocity_rmse": 261.0345391485922,
+            "permutation_position_rmse": 297.2114867156884,
+            "permutation_velocity_rmse": 260.9923633986043
+          },
+          "true_future_probe": {
+            "position_rmse": 0.19322658421657363,
+            "velocity_rmse": 0.1803848488545033,
+            "permutation_position_rmse": 0.1853842902488046,
+            "permutation_velocity_rmse": 0.19512834583081606
+          }
+        },
+        "32": {
+          "predicted": {
+            "position_rmse": 297.27113433912587,
+            "velocity_rmse": 260.8790721695926,
+            "permutation_position_rmse": 297.2217829040279,
+            "permutation_velocity_rmse": 260.8814892503368
+          },
+          "true_future_probe": {
+            "position_rmse": 0.23120745670861706,
+            "velocity_rmse": 0.17193851927254597,
+            "permutation_position_rmse": 0.20753489789856855,
+            "permutation_velocity_rmse": 0.18461455811081218
+          }
+        }
+      },
+      "event_strata": {
+        "free": {
+          "1": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 1327.8405753151771,
+              "velocity_rmse": 1320.94837312944,
+              "permutation_position_rmse": 1327.772522008992,
+              "permutation_velocity_rmse": 1320.9572444471708
+            }
+          },
+          "2": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 2001.1469981394673,
+              "velocity_rmse": 1850.2107040385627,
+              "permutation_position_rmse": 2001.0773371673592,
+              "permutation_velocity_rmse": 1850.2021786578762
+            }
+          },
+          "4": {
+            "episodes": 11,
+            "error": {
+              "position_rmse": 955.8402708110001,
+              "velocity_rmse": 1179.7391597799387,
+              "permutation_position_rmse": 955.8165185610943,
+              "permutation_velocity_rmse": 1179.7042746519548
+            }
+          },
+          "8": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 285.20329921958984,
+              "velocity_rmse": 256.65156743851,
+              "permutation_position_rmse": 285.17002549798514,
+              "permutation_velocity_rmse": 256.6974038186481
+            }
+          },
+          "16": {
+            "episodes": 0,
+            "error": null
+          },
+          "32": {
+            "episodes": 0,
+            "error": null
+          }
+        },
+        "wall": {
+          "1": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 1327.9807567218536,
+              "velocity_rmse": 1320.919329623599,
+              "permutation_position_rmse": 1327.621578068616,
+              "permutation_velocity_rmse": 1321.0427305781193
+            }
+          },
+          "2": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 2001.3133851444022,
+              "velocity_rmse": 1850.1526418083417,
+              "permutation_position_rmse": 2000.922119000277,
+              "permutation_velocity_rmse": 1850.3582741125906
+            }
+          },
+          "4": {
+            "episodes": 5,
+            "error": {
+              "position_rmse": 955.9820082184898,
+              "velocity_rmse": 1179.8982137289208,
+              "permutation_position_rmse": 955.6939010685193,
+              "permutation_velocity_rmse": 1179.7011841129768
+            }
+          },
+          "8": {
+            "episodes": 6,
+            "error": {
+              "position_rmse": 285.1809427837512,
+              "velocity_rmse": 256.69534019916296,
+              "permutation_position_rmse": 285.1094203631764,
+              "permutation_velocity_rmse": 256.66380055567953
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 297.25616638980705,
+              "velocity_rmse": 261.04324584151715,
+              "permutation_position_rmse": 297.1777790424978,
+              "permutation_velocity_rmse": 260.9933780742881
+            }
+          },
+          "32": {
+            "episodes": 9,
+            "error": {
+              "position_rmse": 297.27923012587723,
+              "velocity_rmse": 260.88561434848305,
+              "permutation_position_rmse": 297.20780103850046,
+              "permutation_velocity_rmse": 260.9247525824562
+            }
+          }
+        },
+        "ball": {
+          "1": {
+            "episodes": 0,
+            "error": null
+          },
+          "2": {
+            "episodes": 0,
+            "error": null
+          },
+          "4": {
+            "episodes": 0,
+            "error": null
+          },
+          "8": {
+            "episodes": 2,
+            "error": {
+              "position_rmse": 285.21308235744834,
+              "velocity_rmse": 256.6567836487854,
+              "permutation_position_rmse": 285.19567954653,
+              "permutation_velocity_rmse": 256.5398866037931
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 297.26253143140167,
+              "velocity_rmse": 261.0258321652496,
+              "permutation_position_rmse": 297.2451905664212,
+              "permutation_velocity_rmse": 260.9913487189757
+            }
+          },
+          "32": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 297.2680284853217,
+              "velocity_rmse": 260.8746847103754,
+              "permutation_position_rmse": 297.2410900037009,
+              "permutation_velocity_rmse": 260.84087809101527
+            }
+          }
+        }
+      },
+      "supervised_image_to_state_to_physics": {
+        "label_access": "supervised physical-state history probe plus exact physics",
+        "valid_initial_states": 10,
+        "total": 16,
+        "h32_valid_subset": {
+          "position_rmse": 0.23215369615097167,
+          "velocity_rmse": 0.1872501230789269,
+          "permutation_position_rmse": 0.21573172423334838,
+          "permutation_velocity_rmse": 0.1886613594796271
+        },
+        "warning": "valid subset is selected; report invalid fraction, not an unconditional score"
+      }
+    },
+    "gaussian": {
+      "layers": {
+        "block_01": {
+          "position_rmse": 0.2130792594276534,
+          "velocity_rmse": 0.1876893646499724,
+          "permutation_position_rmse": 0.20369219614380155,
+          "permutation_velocity_rmse": 0.18701792966883227
+        },
+        "block_02": {
+          "position_rmse": 0.21283068913512726,
+          "velocity_rmse": 0.18737189576522756,
+          "permutation_position_rmse": 0.20241116049487312,
+          "permutation_velocity_rmse": 0.18657418885071878
+        },
+        "block_03": {
+          "position_rmse": 0.21270177744866733,
+          "velocity_rmse": 0.18726645416047757,
+          "permutation_position_rmse": 0.2023327046631348,
+          "permutation_velocity_rmse": 0.18619154897385187
+        },
+        "block_04": {
+          "position_rmse": 0.21274832483827663,
+          "velocity_rmse": 0.1872165907103952,
+          "permutation_position_rmse": 0.20242534470501303,
+          "permutation_velocity_rmse": 0.18646670949903899
+        },
+        "block_05": {
+          "position_rmse": 0.21249189042953193,
+          "velocity_rmse": 0.18695420826182868,
+          "permutation_position_rmse": 0.20212314454996289,
+          "permutation_velocity_rmse": 0.18671457739609423
+        },
+        "block_06": {
+          "position_rmse": 0.21251879020174205,
+          "velocity_rmse": 0.18685006919418298,
+          "permutation_position_rmse": 0.20193066406430027,
+          "permutation_velocity_rmse": 0.18701117213042
+        },
+        "block_07": {
+          "position_rmse": 0.21246534245268017,
+          "velocity_rmse": 0.1867249961428819,
+          "permutation_position_rmse": 0.20194405704154228,
+          "permutation_velocity_rmse": 0.18703925781700975
+        },
+        "block_08": {
+          "position_rmse": 0.21235414978174508,
+          "velocity_rmse": 0.18653803599084173,
+          "permutation_position_rmse": 0.20186876868796025,
+          "permutation_velocity_rmse": 0.18687727432847873
+        },
+        "block_09": {
+          "position_rmse": 0.21222763955366902,
+          "velocity_rmse": 0.1864628872891379,
+          "permutation_position_rmse": 0.20196150680241653,
+          "permutation_velocity_rmse": 0.1867343511343925
+        },
+        "block_10": {
+          "position_rmse": 0.21221243220911,
+          "velocity_rmse": 0.18635112735521978,
+          "permutation_position_rmse": 0.2018986978606348,
+          "permutation_velocity_rmse": 0.187234479619946
+        },
+        "block_11": {
+          "position_rmse": 0.21233926814741916,
+          "velocity_rmse": 0.186335239330404,
+          "permutation_position_rmse": 0.20195054141001886,
+          "permutation_velocity_rmse": 0.18709184224101508
+        },
+        "block_12": {
+          "position_rmse": 0.21231214362039003,
+          "velocity_rmse": 0.18630000338408276,
+          "permutation_position_rmse": 0.20193325772737328,
+          "permutation_velocity_rmse": 0.18706267563181472
+        },
+        "linked": {
+          "position_rmse": 0.21289670742872466,
+          "velocity_rmse": 0.1861333702334681,
+          "permutation_position_rmse": 0.20260403172990948,
+          "permutation_velocity_rmse": 0.18785761525865372
+        }
+      },
+      "horizons": {
+        "1": {
+          "predicted": {
+            "position_rmse": 0.19171564501195493,
+            "velocity_rmse": 0.21062525742054897,
+            "permutation_position_rmse": 0.1865451415534384,
+            "permutation_velocity_rmse": 0.19750559668957277
+          },
+          "true_future_probe": {
+            "position_rmse": 0.1922069149118065,
+            "velocity_rmse": 0.2072320539394967,
+            "permutation_position_rmse": 0.18537246789791606,
+            "permutation_velocity_rmse": 0.1978601518700537
+          }
+        },
+        "2": {
+          "predicted": {
+            "position_rmse": 0.19167547031102825,
+            "velocity_rmse": 0.21690385416772368,
+            "permutation_position_rmse": 0.18555393648024834,
+            "permutation_velocity_rmse": 0.21165377866167925
+          },
+          "true_future_probe": {
+            "position_rmse": 0.19425419690575552,
+            "velocity_rmse": 0.21044958176488246,
+            "permutation_position_rmse": 0.18579647332651633,
+            "permutation_velocity_rmse": 0.20361557469525635
+          }
+        },
+        "4": {
+          "predicted": {
+            "position_rmse": 0.1991387150942791,
+            "velocity_rmse": 0.19941537149160987,
+            "permutation_position_rmse": 0.1841491739019678,
+            "permutation_velocity_rmse": 0.19666959750491814
+          },
+          "true_future_probe": {
+            "position_rmse": 0.20078561011453738,
+            "velocity_rmse": 0.1934782946170911,
+            "permutation_position_rmse": 0.18852557636593673,
+            "permutation_velocity_rmse": 0.18753016202500689
+          }
+        },
+        "8": {
+          "predicted": {
+            "position_rmse": 0.20970808215823938,
+            "velocity_rmse": 0.19177688470482798,
+            "permutation_position_rmse": 0.19043686114535816,
+            "permutation_velocity_rmse": 0.20134191136173363
+          },
+          "true_future_probe": {
+            "position_rmse": 0.1941347414652037,
+            "velocity_rmse": 0.18363703907371604,
+            "permutation_position_rmse": 0.18064220362662595,
+            "permutation_velocity_rmse": 0.19753720988056592
+          }
+        },
+        "16": {
+          "predicted": {
+            "position_rmse": 0.1993658939798156,
+            "velocity_rmse": 0.1755912522833776,
+            "permutation_position_rmse": 0.18980035427939065,
+            "permutation_velocity_rmse": 0.1922058038074044
+          },
+          "true_future_probe": {
+            "position_rmse": 0.1946024148849443,
+            "velocity_rmse": 0.1751310577057448,
+            "permutation_position_rmse": 0.1850477452820379,
+            "permutation_velocity_rmse": 0.19056698375802347
+          }
+        },
+        "32": {
+          "predicted": {
+            "position_rmse": 0.22608232458267025,
+            "velocity_rmse": 0.17880998200459355,
+            "permutation_position_rmse": 0.20883881402417426,
+            "permutation_velocity_rmse": 0.18539925193520776
+          },
+          "true_future_probe": {
+            "position_rmse": 0.21586937305641066,
+            "velocity_rmse": 0.1831703255782157,
+            "permutation_position_rmse": 0.2102116114378651,
+            "permutation_velocity_rmse": 0.18804003177897835
+          }
+        }
+      },
+      "event_strata": {
+        "free": {
+          "1": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 0.18115003984094677,
+              "velocity_rmse": 0.2075616537782065,
+              "permutation_position_rmse": 0.1752973235644949,
+              "permutation_velocity_rmse": 0.193314077492366
+            }
+          },
+          "2": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 0.1813707189590593,
+              "velocity_rmse": 0.21367600473195256,
+              "permutation_position_rmse": 0.17444817840372845,
+              "permutation_velocity_rmse": 0.20798432089565547
+            }
+          },
+          "4": {
+            "episodes": 11,
+            "error": {
+              "position_rmse": 0.16585499376475654,
+              "velocity_rmse": 0.2145702965238611,
+              "permutation_position_rmse": 0.14854409042443045,
+              "permutation_velocity_rmse": 0.2035970604099094
+            }
+          },
+          "8": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.1702195575633152,
+              "velocity_rmse": 0.20931176617506814,
+              "permutation_position_rmse": 0.13314754382166616,
+              "permutation_velocity_rmse": 0.1989540343925199
+            }
+          },
+          "16": {
+            "episodes": 0,
+            "error": null
+          },
+          "32": {
+            "episodes": 0,
+            "error": null
+          }
+        },
+        "wall": {
+          "1": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 0.3095935442833874,
+              "velocity_rmse": 0.2521515084793257,
+              "permutation_position_rmse": 0.3095935442833874,
+              "permutation_velocity_rmse": 0.2521515084793257
+            }
+          },
+          "2": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 0.3072486114978727,
+              "velocity_rmse": 0.26056666377698634,
+              "permutation_position_rmse": 0.3072486114978727,
+              "permutation_velocity_rmse": 0.26056666377698634
+            }
+          },
+          "4": {
+            "episodes": 5,
+            "error": {
+              "position_rmse": 0.257648200873449,
+              "velocity_rmse": 0.16113305839614295,
+              "permutation_position_rmse": 0.24489012931525012,
+              "permutation_velocity_rmse": 0.18049570423742756
+            }
+          },
+          "8": {
+            "episodes": 6,
+            "error": {
+              "position_rmse": 0.2785377119725373,
+              "velocity_rmse": 0.16733445740024733,
+              "permutation_position_rmse": 0.26835625280659897,
+              "permutation_velocity_rmse": 0.20896477106841846
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.26162135008598547,
+              "velocity_rmse": 0.18189482479114807,
+              "permutation_position_rmse": 0.2518382809473379,
+              "permutation_velocity_rmse": 0.20051474141306322
+            }
+          },
+          "32": {
+            "episodes": 9,
+            "error": {
+              "position_rmse": 0.23519402418605964,
+              "velocity_rmse": 0.18093737876185217,
+              "permutation_position_rmse": 0.2227877799378237,
+              "permutation_velocity_rmse": 0.17817301657133972
+            }
+          }
+        },
+        "ball": {
+          "1": {
+            "episodes": 0,
+            "error": null
+          },
+          "2": {
+            "episodes": 0,
+            "error": null
+          },
+          "4": {
+            "episodes": 0,
+            "error": null
+          },
+          "8": {
+            "episodes": 2,
+            "error": {
+              "position_rmse": 0.05631408082356991,
+              "velocity_rmse": 0.18702637332499383,
+              "permutation_position_rmse": 0.05631408082356991,
+              "permutation_velocity_rmse": 0.18702637332499383
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.1051084608579555,
+              "velocity_rmse": 0.16905279788009148,
+              "permutation_position_rmse": 0.09287534236089863,
+              "permutation_velocity_rmse": 0.18352106285261444
+            }
+          },
+          "32": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.2134466856891835,
+              "velocity_rmse": 0.18434902853045476,
+              "permutation_position_rmse": 0.19223011348107338,
+              "permutation_velocity_rmse": 0.19975262282730982
+            }
+          }
+        }
+      },
+      "supervised_image_to_state_to_physics": {
+        "label_access": "supervised physical-state history probe plus exact physics",
+        "valid_initial_states": 6,
+        "total": 16,
+        "h32_valid_subset": {
+          "position_rmse": 0.22924109196205805,
+          "velocity_rmse": 0.19603762839660174,
+          "permutation_position_rmse": 0.20125473008028089,
+          "permutation_velocity_rmse": 0.1819440271769052
+        },
+        "warning": "valid subset is selected; report invalid fraction, not an unconditional score"
+      }
+    },
+    "sparse": {
+      "layers": {
+        "block_01": {
+          "position_rmse": 0.21444239372939478,
+          "velocity_rmse": 0.18589661631937038,
+          "permutation_position_rmse": 0.20245099811700745,
+          "permutation_velocity_rmse": 0.1886313769360456
+        },
+        "block_02": {
+          "position_rmse": 0.2137693413547416,
+          "velocity_rmse": 0.18586219426108663,
+          "permutation_position_rmse": 0.20120341862692434,
+          "permutation_velocity_rmse": 0.1898367092858701
+        },
+        "block_03": {
+          "position_rmse": 0.21365611450581268,
+          "velocity_rmse": 0.18534811067775078,
+          "permutation_position_rmse": 0.20109578973555903,
+          "permutation_velocity_rmse": 0.1903550687304911
+        },
+        "block_04": {
+          "position_rmse": 0.21365752910202473,
+          "velocity_rmse": 0.18527101955310035,
+          "permutation_position_rmse": 0.20117354589361153,
+          "permutation_velocity_rmse": 0.1905350532626099
+        },
+        "block_05": {
+          "position_rmse": 0.21349055710892068,
+          "velocity_rmse": 0.18514759190439703,
+          "permutation_position_rmse": 0.20094469512642585,
+          "permutation_velocity_rmse": 0.19050865977040551
+        },
+        "block_06": {
+          "position_rmse": 0.21340511079697358,
+          "velocity_rmse": 0.1850758031282905,
+          "permutation_position_rmse": 0.20098773381314824,
+          "permutation_velocity_rmse": 0.1900968617498658
+        },
+        "block_07": {
+          "position_rmse": 0.21335927386604334,
+          "velocity_rmse": 0.18507515340157948,
+          "permutation_position_rmse": 0.20093634732528037,
+          "permutation_velocity_rmse": 0.1905826024975798
+        },
+        "block_08": {
+          "position_rmse": 0.21326074558160002,
+          "velocity_rmse": 0.18504309969923338,
+          "permutation_position_rmse": 0.20087861989306027,
+          "permutation_velocity_rmse": 0.19074365383890038
+        },
+        "block_09": {
+          "position_rmse": 0.21315602426515165,
+          "velocity_rmse": 0.18509126097650336,
+          "permutation_position_rmse": 0.20087635837975407,
+          "permutation_velocity_rmse": 0.19079605050934245
+        },
+        "block_10": {
+          "position_rmse": 0.21304299463254747,
+          "velocity_rmse": 0.1851128633683182,
+          "permutation_position_rmse": 0.20086357110152397,
+          "permutation_velocity_rmse": 0.19091522704466116
+        },
+        "block_11": {
+          "position_rmse": 0.21294591403399274,
+          "velocity_rmse": 0.18508350498231524,
+          "permutation_position_rmse": 0.20086668709777505,
+          "permutation_velocity_rmse": 0.1907214522471444
+        },
+        "block_12": {
+          "position_rmse": 0.2129396822444782,
+          "velocity_rmse": 0.18509140823201142,
+          "permutation_position_rmse": 0.20088857188813833,
+          "permutation_velocity_rmse": 0.19058807853784712
+        },
+        "linked": {
+          "position_rmse": 0.21325352486395927,
+          "velocity_rmse": 0.18552888170099763,
+          "permutation_position_rmse": 0.20069704620410922,
+          "permutation_velocity_rmse": 0.1896492897562236
+        }
+      },
+      "horizons": {
+        "1": {
+          "predicted": {
+            "position_rmse": 0.19552742606822357,
+            "velocity_rmse": 0.20758618743386503,
+            "permutation_position_rmse": 0.18911719813181033,
+            "permutation_velocity_rmse": 0.19958970364172657
+          },
+          "true_future_probe": {
+            "position_rmse": 0.19044618521791642,
+            "velocity_rmse": 0.2063435136313257,
+            "permutation_position_rmse": 0.18391584153833526,
+            "permutation_velocity_rmse": 0.19799073850084614
+          }
+        },
+        "2": {
+          "predicted": {
+            "position_rmse": 0.20078628807283389,
+            "velocity_rmse": 0.21000138126314916,
+            "permutation_position_rmse": 0.19227129421063438,
+            "permutation_velocity_rmse": 0.20481574469288888
+          },
+          "true_future_probe": {
+            "position_rmse": 0.1935250661866664,
+            "velocity_rmse": 0.20907722232623938,
+            "permutation_position_rmse": 0.18488229222638838,
+            "permutation_velocity_rmse": 0.1965584834437018
+          }
+        },
+        "4": {
+          "predicted": {
+            "position_rmse": 0.21129874063903387,
+            "velocity_rmse": 0.19194829041500372,
+            "permutation_position_rmse": 0.19256657616720219,
+            "permutation_velocity_rmse": 0.2062229264213926
+          },
+          "true_future_probe": {
+            "position_rmse": 0.19727749896226068,
+            "velocity_rmse": 0.19943000096140448,
+            "permutation_position_rmse": 0.18703728603603606,
+            "permutation_velocity_rmse": 0.18824931839470058
+          }
+        },
+        "8": {
+          "predicted": {
+            "position_rmse": 0.20859422857536136,
+            "velocity_rmse": 0.19649118800724993,
+            "permutation_position_rmse": 0.19714731865600923,
+            "permutation_velocity_rmse": 0.20448850450452713
+          },
+          "true_future_probe": {
+            "position_rmse": 0.1917947671835032,
+            "velocity_rmse": 0.17882620783813208,
+            "permutation_position_rmse": 0.1856005765615556,
+            "permutation_velocity_rmse": 0.18681762377948577
+          }
+        },
+        "16": {
+          "predicted": {
+            "position_rmse": 0.20368603196018828,
+            "velocity_rmse": 0.1825047627337181,
+            "permutation_position_rmse": 0.1944619095397487,
+            "permutation_velocity_rmse": 0.19342359837299766
+          },
+          "true_future_probe": {
+            "position_rmse": 0.20220334285784838,
+            "velocity_rmse": 0.17697416740742616,
+            "permutation_position_rmse": 0.18616664048190049,
+            "permutation_velocity_rmse": 0.19186131196966882
+          }
+        },
+        "32": {
+          "predicted": {
+            "position_rmse": 0.23645294337006284,
+            "velocity_rmse": 0.20107411524321897,
+            "permutation_position_rmse": 0.20564959200108457,
+            "permutation_velocity_rmse": 0.20463185347477417
+          },
+          "true_future_probe": {
+            "position_rmse": 0.22361212472221467,
+            "velocity_rmse": 0.18004663331541124,
+            "permutation_position_rmse": 0.20949026160873016,
+            "permutation_velocity_rmse": 0.18404770420003574
+          }
+        }
+      },
+      "event_strata": {
+        "free": {
+          "1": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 0.18449864421611015,
+              "velocity_rmse": 0.20484056326111838,
+              "permutation_position_rmse": 0.17722785528118512,
+              "permutation_velocity_rmse": 0.19618005993481527
+            }
+          },
+          "2": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 0.18971390241851163,
+              "velocity_rmse": 0.2069897222946322,
+              "permutation_position_rmse": 0.18005931340399156,
+              "permutation_velocity_rmse": 0.20137092198244314
+            }
+          },
+          "4": {
+            "episodes": 11,
+            "error": {
+              "position_rmse": 0.16931553228280577,
+              "velocity_rmse": 0.2018947088811925,
+              "permutation_position_rmse": 0.14674200777348181,
+              "permutation_velocity_rmse": 0.2028900239346188
+            }
+          },
+          "8": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.16225674863403639,
+              "velocity_rmse": 0.20548834261308072,
+              "permutation_position_rmse": 0.14966054550709593,
+              "permutation_velocity_rmse": 0.20416406400064188
+            }
+          },
+          "16": {
+            "episodes": 0,
+            "error": null
+          },
+          "32": {
+            "episodes": 0,
+            "error": null
+          }
+        },
+        "wall": {
+          "1": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 0.3179612299543643,
+              "velocity_rmse": 0.24510723786999858,
+              "permutation_position_rmse": 0.3179612299543643,
+              "permutation_velocity_rmse": 0.24510723786999858
+            }
+          },
+          "2": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 0.32430181018021526,
+              "velocity_rmse": 0.2508746800391664,
+              "permutation_position_rmse": 0.32430181018021526,
+              "permutation_velocity_rmse": 0.2508746800391664
+            }
+          },
+          "4": {
+            "episodes": 5,
+            "error": {
+              "position_rmse": 0.2824922230915247,
+              "velocity_rmse": 0.16800603017478005,
+              "permutation_position_rmse": 0.26699992314936105,
+              "permutation_velocity_rmse": 0.2133721379068775
+            }
+          },
+          "8": {
+            "episodes": 6,
+            "error": {
+              "position_rmse": 0.28061499798309003,
+              "velocity_rmse": 0.18321978147934778,
+              "permutation_position_rmse": 0.2675782316313055,
+              "permutation_velocity_rmse": 0.2069883513135068
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.26651645291324366,
+              "velocity_rmse": 0.1885684652778678,
+              "permutation_position_rmse": 0.2556577817396932,
+              "permutation_velocity_rmse": 0.21138934563764752
+            }
+          },
+          "32": {
+            "episodes": 9,
+            "error": {
+              "position_rmse": 0.2396802701850952,
+              "velocity_rmse": 0.2076533446228694,
+              "permutation_position_rmse": 0.22313988779517235,
+              "permutation_velocity_rmse": 0.2096520416417638
+            }
+          }
+        },
+        "ball": {
+          "1": {
+            "episodes": 0,
+            "error": null
+          },
+          "2": {
+            "episodes": 0,
+            "error": null
+          },
+          "4": {
+            "episodes": 0,
+            "error": null
+          },
+          "8": {
+            "episodes": 2,
+            "error": {
+              "position_rmse": 0.08092636388283166,
+              "velocity_rmse": 0.19814135091015256,
+              "permutation_position_rmse": 0.08092636388283166,
+              "permutation_velocity_rmse": 0.19814135091015256
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.10929309016546497,
+              "velocity_rmse": 0.17623254734506638,
+              "permutation_position_rmse": 0.10134084645211029,
+              "permutation_velocity_rmse": 0.17360852907044805
+            }
+          },
+          "32": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.23615615631702022,
+              "velocity_rmse": 0.20676957222322956,
+              "permutation_position_rmse": 0.18280657579060275,
+              "permutation_velocity_rmse": 0.21122664073943503
+            }
+          }
+        }
+      },
+      "supervised_image_to_state_to_physics": {
+        "label_access": "supervised physical-state history probe plus exact physics",
+        "valid_initial_states": 9,
+        "total": 16,
+        "h32_valid_subset": {
+          "position_rmse": 0.23201787394113915,
+          "velocity_rmse": 0.18424398283838558,
+          "permutation_position_rmse": 0.2054673945820757,
+          "permutation_velocity_rmse": 0.18179408251807944
+        },
+        "warning": "valid subset is selected; report invalid fraction, not an unconditional score"
+      }
+    }
+  },
+  "geometry": {
+    "balls": 2,
+    "frames": 65,
+    "radius": 0.07,
+    "spatial": 3,
+    "state_dim": 6,
+    "dt": 0.04
+  },
+  "bounds": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "privileged_state_affine": {
+    "1": {
+      "position_rmse": 0.0027130000199994146,
+      "velocity_rmse": 0.07013879446703757,
+      "permutation_position_rmse": 0.0027130000199994146,
+      "permutation_velocity_rmse": 0.07013879446703757
+    },
+    "2": {
+      "position_rmse": 0.005480782349790311,
+      "velocity_rmse": 0.0716724535989666,
+      "permutation_position_rmse": 0.005480782349790311,
+      "permutation_velocity_rmse": 0.0716724535989666
+    },
+    "4": {
+      "position_rmse": 0.011038487288377563,
+      "velocity_rmse": 0.13346663172175424,
+      "permutation_position_rmse": 0.011038487288377563,
+      "permutation_velocity_rmse": 0.13346663172175424
+    },
+    "8": {
+      "position_rmse": 0.027377590495378506,
+      "velocity_rmse": 0.17837736665426007,
+      "permutation_position_rmse": 0.027377590495378506,
+      "permutation_velocity_rmse": 0.17837736665426007
+    },
+    "16": {
+      "position_rmse": 0.078088744347923,
+      "velocity_rmse": 0.21224970954544953,
+      "permutation_position_rmse": 0.0757341908170796,
+      "permutation_velocity_rmse": 0.1811281899347425
+    },
+    "32": {
+      "position_rmse": 0.18467313068033742,
+      "velocity_rmse": 0.17951898654137832,
+      "permutation_position_rmse": 0.16145262670629904,
+      "permutation_velocity_rmse": 0.15687619490204832
+    }
+  },
+  "exact_state_oracle_h32": {
+    "position_rmse": 2.717265891350084e-16,
+    "velocity_rmse": 1.0260815124820689e-16,
+    "permutation_position_rmse": 2.717265891350084e-16,
+    "permutation_velocity_rmse": 1.0260815124820689e-16
+  }
+}
