@@ -1,0 +1,18 @@
+{
+  "run": "billiards-jepa-priority-791-v1",
+  "condition": "n1",
+  "source_sha": "8df2eb1c89555303583aa55341aa59c0cf4ef8b5",
+  "episode": "episode-32000128",
+  "history_frames": [
+    0,
+    1,
+    2
+  ],
+  "forecast_origin_frame": 2,
+  "retained_hashes": {
+    "playback.json": "a84b334de569f460db6a7c62f1f24a916660f600a13f6db98a00dedf7c6b1c21",
+    "metrics.json": "d34b96c788ce6187f360cfbce860717fd60f5b0efd16a5bc3aea87b3d62f6a74"
+  },
+  "input_description": "Original three RGB history frames, stacked vertically; XY/XZ/YZ views across each row.",
+  "input_png_sha256": "262cf92c4943858fc79d7bdbef2082c65bf1880e0e79018a8eca4d80c4e6ebe6"
+}

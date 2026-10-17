@@ -1,9 +1,9 @@
 // Read-only visual explanations of the selected retained evaluation.
-const methods = ['pixel', 'gaussian', 'sparse'];
 const titles = {pixel: 'Pixel', gaussian: 'Gaussian JEPA', sparse: 'Sparse LpWM'};
 const fmt = x => x.toFixed(3);
 
 export function mountDiagnostics(data, metrics, selected) {
+  const methods=Object.keys(metrics.methods);
   const root = document.getElementById('diagnostics');
   root.innerHTML = `
     <p class="eyebrow">REPRESENTATION & PREDICTION</p>
@@ -39,7 +39,9 @@ export function mountDiagnostics(data, metrics, selected) {
       </article>
     </div>
     <p class="diag-takeaway"><strong>Research direction:</strong> Establish learning and state-recovery behavior under matched training budgets, then measure sensitivity to scene complexity, appearance and model depth. The current results motivate these controls; they do not isolate an objective-level limitation.</p>
-    <details><summary>Data and evaluation protocol</summary><p>Run: ${selected.run}. Source: <code>${data.source_sha}</code>. Trajectory: ${data.episode}. Charts use <a href="${selected.path}/metrics.json">saved metrics</a> and <a href="${selected.path}/playback.json">saved playback</a>. These analyses use fixed recorded results and remain unchanged when the interactive sandbox is edited. The demo does not run live learned-model inference.</p></details>`;
+    <details><summary>Data and evaluation protocol</summary><p>Run: ${selected.run}. Source: <code>${data.source_sha??selected.source_sha??"See retained report"}</code>. Trajectory: ${data.episode??selected.episode??"First retained probe-test episode"}. Charts use <a href="${selected.path}/metrics.json">saved metrics</a> and <a href="${selected.path}/playback.json">saved playback</a>. These analyses use fixed recorded results and remain unchanged when the interactive sandbox is edited. The demo does not run live learned-model inference.</p></details>`;
+
+  if(!methods.includes('pixel'))document.getElementById('diag-rgb').closest('article').remove();
 
   function update() {
     const method = document.getElementById('diag-method').value;
@@ -48,7 +50,7 @@ export function mountDiagnostics(data, metrics, selected) {
     const axes = {xy:[0,1],xz:[0,2],yz:[1,2]}[camera];
     const project = p => [35+270*p[axes[0]]/data.bounds[axes[0]], 25+270*p[axes[1]]/data.bounds[axes[1]]];
     const point = p => project(p).join(',');
-    const palette = ['#ba442a','#236da6'];
+    const palette = ['#ba442a','#236da6','#497846','#977034','#8152a1'];
     let shapes = '';
     for (let ball=0;ball<data.truth[0].length;ball++) {
       const truth = data.truth.slice(0,h+1).map(s=>s[ball]);
@@ -73,8 +75,8 @@ export function mountDiagnostics(data, metrics, selected) {
       return `<div class="diag-error-group ${m===method?'selected':''}"><strong>${titles[m]}</strong>${[['predicted','Predicted features'],['true_future_probe','Actual future features']].map(([k,label])=>`<div class="diag-bar-label">${label}<strong>${fmt(v[k].position_rmse)}</strong></div><div class="diag-track"><span class="${k}" style="width:${width(v[k].position_rmse)}%"></span></div>`).join('')}</div>`;
     }).join('');
     const v=metrics.methods[method].horizons[h];
-    document.getElementById('diag-interpretation').textContent = `${titles[method]}: rollout error is ${(v.predicted.position_rmse/v.true_future_probe.position_rmse).toFixed(1)}× the actual-future probe error at H${h}. ${method==='pixel'?'The predicted-feature readout produces coordinates far outside the physical domain at this training budget.':'The similar errors in both paths indicate that state recovery from actual-image features also limits this comparison.'}`;
-    document.getElementById('diag-rgb').src=`${selected.path}/pixel-h${h}.png`;
+    document.getElementById('diag-interpretation').textContent = `${titles[method]}: rollout error is ${(v.predicted.position_rmse/v.true_future_probe.position_rmse).toFixed(1)}× the actual-future probe error at H${h}. ${method==='pixel'?'The predicted-feature readout produces coordinates far outside the physical domain at this training budget.':'Compare rollout error with actual-future readout error to assess the additional prediction gap; this does not isolate its cause.'}`;
+    const rgb=document.getElementById('diag-rgb');if(rgb)rgb.src=`${selected.path}/pixel-h${h}.png`;
     document.getElementById('diag-validity').innerHTML=methods.map(m=>{
       const r=metrics.methods[m].supervised_image_to_state_to_physics;
       return `<div class="diag-bar-label">${titles[m]}<strong>${r.valid_initial_states}/${r.total} valid</strong></div><div class="diag-valid-track" aria-label="${r.total-r.valid_initial_states} rejected of ${r.total}"><span style="width:${100*r.valid_initial_states/r.total}%"></span></div>`;

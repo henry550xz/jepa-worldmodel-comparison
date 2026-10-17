@@ -25,3 +25,5 @@ header{flex-wrap:wrap}
 
 
 #diagnostics{--green:#17675b}
+
+.research-dashboard .panels.jepa-only{grid-template-columns:repeat(3,minmax(0,1fr))}@media(max-width:900px){.research-dashboard .panels.jepa-only{grid-template-columns:1fr}}
