@@ -1,6 +1,6 @@
 {
   "status": "running \u00b7 partial ablation",
-  "updated_at": "2026-10-17T21:22:12.357426+00:00",
+  "updated_at": "2026-10-17T21:32:17.172384+00:00",
   "source_sha": "8df2eb1c89555303583aa55341aa59c0cf4ef8b5",
   "run_id": "billiards-jepa-priority-791-v1",
   "note": "Single seed; five conditions, two methods, 10,000 updates each. Physical readouts remain diagnostic; latent ratios are not cross-objective quality scores.",
@@ -8,12 +8,48 @@
     {
       "id": "base",
       "label": "Base \u00b7 2 balls",
-      "status": "running"
+      "status": "validated",
+      "metrics": {
+        "gaussian": {
+          "native_h1": 0.07382621218089438,
+          "native_h32": 7.809759309708161,
+          "physical_h32": {
+            "position_rmse": 0.48644086431258426,
+            "velocity_rmse": 0.35720219750273563,
+            "permutation_position_rmse": 0.48046573038276685,
+            "permutation_velocity_rmse": 0.35681027421591516
+          },
+          "actual_future_h32": {
+            "position_rmse": 0.22246898479080618,
+            "velocity_rmse": 0.16788887132732067,
+            "permutation_position_rmse": 0.2104372097965404,
+            "permutation_velocity_rmse": 0.16360939792266846
+          },
+          "training_seconds": 560.3858507848345
+        },
+        "sparse": {
+          "native_h1": 0.06772603431574485,
+          "native_h32": 1.1138949983481155,
+          "physical_h32": {
+            "position_rmse": 0.22372842008476304,
+            "velocity_rmse": 0.17449975980292054,
+            "permutation_position_rmse": 0.2106941371187267,
+            "permutation_velocity_rmse": 0.1766394961732164
+          },
+          "actual_future_h32": {
+            "position_rmse": 0.22293674454075632,
+            "velocity_rmse": 0.17383495367169918,
+            "permutation_position_rmse": 0.2074513374914463,
+            "permutation_velocity_rmse": 0.17225348318186598
+          },
+          "training_seconds": 565.471340503078
+        }
+      }
     },
     {
       "id": "n1",
       "label": "1 ball",
-      "status": "pending"
+      "status": "running"
     },
     {
       "id": "n5",
