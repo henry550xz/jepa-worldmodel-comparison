@@ -1,6 +1,6 @@
 {
   "status": "running \u00b7 partial ablation",
-  "updated_at": "2026-10-17T21:51:24.191890+00:00",
+  "updated_at": "2026-10-17T21:52:27.627307+00:00",
   "source_sha": "8df2eb1c89555303583aa55341aa59c0cf4ef8b5",
   "run_id": "billiards-jepa-priority-791-v1",
   "note": "Single seed; five conditions, two methods, 10,000 updates each. Physical readouts remain diagnostic; latent ratios are not cross-objective quality scores.",
@@ -49,12 +49,48 @@
     {
       "id": "n1",
       "label": "1 ball",
-      "status": "running"
+      "status": "validated",
+      "metrics": {
+        "gaussian": {
+          "native_h1": 0.04372695462255242,
+          "native_h32": 0.23682658509991242,
+          "physical_h32": {
+            "position_rmse": 0.15307582279206217,
+            "velocity_rmse": 0.12591525461513858,
+            "permutation_position_rmse": 0.15307582279206217,
+            "permutation_velocity_rmse": 0.12591525461513858
+          },
+          "actual_future_h32": {
+            "position_rmse": 0.14948113100452895,
+            "velocity_rmse": 0.12733586641175032,
+            "permutation_position_rmse": 0.14948113100452895,
+            "permutation_velocity_rmse": 0.12733586641175032
+          },
+          "training_seconds": 561.7867286200635
+        },
+        "sparse": {
+          "native_h1": 0.02568888778197749,
+          "native_h32": 0.5254869455115705,
+          "physical_h32": {
+            "position_rmse": 0.17366093683795744,
+            "velocity_rmse": 0.12859903133806577,
+            "permutation_position_rmse": 0.17366093683795744,
+            "permutation_velocity_rmse": 0.12859903133806577
+          },
+          "actual_future_h32": {
+            "position_rmse": 0.1529550065851579,
+            "velocity_rmse": 0.12755173447012652,
+            "permutation_position_rmse": 0.1529550065851579,
+            "permutation_velocity_rmse": 0.12755173447012652
+          },
+          "training_seconds": 571.64738940401
+        }
+      }
     },
     {
       "id": "n5",
       "label": "5 balls",
-      "status": "pending"
+      "status": "running"
     },
     {
       "id": "random-color",
