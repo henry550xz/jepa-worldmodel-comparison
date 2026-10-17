@@ -2,7 +2,7 @@
 
 ## Scope and attribution
 
-This release presents the completed three-arm seed-0 diagnostic and the no-retraining Pixel control. It does not present unfinished follow-up mechanisms as validated results. The imported PushT-compatible upstream stack includes shared predictors/config utilities; unrelated Wall data implementation, OGBench/Piecewise implementation and assets are omitted. A historical Wall registration string remains in upstream `env/__init__.py`; Wall execution is outside this release. `lpwm_swm/NOTICE` is retained solely to preserve the complete notices referenced by the upstream top-level NOTICE.
+This document describes the original three-arm seed-0 diagnostic and no-retraining Pixel control. Later completed findings are in [MECHANISM_FINDINGS.md](MECHANISM_FINDINGS.md) and [REPRESENTATIONS.md](REPRESENTATIONS.md); the separate image-only 3D study is described in [BILLIARDS_METHODS.md](BILLIARDS_METHODS.md). The imported PushT-compatible upstream stack includes shared predictors/config utilities; unrelated Wall data implementation, OGBench/Piecewise implementation and assets are omitted. A historical Wall registration string remains in upstream `env/__init__.py`; Wall execution is outside this release. `lpwm_swm/NOTICE` is retained solely to preserve the complete notices referenced by the upstream top-level NOTICE.
 
 See `manifests/UPSTREAM_IMPORT.json` for original file hashes and `manifests/SCIENTIFIC_PROVENANCE.json` for study sources, historical experiment SHAs and artifact hashes. Upstream LICENSE/NOTICE are unchanged. The clean Git history describes packaging now; it does not backdate or replace the provenance of completed experiments.
 

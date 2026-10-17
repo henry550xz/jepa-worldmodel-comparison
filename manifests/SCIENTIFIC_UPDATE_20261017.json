@@ -309,9 +309,72 @@
   },
   "independent_depth": {
     "status": "audited_and_reported",
-    "analysis_sha": "e894b77d01f732c4f95485e37f51146be6741170"
+    "analysis_sha": "e894b77d01f732c4f95485e37f51146be6741170",
+    "input_audit": {
+      "layer-followup-20261001-v1-gaussian-d1-s0": {
+        "files_verified": 60,
+        "checkpoint_sha256": "c7cee1a735792fc06386d38961a72b46f5692ab7d52a62e768a28634c945ba40"
+      },
+      "layer-followup-20261001-v1-sparse-d1-s0": {
+        "files_verified": 60,
+        "checkpoint_sha256": "66b32dc623363fe20a328edd8ae61d887e54f5b8cc7f27c3735ffeff70412ea3"
+      },
+      "layer-followup-20261001-v1-gaussian-d2-s0": {
+        "files_verified": 60,
+        "checkpoint_sha256": "a4463279e8bf86f9a2c71c0b76b298b9d89e9bf8464c309e9938cb36fc4b4fa8"
+      },
+      "layer-followup-20261001-v1-sparse-d2-s0": {
+        "files_verified": 60,
+        "checkpoint_sha256": "58727c55394f470940098a82124967f92d31b1973d5b3163c24997c0ab7e9860"
+      },
+      "layer-followup-20261001-v1-gaussian-d4-s0": {
+        "files_verified": 60,
+        "checkpoint_sha256": "0dc488ec3341c57eeafb49a0b2f9ef05f5a56a39826e2bf52a09697ae47efda5"
+      },
+      "layer-followup-20261001-v1-sparse-d4-s0": {
+        "files_verified": 60,
+        "checkpoint_sha256": "8aa79534b59e327795ea4ff4f82c806ac3e872bf632da9afa1c15ce2a8894c09"
+      },
+      "gaussian-s0-20260914T230335-40a3cf2cc7af": {
+        "historical_reference": true,
+        "checkpoint_sha256": "36d1ed6a4f9bdf62be4ec4190fc9a8b6cdd4cb6c8960df027721b3a9120a693f"
+      },
+      "sparse-s0-20260914T230335-6f99643d9771": {
+        "historical_reference": true,
+        "checkpoint_sha256": "24463672201c52a39bc156a703b0aa3e24e6b2805d872a08071e4c65a9ad884d"
+      }
+    }
   },
   "full_depth": {
-    "status": "audited_and_reported"
+    "status": "audited_and_reported",
+    "analysis_git_sha": "db1c57a7c8b5f1309cce633dccbbd2e67d367708",
+    "input_audit": {
+      "layers-stage-a-20261001-full": {
+        "files": 142,
+        "git_sha": "37ce01237dc92e58aa4ce60e9e7da389814a8b6c",
+        "status": "hashes_verified"
+      },
+      "layer-followup-20261001-v1-perturbation-intervention-full": {
+        "files": 125,
+        "git_sha": "fed0014ec1564fc403d214c5d03689ffeb09b5e4",
+        "status": "hashes_verified"
+      },
+      "layer-followup-20261001-v1-dynamics-full": {
+        "files": 241,
+        "git_sha": "fed0014ec1564fc403d214c5d03689ffeb09b5e4",
+        "status": "hashes_verified"
+      }
+    },
+    "input_receipt_hashes": {
+      "layers-stage-a-20261001-full": "889efd1ac7409ce0bef07847cb1d9104eda0d8846e530cf2098c7e7a6ab5f1bf",
+      "layer-followup-20261001-v1-perturbation-intervention-full": "b0527d006e50459d55e23b3cc932665a69ef2be8534bd59f2ced09d9420f7b0d",
+      "layer-followup-20261001-v1-dynamics-full": "d1778edd0f0d2189c58f05d01714c0d91dd8137fcaf71809c207d4a2f4dec8c9"
+    },
+    "bootstrap": {
+      "seed": 20261003,
+      "draws": 2000,
+      "units": "simulator reset, candidate bank, or dataset episode",
+      "caveat": "pointwise exploratory intervals, not multiplicity-corrected or training-seed uncertainty"
+    }
   }
 }

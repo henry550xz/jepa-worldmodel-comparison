@@ -8,5 +8,11 @@
   "documentation_links": "all local Markdown links resolve",
   "historical_evidence": "all exported aggregate artifacts verified against original SHA256 receipts",
   "gpu_execution": "not rerun for this packaging release",
-  "dataset_reproduction": "pending validation"
+  "dataset_reproduction": {
+    "files": 432,
+    "byte_identical_to_historical_corpus": true,
+    "partitions_and_episode_records": "match",
+    "source_commit": "b467fdd"
+  },
+  "portable_cli": "training and evaluator --help imports passed"
 }

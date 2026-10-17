@@ -105,6 +105,10 @@ physics and model-unit tests run on CPU. Install Node separately for browser-phy
 tests. Optional cross-language parity check: set `BILLIARDS_NODE` to the Node
 executable and run `tests/study/test_billiards_demo_parity.py`.
 
+The packaged generator reproduced all 432 observation/evaluation files byte-for-byte,
+with matching partitions and episode records. Source metadata differs because it
+records the publication commit.
+
 The release adapts only workspace/CLI and checksum imports in the training runner;
 scientific model, data and evaluation logic is retained. Full experiments are not
 rerun as a packaging check. Generated files/checkpoints will belong to your new
