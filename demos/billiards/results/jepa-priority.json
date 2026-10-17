@@ -1,6 +1,6 @@
 {
   "status": "running \u00b7 partial ablation",
-  "updated_at": "2026-10-17T22:42:52.197238+00:00",
+  "updated_at": "2026-10-17T22:52:56.391259+00:00",
   "source_sha": "8df2eb1c89555303583aa55341aa59c0cf4ef8b5",
   "run_id": "billiards-jepa-priority-791-v1",
   "note": "Single seed; five conditions, two methods, 10,000 updates each. Physical readouts remain diagnostic; latent ratios are not cross-objective quality scores.",
@@ -172,7 +172,43 @@
     {
       "id": "random-background",
       "label": "Random backgrounds",
-      "status": "running"
+      "status": "validated",
+      "metrics": {
+        "gaussian": {
+          "native_h1": 1.1918162814583488,
+          "native_h32": 114.63237700904067,
+          "physical_h32": {
+            "position_rmse": 0.49176518695628124,
+            "velocity_rmse": 0.26365264459818055,
+            "permutation_position_rmse": 0.3967675843101901,
+            "permutation_velocity_rmse": 0.23962339069961772
+          },
+          "actual_future_h32": {
+            "position_rmse": 0.24281294151206503,
+            "velocity_rmse": 0.1743784275561919,
+            "permutation_position_rmse": 0.20905223247487123,
+            "permutation_velocity_rmse": 0.17910448164719836
+          },
+          "training_seconds": 563.6004548408091
+        },
+        "sparse": {
+          "native_h1": 0.6423495976234315,
+          "native_h32": 6.820994889251774,
+          "physical_h32": {
+            "position_rmse": 0.2792469950129647,
+            "velocity_rmse": 0.18937807054405065,
+            "permutation_position_rmse": 0.22734706417294417,
+            "permutation_velocity_rmse": 0.20084721439373823
+          },
+          "actual_future_h32": {
+            "position_rmse": 0.2721449687366373,
+            "velocity_rmse": 0.18609051525200576,
+            "permutation_position_rmse": 0.22122139003698402,
+            "permutation_velocity_rmse": 0.1823867518666735
+          },
+          "training_seconds": 565.020156769082
+        }
+      }
     }
   ]
 }
