@@ -32,4 +32,4 @@ The H1 change is a readout intervention. Longer-horizon changes combine readout 
 
 ## Evidence boundaries
 
-The unchanged trained Pixel checkpoint and probe SHA256s are recorded in the provenance manifest. Raw evidence and full experimental history remain preserved separately; this repository publishes compact summaries and exact historical SHAs without machine-specific manifests or private operational records. Historical SHAs refer to the research history, not these new clean commits. Follow-up mechanism experiments are outside this completed-result release.
+The unchanged trained Pixel checkpoint and probe SHA256s are recorded in the provenance manifest. Raw evidence and full experimental history remain preserved separately; this repository publishes compact summaries and exact historical SHAs without machine-specific manifests or private operational records. Historical SHAs refer to the research history, not these new clean commits. Later completed depth and mechanism studies are now documented in [REPRESENTATIONS.md](REPRESENTATIONS.md) and [MECHANISM_FINDINGS.md](MECHANISM_FINDINGS.md); the original measurements above are unchanged.

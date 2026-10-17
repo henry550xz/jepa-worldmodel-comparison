@@ -1,0 +1,12 @@
+{
+  "scope": "Curated advisor release validation; no scientific training rerun",
+  "python_billiards_tests": {
+    "passed": 24,
+    "includes": "physics, 3D, models, Python/JS parity"
+  },
+  "javascript": "60 trajectories, replay/conservation and front/back order passed",
+  "documentation_links": "all local Markdown links resolve",
+  "historical_evidence": "all exported aggregate artifacts verified against original SHA256 receipts",
+  "gpu_execution": "not rerun for this packaging release",
+  "dataset_reproduction": "pending validation"
+}

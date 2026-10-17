@@ -1,0 +1,317 @@
+{
+  "scope": "Curated scientific update; no internal history or operations export",
+  "source_snapshot": "a305c6fcffbde8c280b93fabd1432ed654b1e38a",
+  "files": {
+    "study/billiards/__init__.py": {
+      "sha256": "db8d564e7bf702b871ca2bf96fcc92d96863ffa0451f2e6054a26d07269990d8",
+      "source_sha256": "db8d564e7bf702b871ca2bf96fcc92d96863ffa0451f2e6054a26d07269990d8",
+      "adaptation": "none"
+    },
+    "study/billiards/physics.py": {
+      "sha256": "efef601180ffef542f2c4a7ab84f8c53938e5db353127ce60ae9f9fc610db7ef",
+      "source_sha256": "efef601180ffef542f2c4a7ab84f8c53938e5db353127ce60ae9f9fc610db7ef",
+      "adaptation": "none"
+    },
+    "study/billiards/render.py": {
+      "sha256": "0f2973278b491e5a5213352a217ac30a707dad30f14fe3acc509a64b9a2a231c",
+      "source_sha256": "0f2973278b491e5a5213352a217ac30a707dad30f14fe3acc509a64b9a2a231c",
+      "adaptation": "none"
+    },
+    "study/billiards/multiview.py": {
+      "sha256": "156ff41dad1b5079da8c7ed70b7274bc92dab58a0136aede8b9ba692e776cbfc",
+      "source_sha256": "156ff41dad1b5079da8c7ed70b7274bc92dab58a0136aede8b9ba692e776cbfc",
+      "adaptation": "none"
+    },
+    "study/billiards/data.py": {
+      "sha256": "2b515e97a6e43c07212f5996a7620ebbb52d76e6154f23015a9ba7edace8a264",
+      "source_sha256": "2b515e97a6e43c07212f5996a7620ebbb52d76e6154f23015a9ba7edace8a264",
+      "adaptation": "none"
+    },
+    "study/billiards/metrics.py": {
+      "sha256": "14f9445937374bdaa006a5958abcbd797b2f5dbbb42eaecd1a5c8467e9346263",
+      "source_sha256": "14f9445937374bdaa006a5958abcbd797b2f5dbbb42eaecd1a5c8467e9346263",
+      "adaptation": "none"
+    },
+    "study/billiards/probes.py": {
+      "sha256": "553e0a35dd83fa88ebb5d0d1419aba95fcb30fb4be3f314536162d53fe93a109",
+      "source_sha256": "553e0a35dd83fa88ebb5d0d1419aba95fcb30fb4be3f314536162d53fe93a109",
+      "adaptation": "none"
+    },
+    "study/billiards/model.py": {
+      "sha256": "dba254131045a359e6f211504d2ab188aa59615c40973d3a01cfa8f9356a4019",
+      "source_sha256": "dba254131045a359e6f211504d2ab188aa59615c40973d3a01cfa8f9356a4019",
+      "adaptation": "none"
+    },
+    "study/billiards/generate3d.py": {
+      "sha256": "e1b9e396608e2de964239ddcb6f1a0dc876943f7bd23f2a46dbe510a09ada50f",
+      "source_sha256": "5407574d6b366dd7b60aab19f1e7e93dbe89722114ef24b7baa7bec6d9e6ea46",
+      "adaptation": "Portable IO import; explicitly select unchanged historical screening renderer"
+    },
+    "study/billiards/evaluate3d.py": {
+      "sha256": "f67704e2c670b76ad71f0b5a9f6777952441fd3b87eeacfa53ff1a1545067534",
+      "source_sha256": "568efd01b686e4aa536e90aa9e6cb129aa1cecc09b930d6aaf647ea25dadf946",
+      "adaptation": "IO import only"
+    },
+    "study/billiards/pilot_diagnostics.py": {
+      "sha256": "b0acd534d67766f599765e258afb1bce57293d4edccae8194c0eaa99eedc34e6",
+      "source_sha256": "b0e2303ed7beff4ab2a5aff8c7eab9c8de504cf0c290fa4c97c1df3f2d0dc9b8",
+      "adaptation": "IO import only"
+    },
+    "study/billiards/train.py": {
+      "source_sha256": "1b0e102cc83b8372f0856cf5ebf084a06b313af8182dc1ffbfc231b29e89ae36",
+      "sha256": "976bf6318736f032dba4db05fb4940d4332cc4dbead251ca953e399291ac6ad5",
+      "adaptation": "Portable workspace/CLI and IO imports; training equations and schedule unchanged"
+    },
+    "conf/study/billiards-3d-screen.json": {
+      "sha256": "1427552d4d138eb15a88cf00db8b663fb58d19b0102ccc880f47826f574e1453"
+    },
+    "conf/study/billiards-pilot-tiny.json": {
+      "sha256": "d273b4f73d7a136fd817b5af7da5f09e3fab99bde74ad946552e0419721cb3e9"
+    },
+    "conf/study/billiards-pilot-learning.json": {
+      "sha256": "cd941b297c87d4a925980d6b3d2bc6e654a9658449a4cf3ca2a5243e18072491"
+    },
+    "tests/study/test_billiards.py": {
+      "sha256": "e91035edb0cbe6613d088a68a327f9791d2258a04d300576c9bf7eace45bcfec"
+    },
+    "tests/study/test_billiards_3d.py": {
+      "sha256": "c4be7f5f20469fe92d96d761cb5f38e0a28fd7af43fa6cbef2b98a64a95b9965"
+    },
+    "tests/study/test_billiards_models.py": {
+      "sha256": "d97795d7ad934b03b3a4576a315aec6855f860cb94b59c6d538c1bff97c0e446"
+    },
+    "tests/study/test_billiards_demo_parity.py": {
+      "sha256": "56c02db240a46cdde9edb661cbf1475777f064967371ad9917df402dd881b7f6"
+    },
+    "demos/billiards/diagnostics.mjs": {
+      "sha256": "df1c2e25496ea9fddec4a7cd3dfc8bfc17651237970d2cb4ed66cbdabe6e51d5"
+    },
+    "demos/billiards/research.html": {
+      "sha256": "c3246f66d0d323e9f61b4a24329360c9fdfce751c2bf0ebd9066df0c82f81193"
+    },
+    "demos/billiards/physics.mjs": {
+      "sha256": "5bdd695012dd3c893dcabe38e10bd810a2a17d5ca6faa84ff289f9f8330ba64f"
+    },
+    "demos/billiards/app.mjs": {
+      "sha256": "0a50aacf8e9935cdae38bc43696af0689d62998d936aa2c46841c7c92d41b847"
+    },
+    "demos/billiards/style.css": {
+      "sha256": "ae61abb18a315692fb048da82ea1570f342d250fabb50cb0e5823e8c51ddbfc2"
+    },
+    "demos/billiards/view.mjs": {
+      "sha256": "28d60e54a111b2bae9d73b311eb23e58bfb8c634219eec0d1905c5742502752c"
+    },
+    "demos/billiards/index.html": {
+      "sha256": "5e504b8962dc6f2ab93bf2ad655a89c27a2b57a0b9742394fd6b99f9716cf1db"
+    },
+    "demos/billiards/research.mjs": {
+      "sha256": "8c566222ac9bbc7e45c48d4f8e8662df674a605324ff80ddd15b45eb86584bdf"
+    },
+    "demos/billiards/results/pixel-h2.png": {
+      "sha256": "3cf16e022f97b7efcd844ac59376a795ffe1dc2db17ae1fa01db12f4f8522449"
+    },
+    "demos/billiards/results/pixel-h8.png": {
+      "sha256": "e643bb5319f8b560fffbbb7023bd7ebf13b45e75261f82b87019484d76eabdd4"
+    },
+    "demos/billiards/results/pixel-h16.png": {
+      "sha256": "ce5b1c1b6d61fd8a11d30565b80db516b6bca83969c5254a405ca27b38904b9d"
+    },
+    "demos/billiards/results/pixel-h4.png": {
+      "sha256": "05945e26b3dca4e2b21f5ef249f6366abbb4fcf963c40a2b8b8372f238e37672"
+    },
+    "demos/billiards/results/playback.json": {
+      "sha256": "8417fac4ef1506b1063493e9f57789dc049eca545f4d467fbe2408499768fbd5"
+    },
+    "demos/billiards/results/metrics.json": {
+      "sha256": "d5ad7c296278c5c2df05cfe5efe51fd00e0f9b742bbe31a862971931485e5afd"
+    },
+    "demos/billiards/results/pixel-h32.png": {
+      "sha256": "8d0f728abdaca5bc8a0b0b6008ab2f47e9c5738a1b7b7f8ec2cb4c6884355b90"
+    },
+    "demos/billiards/results/pixel-h1.png": {
+      "sha256": "2eda4e595e90fe1578321eeb3a99aa73c79a2b7e442d90aafcf58aba72953aaf"
+    },
+    "demos/billiards/physics-test.mjs": {
+      "sha256": "2394200e8feeafb1e9fe4047779f723e666329506b8c86cc0b83935e658e5b0f"
+    },
+    "demos/billiards/view-test.mjs": {
+      "sha256": "b7ce7f8a0d5b055db39d3419be0abc554193542e681ff0d89032f62b680e5a8a"
+    },
+    "results/mechanism-followup/action_controls.png": {
+      "sha256": "efb6308ee23aa025647d6ee23f4693bbc07cff8df79d0851e54fff3cdb845fce"
+    },
+    "results/mechanism-followup/interventions.png": {
+      "sha256": "cb93c210a9f937e133c386d510b046e413f266d4644699480142b0994b5b844e"
+    },
+    "results/mechanism-followup/interventions.csv": {
+      "sha256": "b2e8c216f1a29312a8e0136d296d5bdd140925073ee160c79d8e958064e50cb7"
+    },
+    "results/mechanism-followup/paired_contrasts.json": {
+      "sha256": "a85cc427bfb6753f19f0f82ddb53727d37a4a86bd16df69422e74f4de706c646"
+    },
+    "results/mechanism-followup/nuisance.csv": {
+      "sha256": "89d170abf31bf542333e7ebf6b0a4a0080af7a59abf122375d46098d5beb2b70"
+    },
+    "results/mechanism-followup/nuisance.png": {
+      "sha256": "03669ca6bea5556eb57dc55ac229028111ea749e49cc722e694a42886ac67e1d"
+    },
+    "results/mechanism-followup/summary.json": {
+      "sha256": "7d85881021f4b827f47280e9297284681ce9f5edaa802c287869ec529b68494d"
+    },
+    "results/mechanism-followup/control_horizons.csv": {
+      "sha256": "9d4b48cf45bbddc4e0ea279a98b17cdd9dfd6db78ca3c76c2bc748d3fb651965"
+    },
+    "results/mechanism-followup/visited.csv": {
+      "sha256": "845c2de6261b2573ebb047dfd963622ae711893a12e9ea3e5575841888d4680b"
+    },
+    "results/mechanism-followup/controls.csv": {
+      "sha256": "885f5271813fdc6c0de1afd2ddabd537ad59e6b3a82b71f30507bc547652b778"
+    },
+    "results/mechanism-followup/nuisance_layers.png": {
+      "sha256": "4cd35d52bf7e1f586f8b0280c86f188155ef45ad6dd1d97dc4be4b7d1d3000f3"
+    },
+    "results/mechanism-followup/visited.png": {
+      "sha256": "dd7e95751e5a5b2ba41af5c524498846523bb8f8483c6d76c6c5f231b90cfca4"
+    },
+    "results/independent-depth/01_depth_decisions.png": {
+      "sha256": "015c3297bf39d672835edaffdbcef1e7a07eb3aaa7a02b01391c5876e0f9da14"
+    },
+    "results/independent-depth/depth_summary.csv": {
+      "sha256": "5eda0dded6500f9da1960ec681f010563d21a2064391090a13fc6c4a25fa411f"
+    },
+    "results/independent-depth/02_depth_probes.png": {
+      "sha256": "a3aef53143b42da5317d3b57d13880cf888ac07ff3d5165e8a948a41c6d014ee"
+    },
+    "results/independent-depth/depth_horizons.csv": {
+      "sha256": "aae62337807b750137283f84268a708d1084b2265cdfb49c689a3916f353e933"
+    },
+    "results/independent-depth/03_depth_horizons.png": {
+      "sha256": "5e96df9d53717aa74ab0ffb49e873a561ef0590029dd38307ce61cd88e4429d7"
+    },
+    "results/full-depth/06_perturbation_examples.png": {
+      "sha256": "76d5728e3d55a492c83500b8c5b1f98c7d073db88cf6a21bec454f8f10566601"
+    },
+    "results/full-depth/interventions.csv": {
+      "sha256": "09fd91a9eb51129fb452cf90fa09f6a350509ead5eb7119a465d002e71f31d4b"
+    },
+    "results/full-depth/05_interventions.png": {
+      "sha256": "ebb10446af0b4ba2cb589cd291d0fb49e653fa01861d69b2cf6953ed26a8ebdc"
+    },
+    "results/full-depth/04_physical_horizons_linked.png": {
+      "sha256": "e53f4112aacb6f6667dbcd1cd4d8f99d97a0589396166a7d6680c8650d92e1f2"
+    },
+    "results/full-depth/01_layer_information.png": {
+      "sha256": "eda50fa824ce1be496ad39bce1e1c8011b18f68b5078ee3f0eddf638b67c4cb9"
+    },
+    "results/full-depth/03_candidate_ranking.png": {
+      "sha256": "20318b4a1702c14c1c6ef11c1fc8845d98cdf551991dc3374188645b2ba3ca2a"
+    },
+    "results/full-depth/sensitivity.csv": {
+      "sha256": "28722f0519074c6b306fa31ad467834fb151c390327efc1c4ab9cc708bfe2d07"
+    },
+    "results/full-depth/candidate_ranking.csv": {
+      "sha256": "d787397f944841db88dadcc68f8e59994a39ea4a1966acae84f8326069e6b808"
+    },
+    "results/full-depth/physical_horizons.csv": {
+      "sha256": "f663f5e452b458c5b5b4bad8dae4c5fe2e31f476e4a4e118ddb8eb9822884821"
+    },
+    "results/full-depth/02_sensitivity.png": {
+      "sha256": "bf1d6d05ca5a0e3d64e725b92f6cdc81e1d794c3a8d6fa13ebdb08df8fa18d46"
+    },
+    "results/billiards-screening/privileged-state-affine.npz": {
+      "sha256": "81f2d36305cf459f197e5baa1536f3b2b291592106ff07cfc36e4d3ac6d260af"
+    },
+    "results/billiards-screening/pixel-h1.png": {
+      "sha256": "2eda4e595e90fe1578321eeb3a99aa73c79a2b7e442d90aafcf58aba72953aaf"
+    },
+    "results/billiards-screening/pixel-h2.png": {
+      "sha256": "3cf16e022f97b7efcd844ac59376a795ffe1dc2db17ae1fa01db12f4f8522449"
+    },
+    "results/billiards-screening/pixel-h4.png": {
+      "sha256": "05945e26b3dca4e2b21f5ef249f6366abbb4fcf963c40a2b8b8372f238e37672"
+    },
+    "results/billiards-screening/pixel-h8.png": {
+      "sha256": "e643bb5319f8b560fffbbb7023bd7ebf13b45e75261f82b87019484d76eabdd4"
+    },
+    "results/billiards-screening/pixel-h16.png": {
+      "sha256": "ce5b1c1b6d61fd8a11d30565b80db516b6bca83969c5254a405ca27b38904b9d"
+    },
+    "results/billiards-screening/pixel-h32.png": {
+      "sha256": "8d0f728abdaca5bc8a0b0b6008ab2f47e9c5738a1b7b7f8ec2cb4c6884355b90"
+    },
+    "results/billiards-screening/pixel-history-probe.npz": {
+      "sha256": "00db908ac66ee6c754c357d4eb2a5e7125ee694f83aa73408f086e70e6bc5a22"
+    },
+    "results/billiards-screening/pixel-forecasts.npz": {
+      "sha256": "bddbaa51b99cfa2975a21bb515578f6dbee6692c654d10305f59585b67249568"
+    },
+    "results/billiards-screening/gaussian-history-probe.npz": {
+      "sha256": "c874c3dd9ef325c4151ca9961d04a3b0cdf299edf2964f77911fd07c393fbb79"
+    },
+    "results/billiards-screening/gaussian-forecasts.npz": {
+      "sha256": "fe6cb0393813e805bac4b89a9147249cd6161d2654b3cb63f5c46d21bdd1ab9d"
+    },
+    "results/billiards-screening/sparse-history-probe.npz": {
+      "sha256": "b4eb31e99a383d515b9d4e7901a8ef5da4cf097fb4f6558033cbf4fc01b79c07"
+    },
+    "results/billiards-screening/sparse-forecasts.npz": {
+      "sha256": "da1d3d073c10df052015be5bac1eedba6ff1b7d7ddced994cbadc60b40b22514"
+    },
+    "results/billiards-screening/metrics.json": {
+      "sha256": "d5ad7c296278c5c2df05cfe5efe51fd00e0f9b742bbe31a862971931485e5afd"
+    },
+    "results/billiards-screening/playback.json": {
+      "sha256": "c8e794dc8aee77a7dd7e12209676d0165b5ff94a8efcba74041ab292bf76f12f"
+    },
+    "study/billiards/screening_render.py": {
+      "sha256": "b52864aa1a6a85ae84e21df3c20929884395505e2749fab106a87fdc94d25e33",
+      "historical_sha": "be7d5bef8e72166a46c0103f26e7fdb3efa438f8",
+      "adaptation": "none; historical multiview renderer for exact screening reproduction"
+    }
+  },
+  "historical_sources": {
+    "billiards_training": "be7d5bef8e72166a46c0103f26e7fdb3efa438f8",
+    "billiards_evaluation": "9b7d1ecc6330345f47d04faffcb48488c0daf48e",
+    "mechanism_execution": "82aae1e99fe84676194944a59a7ae08301c5b0ec",
+    "mechanism_analysis": "74d9016b2025269b07bd583a9a3de3729c22e144"
+  },
+  "billiards_checkpoints": {
+    "pixel": {
+      "checkpoint_sha256": "fedf23e238f2e5571b897ebcb150c53ca1b9c64507bb36f512a41cf8ee7fe08e",
+      "checkpoint_bytes": 7371947,
+      "seconds": 37.00763379316777,
+      "windows_per_second": 439.64760315808087,
+      "validation_feature_variance_trace": 4.298188287066296e-06,
+      "zero_fraction": 0.0,
+      "parameter_count": 1831363,
+      "shared_parameter_count": 1776768
+    },
+    "gaussian": {
+      "checkpoint_sha256": "bbabeddbcd59c9c6c14d093cb55f8a518c88a783541b0c8d9be1cfc98cdc1bd1",
+      "checkpoint_bytes": 7162281,
+      "seconds": 53.37529804883525,
+      "windows_per_second": 301.2678228635661,
+      "validation_feature_variance_trace": 84.7479248046875,
+      "zero_fraction": 0.0,
+      "parameter_count": 1776768,
+      "shared_parameter_count": 1776768
+    },
+    "sparse": {
+      "checkpoint_sha256": "65896e82e24326cad8bb3ccb6a43453c00b28def77fbf54e1e2ccfe5e37a472b",
+      "checkpoint_bytes": 7155557,
+      "seconds": 53.4465505941771,
+      "windows_per_second": 300.357556196296,
+      "validation_feature_variance_trace": 21.890329360961914,
+      "zero_fraction": 0.5924479365348816,
+      "parameter_count": 1776768,
+      "shared_parameter_count": 1776768
+    }
+  },
+  "independent_depth": {
+    "status": "audited_and_reported",
+    "analysis_sha": "e894b77d01f732c4f95485e37f51146be6741170"
+  },
+  "full_depth": {
+    "status": "audited_and_reported"
+  }
+}

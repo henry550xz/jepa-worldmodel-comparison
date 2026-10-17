@@ -1,100 +1,88 @@
-# JEPA vs Pixel Prediction for Action-Conditioned World Models
+# Visual World Models: Representation, Prediction and Control
 
-## Question
+How do pixel-prediction and latent-prediction objectives encode physical state,
+and when does that information support useful dynamics and decisions?
+We compare **Pixel prediction**, **Gaussian JEPA** and **Sparse LpWM** under
+matched data and training settings. No objective is presumed superior.
 
-When does predicting learned features help a world model make decisions? We compare **Pixel prediction**, **Gaussian JEPA / dense LeWM**, and **Sparse JEPA / LpWM** on matched PushT data, training budgets, and physical evaluation. For observation history \(o_{\le t}\), actions \(a_t\), encoder \(E\), dynamics \(F\), and decoder \(D\), the objectives are:
+**[Interactive 3D demo](https://henry550xz.github.io/jepa-billiards-demo/research.html)** ·
+[3D methods and reproduction](docs/BILLIARDS_METHODS.md) ·
+[3D preliminary results](docs/BILLIARDS_RESULTS.md) ·
+[PushT mechanism findings](docs/MECHANISM_FINDINGS.md)
 
-\[
-\mathcal L_{\rm Pixel}=\|D(F(E(o_{\le t}),a_t))-o_{t+1}\|^2
-\]
-\[
-\mathcal L_{\rm Gaussian}=\|F(E(o_{\le t}),a_t)-E(o_{t+1})\|^2+\lambda R_{p=2}
-\]
-\[
-\mathcal L_{\rm Sparse}=\|h(F(h(E(o_{\le t})),a_t))-h(E(o_{t+1}))\|^2+\lambda R_{p=1},\quad h=\mathrm{RepReLU}
-\]
+## Two complementary experiments
 
-These are schematic per-target objectives; code applies them across causal training windows. Pixel gradients reach the decoder, dynamics, and encoder. JEPA uses online targets without stop-gradient in this configuration.
+| System | Purpose | Inputs | Evidence status |
+|---|---|---|---|
+| PushT | Connect representation, action-conditioned dynamics and control | RGB histories and actions | Completed seed-0 comparisons, encoder-depth studies and frozen-checkpoint mechanism diagnostics |
+| 3D billiards | Examine motion and collisions with known ground-truth dynamics | Three synchronized RGB views over time; no state inputs or actions | Validated simulator and 1,000-update screening; longer learning diagnostic in progress as of 2026-10-17 |
 
-## Relation to LpWM
+## What we have learned
 
-This study builds on **Yilun Kuang et al.'s [LpWM repository](https://github.com/YilunKuang/lpworldmodel)**, baseline `bdd812d9432cccda8c350086006401b436f91982`.
+**Recoverable state, useful prediction and successful control are different tests.**
+On PushT visited-state candidate banks, Gaussian and Sparse retain useful native
+latent-distance rankings (.742 and .757 mean Spearman), while Sparse's physical
+probe ranking drops to −.035. The native ranking difference is not resolved by the
+paired seed-cluster interval. This motivates testing predictor/readout compatibility
+rather than interpreting one probe as a complete measure of dynamics.
 
-- Gaussian: **identity link + `target_p=2` + RDMReg**.
-- Sparse: **RepReLU + `target_p=1` + RDMReg**.
+**Lower sensitivity does not necessarily mean greater physical robustness.**
+Sparse responds less to several appearance perturbations, but its physical-state
+readout degrades more in some of those same conditions. The data do not establish
+universal nuisance removal or semantic factorization.
 
-The [LpWM paper](https://arxiv.org/abs/2608.22764) emphasizes a **predictor-capacity-dependent** sparse advantage, particularly at intermediate capacities—not a universal claim that Sparse always wins.
+**The 3D screening is a learning diagnostic, not a converged model comparison.**
+Pixel's decoded images are largely uniform and its predicted-feature state readout
+is unstable. Gaussian and Sparse physical readouts are also weak. A bounded
+training-duration and tiny-subset fitting study is running to distinguish learning
+and readout limitations before expanding the factor comparisons.
 
-The encoder, dynamics, distribution regularizer, training/planning stack, and environment/data utilities come from upstream. This study adds the temporal Pixel decoder/objective, matched training, frozen partitions, physical probes/evaluation, and decode→re-encode control. Original authorship is preserved in [LICENSE](LICENSE), [NOTICE](NOTICE), and the import manifest. This is a standalone presentation repository; its short history is not the original experimental history.
+## Reading guide
 
-## Preliminary results
+1. [3D billiards methods](docs/BILLIARDS_METHODS.md): model objectives, RGB-only
+   inputs, split discipline, privileged controls, and executable reproduction steps.
+2. [3D screening results](docs/BILLIARDS_RESULTS.md): measured errors, visual
+   examples, event coverage, and the follow-up diagnostic design.
+3. [PushT mechanism findings](docs/MECHANISM_FINDINGS.md): visited-state scoring,
+   action controls, physical-subspace interventions and appearance perturbations.
+4. [Encoder depth and goal retention](docs/REPRESENTATIONS.md): full-depth taps
+   versus independently trained shallow encoders, with their different conclusions.
+5. [Original PushT comparison](docs/PUSHT_OVERVIEW.md), [methods](docs/METHODS.md)
+   and [results](docs/RESULTS.md): earlier reproduction and feedback-control work.
 
-**A. Upstream-style reproduction:** Gaussian **36/50 (72%)**; Sparse **40/50 (80%)**. One training seed and 50 official planning episodes per method.
+## Explore or reproduce
 
-**B. Matched physical-goal seed-0 diagnostic:** Pixel **0/50**; Gaussian **6/50**; Sparse **1/50**. **Pixel's 0/50 was later found to be partly confounded by latent rollout/readout compatibility.** This custom diagnostic is not the official PushT score.
+The [public demo](https://henry550xz.github.io/jepa-billiards-demo/research.html)
+requires no login or GPU. Exact simulation runs in the browser; learned-model
+panels replay recorded results through supervised physical-state probes. Editing
+the sandbox does not invoke a learned model.
 
-**C. No-retraining Pixel control:**
-
-| Metric | Original | Decode→re-encode | Teacher-forced oracle |
-|---|---:|---:|---:|
-| Candidate Spearman | −0.076 | +0.173 | +0.454 |
-| Candidate regret ↓ | 0.00876 | 0.00410 | 0.00347 |
-| Final physical-goal success | 0/50 | 1/50 | 2/50 |
-
-Decode→re-encode reduces regret by **53.2%**, but does not repair closed-loop control. Teacher forcing uses privileged simulator histories and is not deployable model-only planning. These are post-hoc diagnostics, not evidence of general method superiority.
-
-## Main current interpretation
-
-**JEPA is not proven better.** The question is: **what properties make a learned representation suitable for repeated world-model rollout and decision making?** Prediction accuracy, latent feedback compatibility, physical readout geometry, and planning design must be separated.
-
-## Where to look
-
-- [study/pixel.py](study/pixel.py): temporal Pixel objective and minimal decoder.
-- [models/infojepa_modules.py](models/infojepa_modules.py): upstream predictors, links, RDMReg.
-- [study/matched_training.py](study/matched_training.py): shared training/validation loop.
-- [study/readiness_eval.py](study/readiness_eval.py): common physical rollout and planning evaluator.
-- [study/reencode_control.py](study/reencode_control.py): inference-only feedback control.
-- [docs/METHODS.md](docs/METHODS.md): protocol, probes, data separation, interpretation.
-- [docs/RESULTS.md](docs/RESULTS.md): retained measurements and exact provenance.
-
-## Reproduce
-
-Use Python **3.12**, a CUDA GPU, and an artifact directory **outside this checkout**. Reference runs used PyTorch **2.8.0+cu128**, torchvision **0.23.0+cu128**, and an RTX 5090. Upstream's original Python 3.9 specification remains in `environment.yaml`; the following is the tested-import compatibility profile for this study.
+To serve the same curated presentation locally:
 
 ```bash
-git clone https://github.com/henry550xz/jepa-worldmodel-comparison.git
-cd jepa-worldmodel-comparison
-python3.12 -m venv .venv
-source .venv/bin/activate
-python -m pip install torch==2.8.0 torchvision==0.23.0 --index-url https://download.pytorch.org/whl/cu128
-python -m pip install -r requirements-study.txt
-python -m pytest -q tests/study
-
-export WORKSPACE="$HOME/jepa-comparison-artifacts"  # choose a disk with ample space
-export DATA_SHA=442f5dee246edf670964ed7bdecd248683cd6d00580fa0e4d458abb53f92da08
-python -m study.acquire_pusht --workspace "$WORKSPACE"
-
-# Full two-epoch training and common evaluation; run serially by default.
-for METHOD in pixel gaussian sparse; do
-  MANIFEST=$(python -m study.run --workspace "$WORKSPACE" --method "$METHOD" \
-    --phase pilot --seed 0 --dataset-version "$DATA_SHA")
-  RUN_ID=$(basename "$(dirname "$MANIFEST")")
-  if [ "$METHOD" = pixel ]; then export PIXEL_RUN_ID="$RUN_ID"; fi
-  python -m study.evaluate_common "$RUN_ID" --workspace "$WORKSPACE" --profile pilot
-done
-
-# Existing Pixel checkpoint + frozen probe: no retraining.
-python -m study.reencode_control --workspace "$WORKSPACE" \
-  --run-id "$PIXEL_RUN_ID" --output pixel-feedback-control
+python3 -m http.server 8765 --bind 127.0.0.1 --directory demos/billiards
+# Open http://localhost:8765/research.html
 ```
 
-Start with `--phase readiness` and evaluator `--profile readiness` for an eight-update smoke. The inference control requires a **full** common pilot evaluation. Official reproduction commands and artifact requirements are in [docs/METHODS.md](docs/METHODS.md). Checkpoints and datasets are not included; running these commands creates new evidence, not the historical checkpoints summarized here.
+For model training and tests, follow the [billiards reproduction guide](docs/BILLIARDS_METHODS.md).
+The [PushT guide](docs/PUSHT_OVERVIEW.md#reproduce) retains the separate environment
+and reproduction instructions for the action-conditioned experiments.
 
-## Limitations
+## Attribution and evidence
 
-- Single training seed for the current controlled pilot; no robust superiority claim.
-- The custom short-horizon physical-goal diagnostic is **not** the official PushT score.
-- Only **4 held-out sequences** support H=32; horizon cohorts differ.
-- Post-hoc readout/feedback controls partly explain Pixel's failure but do not isolate all causes.
-- Equal data/update budgets do not imply equal parameter counts, training FLOPs, or inference costs.
-- Packaging/import/tests are validated; full experiments were run at the historical SHAs, not rerun for this release.
+Built on [Yilun Kuang et al.'s LpWM implementation](https://github.com/YilunKuang/lpworldmodel),
+baseline `bdd812d9432cccda8c350086006401b436f91982`. Upstream links, RDMReg and
+model components retain their authorship in [LICENSE](LICENSE) and [NOTICE](NOTICE).
+The billiards environment, comparison harness and evaluation are study additions.
+
+This is a curated scientific repository. The [original provenance](manifests/SCIENTIFIC_PROVENANCE.json)
+and [update manifest](manifests/SCIENTIFIC_UPDATE_20261017.json) identify historical
+sources and compact evidence hashes. Its Git history is not the full experimental
+history. Datasets and historical model checkpoints are not bundled; reproduction
+commands create new runs. Follow-up PushT summaries include audited tables and
+figures, not all raw banks required to rerun those panels.
+
+All current method comparisons use one training seed. Candidate ranking is not
+closed-loop success; equal updates are not equal FLOPs; probe errors are not a
+complete measure of representation information. Planned or running work is not
+reported as a completed result.

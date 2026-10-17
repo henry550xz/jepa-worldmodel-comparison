@@ -1,0 +1,17 @@
+{
+  "scope": "Preliminary matched 3D RGB-only learning diagnostic; not a full factor ablation",
+  "seed": 0,
+  "dim": 128,
+  "depth": 12,
+  "history": 3,
+  "height": 48,
+  "width": 144,
+  "patch": 8,
+  "projections": 256,
+  "reg_weight": 0.5,
+  "batch_size": 16,
+  "updates": 10000,
+  "warmup_updates": 6,
+  "learning_rate": 0.0003,
+  "train_episodes": 48
+}

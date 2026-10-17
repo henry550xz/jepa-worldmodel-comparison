@@ -1,0 +1,776 @@
+{
+  "scope": "short screening, not completed study",
+  "methods": {
+    "pixel": {
+      "layers": {
+        "block_01": {
+          "position_rmse": 0.21388333201168444,
+          "velocity_rmse": 0.18438212377399552
+        },
+        "block_02": {
+          "position_rmse": 0.21403875166773598,
+          "velocity_rmse": 0.18446314371130834
+        },
+        "block_03": {
+          "position_rmse": 0.21418331990476744,
+          "velocity_rmse": 0.184589249460391
+        },
+        "block_04": {
+          "position_rmse": 0.21426572986560358,
+          "velocity_rmse": 0.1846314538510641
+        },
+        "block_05": {
+          "position_rmse": 0.2143094292591299,
+          "velocity_rmse": 0.1846533506162136
+        },
+        "block_06": {
+          "position_rmse": 0.21433636419956412,
+          "velocity_rmse": 0.18466361613268742
+        },
+        "block_07": {
+          "position_rmse": 0.21436757622198457,
+          "velocity_rmse": 0.18474246449202164
+        },
+        "block_08": {
+          "position_rmse": 0.21438152897008647,
+          "velocity_rmse": 0.18474445547332002
+        },
+        "block_09": {
+          "position_rmse": 0.2143464523338321,
+          "velocity_rmse": 0.18472032207114217
+        },
+        "block_10": {
+          "position_rmse": 0.21431394743759152,
+          "velocity_rmse": 0.1847081145739499
+        },
+        "block_11": {
+          "position_rmse": 0.21429669847818467,
+          "velocity_rmse": 0.1846810967961433
+        },
+        "block_12": {
+          "position_rmse": 0.21425397688388115,
+          "velocity_rmse": 0.1847318025853928
+        },
+        "linked": {
+          "position_rmse": 0.21404505743225674,
+          "velocity_rmse": 0.1846625266126698
+        }
+      },
+      "horizons": {
+        "1": {
+          "predicted": {
+            "position_rmse": 191.08767786690956,
+            "velocity_rmse": 147.85496941073004
+          },
+          "true_future_probe": {
+            "position_rmse": 0.19011189438258277,
+            "velocity_rmse": 0.20760697739816972
+          }
+        },
+        "2": {
+          "predicted": {
+            "position_rmse": 236.76685655315276,
+            "velocity_rmse": 202.9246462691122
+          },
+          "true_future_probe": {
+            "position_rmse": 0.18764823226593205,
+            "velocity_rmse": 0.21107717258581377
+          }
+        },
+        "4": {
+          "predicted": {
+            "position_rmse": 194.06535995863206,
+            "velocity_rmse": 233.3527553882519
+          },
+          "true_future_probe": {
+            "position_rmse": 0.1890394478277462,
+            "velocity_rmse": 0.20130115256566383
+          }
+        },
+        "8": {
+          "predicted": {
+            "position_rmse": 160.12643264093913,
+            "velocity_rmse": 184.18328729826032
+          },
+          "true_future_probe": {
+            "position_rmse": 0.1865293946826947,
+            "velocity_rmse": 0.18076628907550096
+          }
+        },
+        "16": {
+          "predicted": {
+            "position_rmse": 158.6390976284445,
+            "velocity_rmse": 183.75429361682808
+          },
+          "true_future_probe": {
+            "position_rmse": 0.198718585897061,
+            "velocity_rmse": 0.18122341773970696
+          }
+        },
+        "32": {
+          "predicted": {
+            "position_rmse": 158.68507390529805,
+            "velocity_rmse": 183.75641602745108
+          },
+          "true_future_probe": {
+            "position_rmse": 0.22130707968495597,
+            "velocity_rmse": 0.17640938579369514
+          }
+        }
+      },
+      "event_strata": {
+        "free": {
+          "1": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 191.08477913024086,
+              "velocity_rmse": 147.85092641721053
+            }
+          },
+          "2": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 236.76337427603508,
+              "velocity_rmse": 202.92135266461452
+            }
+          },
+          "4": {
+            "episodes": 11,
+            "error": {
+              "position_rmse": 194.06405176371933,
+              "velocity_rmse": 233.3263293666904
+            }
+          },
+          "8": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 160.10316896582304,
+              "velocity_rmse": 184.1408075180126
+            }
+          },
+          "16": {
+            "episodes": 0,
+            "error": null
+          },
+          "32": {
+            "episodes": 0,
+            "error": null
+          }
+        },
+        "wall": {
+          "1": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 191.1311536413955,
+              "velocity_rmse": 147.9156010526123
+            }
+          },
+          "2": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 236.81908456535257,
+              "velocity_rmse": 202.97404392324722
+            }
+          },
+          "4": {
+            "episodes": 5,
+            "error": {
+              "position_rmse": 194.06823795639917,
+              "velocity_rmse": 233.41088210431104
+            }
+          },
+          "8": {
+            "episodes": 6,
+            "error": {
+              "position_rmse": 160.14067878600005,
+              "velocity_rmse": 184.21389893691034
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 158.62182998525782,
+              "velocity_rmse": 183.7393544977927
+            }
+          },
+          "32": {
+            "episodes": 9,
+            "error": {
+              "position_rmse": 158.70141140076785,
+              "velocity_rmse": 183.7517839799161
+            }
+          }
+        },
+        "ball": {
+          "1": {
+            "episodes": 0,
+            "error": null
+          },
+          "2": {
+            "episodes": 0,
+            "error": null
+          },
+          "4": {
+            "episodes": 0,
+            "error": null
+          },
+          "8": {
+            "episodes": 2,
+            "error": {
+              "position_rmse": 160.17673234520566,
+              "velocity_rmse": 184.26132774348042
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 158.65636339227697,
+              "velocity_rmse": 183.76923152142035
+            }
+          },
+          "32": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 158.66705947739905,
+              "velocity_rmse": 183.7646822835048
+            }
+          }
+        }
+      },
+      "supervised_image_to_state_to_physics": {
+        "label_access": "supervised physical-state history probe plus exact physics",
+        "valid_initial_states": 9,
+        "total": 16,
+        "h32_valid_subset": {
+          "position_rmse": 0.24158756220313854,
+          "velocity_rmse": 0.18633612877665393
+        },
+        "warning": "valid subset is selected; report invalid fraction, not an unconditional score"
+      }
+    },
+    "gaussian": {
+      "layers": {
+        "block_01": {
+          "position_rmse": 0.21131946958581427,
+          "velocity_rmse": 0.18392243780619527
+        },
+        "block_02": {
+          "position_rmse": 0.21124198902258404,
+          "velocity_rmse": 0.18405089224188614
+        },
+        "block_03": {
+          "position_rmse": 0.21136703209946386,
+          "velocity_rmse": 0.18419469365512245
+        },
+        "block_04": {
+          "position_rmse": 0.21099470882699337,
+          "velocity_rmse": 0.18420825572128313
+        },
+        "block_05": {
+          "position_rmse": 0.21091170536004603,
+          "velocity_rmse": 0.1841386837380194
+        },
+        "block_06": {
+          "position_rmse": 0.21095328138541244,
+          "velocity_rmse": 0.1841560956602561
+        },
+        "block_07": {
+          "position_rmse": 0.21090039699859053,
+          "velocity_rmse": 0.18419265111301283
+        },
+        "block_08": {
+          "position_rmse": 0.2108907682212867,
+          "velocity_rmse": 0.18411799992000583
+        },
+        "block_09": {
+          "position_rmse": 0.21088444217191896,
+          "velocity_rmse": 0.1840817959909499
+        },
+        "block_10": {
+          "position_rmse": 0.21080098166833106,
+          "velocity_rmse": 0.1840210651001
+        },
+        "block_11": {
+          "position_rmse": 0.21080233511217195,
+          "velocity_rmse": 0.18404359313437874
+        },
+        "block_12": {
+          "position_rmse": 0.21072634369340945,
+          "velocity_rmse": 0.1839844598722726
+        },
+        "linked": {
+          "position_rmse": 0.2114084179922283,
+          "velocity_rmse": 0.18384813257169436
+        }
+      },
+      "horizons": {
+        "1": {
+          "predicted": {
+            "position_rmse": 0.19206563356542372,
+            "velocity_rmse": 0.20390705438344864
+          },
+          "true_future_probe": {
+            "position_rmse": 0.19203253087031932,
+            "velocity_rmse": 0.20352879652094394
+          }
+        },
+        "2": {
+          "predicted": {
+            "position_rmse": 0.19212800172537337,
+            "velocity_rmse": 0.20660579179883015
+          },
+          "true_future_probe": {
+            "position_rmse": 0.19267136919189445,
+            "velocity_rmse": 0.2067656251401364
+          }
+        },
+        "4": {
+          "predicted": {
+            "position_rmse": 0.1939459935300022,
+            "velocity_rmse": 0.19955343530945177
+          },
+          "true_future_probe": {
+            "position_rmse": 0.19928218067532613,
+            "velocity_rmse": 0.19832362599128145
+          }
+        },
+        "8": {
+          "predicted": {
+            "position_rmse": 0.19555051461961417,
+            "velocity_rmse": 0.19081877577035894
+          },
+          "true_future_probe": {
+            "position_rmse": 0.1905928966535395,
+            "velocity_rmse": 0.18116434998234626
+          }
+        },
+        "16": {
+          "predicted": {
+            "position_rmse": 0.20219980559556203,
+            "velocity_rmse": 0.18222239274207383
+          },
+          "true_future_probe": {
+            "position_rmse": 0.19721240595967462,
+            "velocity_rmse": 0.1795068676999071
+          }
+        },
+        "32": {
+          "predicted": {
+            "position_rmse": 0.22446005000348557,
+            "velocity_rmse": 0.19563932081186622
+          },
+          "true_future_probe": {
+            "position_rmse": 0.22129599542540815,
+            "velocity_rmse": 0.17743294499300766
+          }
+        }
+      },
+      "event_strata": {
+        "free": {
+          "1": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 0.17989252065088124,
+              "velocity_rmse": 0.20149331193319994
+            }
+          },
+          "2": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 0.18010683355718493,
+              "velocity_rmse": 0.203812719171595
+            }
+          },
+          "4": {
+            "episodes": 11,
+            "error": {
+              "position_rmse": 0.1594096523585167,
+              "velocity_rmse": 0.20622977311798907
+            }
+          },
+          "8": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.13673664579845934,
+              "velocity_rmse": 0.19222524098137964
+            }
+          },
+          "16": {
+            "episodes": 0,
+            "error": null
+          },
+          "32": {
+            "episodes": 0,
+            "error": null
+          }
+        },
+        "wall": {
+          "1": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 0.3237399214775434,
+              "velocity_rmse": 0.23718361648774905
+            }
+          },
+          "2": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 0.32254245044928326,
+              "velocity_rmse": 0.24470570862845278
+            }
+          },
+          "4": {
+            "episodes": 5,
+            "error": {
+              "position_rmse": 0.2538956339072177,
+              "velocity_rmse": 0.18401481689124227
+            }
+          },
+          "8": {
+            "episodes": 6,
+            "error": {
+              "position_rmse": 0.27205421864669677,
+              "velocity_rmse": 0.18896198794114868
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.26019307866280045,
+              "velocity_rmse": 0.18664590620402233
+            }
+          },
+          "32": {
+            "episodes": 9,
+            "error": {
+              "position_rmse": 0.22995079379865085,
+              "velocity_rmse": 0.20797671513331312
+            }
+          }
+        },
+        "ball": {
+          "1": {
+            "episodes": 0,
+            "error": null
+          },
+          "2": {
+            "episodes": 0,
+            "error": null
+          },
+          "4": {
+            "episodes": 0,
+            "error": null
+          },
+          "8": {
+            "episodes": 2,
+            "error": {
+              "position_rmse": 0.09535143038633483,
+              "velocity_rmse": 0.19071541560811964
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.11861317204147212,
+              "velocity_rmse": 0.17768879123504805
+            }
+          },
+          "32": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.2178705363131012,
+              "velocity_rmse": 0.20462954529648075
+            }
+          }
+        }
+      },
+      "supervised_image_to_state_to_physics": {
+        "label_access": "supervised physical-state history probe plus exact physics",
+        "valid_initial_states": 4,
+        "total": 16,
+        "h32_valid_subset": {
+          "position_rmse": 0.21621678631995675,
+          "velocity_rmse": 0.1795357233967636
+        },
+        "warning": "valid subset is selected; report invalid fraction, not an unconditional score"
+      }
+    },
+    "sparse": {
+      "layers": {
+        "block_01": {
+          "position_rmse": 0.2105645952048527,
+          "velocity_rmse": 0.18356259825108037
+        },
+        "block_02": {
+          "position_rmse": 0.21065104902693726,
+          "velocity_rmse": 0.1838420235330317
+        },
+        "block_03": {
+          "position_rmse": 0.21042721152773775,
+          "velocity_rmse": 0.18366136269085462
+        },
+        "block_04": {
+          "position_rmse": 0.21032906142093355,
+          "velocity_rmse": 0.18365279572438625
+        },
+        "block_05": {
+          "position_rmse": 0.21030028673892512,
+          "velocity_rmse": 0.18344382682804417
+        },
+        "block_06": {
+          "position_rmse": 0.21025937647954462,
+          "velocity_rmse": 0.18337334734500174
+        },
+        "block_07": {
+          "position_rmse": 0.21032257824092038,
+          "velocity_rmse": 0.18332588958583507
+        },
+        "block_08": {
+          "position_rmse": 0.21018284835068304,
+          "velocity_rmse": 0.18327819154080258
+        },
+        "block_09": {
+          "position_rmse": 0.2102112730988252,
+          "velocity_rmse": 0.18321109740687588
+        },
+        "block_10": {
+          "position_rmse": 0.21012432235806353,
+          "velocity_rmse": 0.18319334338135948
+        },
+        "block_11": {
+          "position_rmse": 0.21012533392386412,
+          "velocity_rmse": 0.18320621227646272
+        },
+        "block_12": {
+          "position_rmse": 0.2101882719601976,
+          "velocity_rmse": 0.18326682088681856
+        },
+        "linked": {
+          "position_rmse": 0.21162924606558986,
+          "velocity_rmse": 0.18365526298321452
+        }
+      },
+      "horizons": {
+        "1": {
+          "predicted": {
+            "position_rmse": 0.18151741153625756,
+            "velocity_rmse": 0.20087224472740214
+          },
+          "true_future_probe": {
+            "position_rmse": 0.18178005225188817,
+            "velocity_rmse": 0.19909081016105373
+          }
+        },
+        "2": {
+          "predicted": {
+            "position_rmse": 0.17995149024402093,
+            "velocity_rmse": 0.20683804162973235
+          },
+          "true_future_probe": {
+            "position_rmse": 0.1813576529509902,
+            "velocity_rmse": 0.2031182232779108
+          }
+        },
+        "4": {
+          "predicted": {
+            "position_rmse": 0.18170227926511767,
+            "velocity_rmse": 0.1941650664341378
+          },
+          "true_future_probe": {
+            "position_rmse": 0.18830449774852112,
+            "velocity_rmse": 0.2024025514676025
+          }
+        },
+        "8": {
+          "predicted": {
+            "position_rmse": 0.19445246498509733,
+            "velocity_rmse": 0.1873986088174199
+          },
+          "true_future_probe": {
+            "position_rmse": 0.18621965468530569,
+            "velocity_rmse": 0.17962022028470603
+          }
+        },
+        "16": {
+          "predicted": {
+            "position_rmse": 0.2037778254255012,
+            "velocity_rmse": 0.18237660624383734
+          },
+          "true_future_probe": {
+            "position_rmse": 0.19739599975807154,
+            "velocity_rmse": 0.17813186342392964
+          }
+        },
+        "32": {
+          "predicted": {
+            "position_rmse": 0.22825436557854828,
+            "velocity_rmse": 0.18916165782650396
+          },
+          "true_future_probe": {
+            "position_rmse": 0.21889717586819937,
+            "velocity_rmse": 0.17396126655795655
+          }
+        }
+      },
+      "event_strata": {
+        "free": {
+          "1": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 0.17046110532368383,
+              "velocity_rmse": 0.19800568399941768
+            }
+          },
+          "2": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 0.1695494061432234,
+              "velocity_rmse": 0.20299749116683302
+            }
+          },
+          "4": {
+            "episodes": 11,
+            "error": {
+              "position_rmse": 0.15658704177808702,
+              "velocity_rmse": 0.20443665148414555
+            }
+          },
+          "8": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.13873409317145657,
+              "velocity_rmse": 0.19681835125676317
+            }
+          },
+          "16": {
+            "episodes": 0,
+            "error": null
+          },
+          "32": {
+            "episodes": 0,
+            "error": null
+          }
+        },
+        "wall": {
+          "1": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 0.3021958051174584,
+              "velocity_rmse": 0.2397931937900794
+            }
+          },
+          "2": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 0.29481452576816436,
+              "velocity_rmse": 0.2576662301178397
+            }
+          },
+          "4": {
+            "episodes": 5,
+            "error": {
+              "position_rmse": 0.22739260078607873,
+              "velocity_rmse": 0.169389125508942
+            }
+          },
+          "8": {
+            "episodes": 6,
+            "error": {
+              "position_rmse": 0.2683693648733183,
+              "velocity_rmse": 0.17005402784810641
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.26433443823477604,
+              "velocity_rmse": 0.19270798468696548
+            }
+          },
+          "32": {
+            "episodes": 9,
+            "error": {
+              "position_rmse": 0.23619203979044634,
+              "velocity_rmse": 0.19660824659844697
+            }
+          }
+        },
+        "ball": {
+          "1": {
+            "episodes": 0,
+            "error": null
+          },
+          "2": {
+            "episodes": 0,
+            "error": null
+          },
+          "4": {
+            "episodes": 0,
+            "error": null
+          },
+          "8": {
+            "episodes": 2,
+            "error": {
+              "position_rmse": 0.0971552709341788,
+              "velocity_rmse": 0.19809325573027184
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.11479594519580161,
+              "velocity_rmse": 0.17142370211825336
+            }
+          },
+          "32": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.21828582515370837,
+              "velocity_rmse": 0.19377502521936454
+            }
+          }
+        }
+      },
+      "supervised_image_to_state_to_physics": {
+        "label_access": "supervised physical-state history probe plus exact physics",
+        "valid_initial_states": 9,
+        "total": 16,
+        "h32_valid_subset": {
+          "position_rmse": 0.23790661961817539,
+          "velocity_rmse": 0.19682353041956344
+        },
+        "warning": "valid subset is selected; report invalid fraction, not an unconditional score"
+      }
+    }
+  },
+  "privileged_state_affine": {
+    "1": {
+      "position_rmse": 0.0027130000199994146,
+      "velocity_rmse": 0.07013879446703757
+    },
+    "2": {
+      "position_rmse": 0.005480782349790311,
+      "velocity_rmse": 0.0716724535989666
+    },
+    "4": {
+      "position_rmse": 0.011038487288377563,
+      "velocity_rmse": 0.13346663172175424
+    },
+    "8": {
+      "position_rmse": 0.027377590495378506,
+      "velocity_rmse": 0.17837736665426007
+    },
+    "16": {
+      "position_rmse": 0.078088744347923,
+      "velocity_rmse": 0.21224970954544953
+    },
+    "32": {
+      "position_rmse": 0.18467313068033742,
+      "velocity_rmse": 0.17951898654137832
+    }
+  },
+  "exact_state_oracle_h32": {
+    "position_rmse": 2.717265891350084e-16,
+    "velocity_rmse": 1.0260815124820689e-16
+  }
+}
