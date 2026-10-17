@@ -1,0 +1,81 @@
+{
+  "scope": "Source report hashes and curated compact data; distinct protocols remain separate.",
+  "reports": [
+    {
+      "name": "UPSTREAM_REPRODUCTION_REPORT",
+      "sha256": "a66c52708d31a0e734b135520db136e472fb591c7175a6f19c59fd01e381efa6"
+    },
+    {
+      "name": "THREE_ARM_PILOT_REPORT",
+      "sha256": "0915c3b73a20f6240c52dbcefb814764b1c468328e9835b54b9245439a2fcaf0"
+    },
+    {
+      "name": "REENCODE_CONTROL_RESULTS",
+      "sha256": "a31f2ab558709f21d94ff101620dc964c507bae211dc230068d4b90f0301bf67"
+    },
+    {
+      "name": "MECHANISM_EXPERIMENT_RESULTS",
+      "sha256": "9ac53f9de91ef9d64d5ba1cfa8fadf0b71e2618814e70afa3aeded4288483e1f"
+    },
+    {
+      "name": "ORIGINAL_INTERFACE_RESULTS",
+      "sha256": "b406ec6d34a2089999f98a9d03c455e7a7ae6e660ef6d42836b7d34f8ee92a5c"
+    },
+    {
+      "name": "FULL_DEPTH_ENCODER_RESULTS",
+      "sha256": "5e56d365f6ed35ef782f5f991b69947281c8834083412430068ec5ffe5aa9272"
+    },
+    {
+      "name": "INDEPENDENT_DEPTH_RESULTS",
+      "sha256": "3a789815703cbe3f51c1baeaacf60f1460219b1b47fe40e26d605a324f15f848"
+    },
+    {
+      "name": "MECHANISM_FOLLOWUP_RESULTS",
+      "sha256": "99ad8f398599c456b2bacdf0f48c1fb79130a2f3256e726e36d2cf6d83e4460b"
+    },
+    {
+      "name": "LINEAR_GAUSSIAN_THEORY_RESULTS",
+      "sha256": "1d60c05f2a81408f9a21c06f48b8a1e2611059c99efeba3d0c25034e25abd092"
+    },
+    {
+      "name": "KV_WMDF_RELEVANCE_REVIEW",
+      "sha256": "3ae251a6ab516e6752169cb6e29e858bf00e15ddc40d211906d83c4f85e44e29"
+    },
+    {
+      "name": "BILLIARDS_LEARNING_PILOT",
+      "sha256": "465a3ca27059af2c2d436dff54e775ddab47bbb97f407e58ff6180a595eafc77"
+    },
+    {
+      "name": "BILLIARDS_INTERFACE_DIAGNOSTIC",
+      "sha256": "44fe4e92cdc1b9def89270dcdaf0a33fab192d78e8513b99c384107f3dab649c"
+    },
+    {
+      "name": "BILLIARDS_SPATIAL_DIAGNOSTIC",
+      "sha256": "0c8c61771d4b04bb625f41a30c2d482154d63721b4dcd1d36912f6936ce4bf69"
+    }
+  ],
+  "assets": {
+    "gordon-speaking-script.md": "48ce41014282bc353c683932a50aef5b5476c2d778bbcf48cf485ded74dbe707",
+    "theory-phase-diagram.png": "69b8086e68e2626541b5094d9fb0b7f1ea24ef94a35d6cc71b2b2413e68606a2",
+    "spatial-reconstruction_full_cls-metrics.json": "76411586e39b412ca46598a7da76acb619390d987402e6c2acf000dc6f34cacc",
+    "upstream-reproduction.json": "9c16c75ea6d1ab241957e970af37d205c08fae7fe5ff79a327fefff48b8c90cb",
+    "spatial-reconstruction_tiny_cls-metrics.json": "343567e06e0a0f9c9e614962cfda75a74eb4046d1eea31dbd8530eb42e8bf55e",
+    "interface-diagnostic.png": "30f9b76aba7235ab91d0098c37c338c2f4600f43d6fff5d16f442ff36f0166aa",
+    "interface-pixel-fit-metrics.json": "a69292fa2d87f405936cd63ca0d18d5698eb7f7c419c42f165982a545c7b02f1",
+    "spatial-pixel_patch-metrics.json": "480e87b5aa05f19c22200378c0437ff2a3c1fa4d4b538a88146475213ce5b742",
+    "pilot-summary.json": "5b30d2274b6251aeac5b1acc28c996a3d14520a685d2509d2741e1476c0b2532",
+    "interface-sparse-metrics.json": "07f875db151fec542ba2818a8e327153df4fd3d0054ceb74bc39bc2e957c4be1",
+    "spatial-gaussian_patch-metrics.json": "bae66fbe41ea9e60f52e7f1af03c5a0de67efcfd3d469b9ea0450570074396d2",
+    "spatial-gaussian_cls-metrics.json": "b849584d231decca636e0d5c085e3b13e2c49e9c178ed250dba3e447cba14b7a",
+    "spatial-sparse_patch-metrics.json": "96f0b0f35778cb80f489eedabc5514504262949aba305c30eb101b81ffd731e2",
+    "spatial-diagnostic.png": "863665b1a57d9eb779d90d3e2d29e5435781f84d3c3789cc0bea27ce7ea474c0",
+    "reencode-summary.json": "cac113f58da3e22c38255617944e768758bb111416aab4dd859c96d863a44af3",
+    "spatial-reconstruction_tiny_patch-metrics.json": "1b0049f3441064b0efe280ec4dc550582fdb8c09b97117d45cb6b15ab501134b",
+    "spatial-reconstruction_full_patch-metrics.json": "a04aa1d9379d6b854e4eaa0b6a7d9512e9f7df0d3e01f19fdd98f9d866a4b52d",
+    "interface-gaussian-metrics.json": "2c7781b622426384f4ce9c106972706f01f3ffd8660bd61b356d7998b8e9cae4",
+    "spatial-pixel_cls-metrics.json": "253432f2481eaedf064cf71d18ff660b13978e9a698006e4b7945ff68f7d4973",
+    "spatial-supervised_rgb-metrics.json": "dc824ed81ca0b7610ad5746408b189c29ca90c989e330cb19802fbacbc4da10c",
+    "spatial-sparse_cls-metrics.json": "2c79091471e98c51a706ec6e480c29fac6556d134d1e39c7a529c44cc6be6074",
+    "interface-pixel-metrics.json": "5dd54996eeffc1ec27a2694447f34bf750d981327c4073fde9130563c386636b"
+  }
+}

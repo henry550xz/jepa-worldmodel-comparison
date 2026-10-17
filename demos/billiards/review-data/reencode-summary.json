@@ -1,0 +1,149 @@
+{
+  "status": "complete",
+  "conditions": {
+    "original": {
+      "horizons": {
+        "1": {
+          "n": 124,
+          "pusher_position_rmse": 213.0171404952816,
+          "block_position_rmse": 169.8275333063822,
+          "angle_mae_rad": 1.5696032895453367
+        },
+        "2": {
+          "n": 124,
+          "pusher_position_rmse": 207.03235847392222,
+          "block_position_rmse": 143.98262554232898,
+          "angle_mae_rad": 1.5684203230073612
+        },
+        "4": {
+          "n": 124,
+          "pusher_position_rmse": 178.48940467328902,
+          "block_position_rmse": 131.3806033426996,
+          "angle_mae_rad": 1.2725473239393563
+        },
+        "8": {
+          "n": 124,
+          "pusher_position_rmse": 163.87535368606027,
+          "block_position_rmse": 118.53652027393214,
+          "angle_mae_rad": 1.0179175947805164
+        },
+        "16": {
+          "n": 106,
+          "pusher_position_rmse": 168.39195781988315,
+          "block_position_rmse": 94.92412658211623,
+          "angle_mae_rad": 0.6244795637250584
+        },
+        "32": {
+          "n": 4,
+          "pusher_position_rmse": 179.62662277972134,
+          "block_position_rmse": 41.33853638269515,
+          "angle_mae_rad": 0.299239031970501
+        }
+      },
+      "planning": {
+        "episodes": 50,
+        "final_success": 0,
+        "ever_success": 15,
+        "final_cost": 0.05741953245945032,
+        "regret": 0.008755559077835642,
+        "spearman": -0.07622161172161171
+      }
+    },
+    "reencode": {
+      "horizons": {
+        "1": {
+          "n": 124,
+          "pusher_position_rmse": 95.10073917408981,
+          "block_position_rmse": 39.01726514242856,
+          "angle_mae_rad": 0.435433111642067
+        },
+        "2": {
+          "n": 124,
+          "pusher_position_rmse": 99.29255684983177,
+          "block_position_rmse": 41.82379626430749,
+          "angle_mae_rad": 0.4458931915367755
+        },
+        "4": {
+          "n": 124,
+          "pusher_position_rmse": 90.80697967882996,
+          "block_position_rmse": 49.441405776294495,
+          "angle_mae_rad": 0.5738244462251643
+        },
+        "8": {
+          "n": 124,
+          "pusher_position_rmse": 90.11927438117559,
+          "block_position_rmse": 61.108941260266086,
+          "angle_mae_rad": 0.6063847584424084
+        },
+        "16": {
+          "n": 106,
+          "pusher_position_rmse": 101.95597689354277,
+          "block_position_rmse": 76.67248739353003,
+          "angle_mae_rad": 0.7007256523332531
+        },
+        "32": {
+          "n": 4,
+          "pusher_position_rmse": 89.63808281148174,
+          "block_position_rmse": 88.97934812725453,
+          "angle_mae_rad": 0.7668831944465637
+        }
+      },
+      "planning": {
+        "episodes": 50,
+        "final_success": 1,
+        "ever_success": 28,
+        "final_cost": 0.0193381432153767,
+        "regret": 0.004096620154887205,
+        "spearman": 0.17288736263736262
+      }
+    },
+    "teacher_forced_oracle": {
+      "horizons": {
+        "1": {
+          "n": 124,
+          "pusher_position_rmse": 95.10073917408981,
+          "block_position_rmse": 39.01726514242856,
+          "angle_mae_rad": 0.435433111642067
+        },
+        "2": {
+          "n": 124,
+          "pusher_position_rmse": 98.68528865813666,
+          "block_position_rmse": 42.2724090855588,
+          "angle_mae_rad": 0.46315263697471193
+        },
+        "4": {
+          "n": 124,
+          "pusher_position_rmse": 85.93220535895188,
+          "block_position_rmse": 44.730756375838595,
+          "angle_mae_rad": 0.5277703911958412
+        },
+        "8": {
+          "n": 124,
+          "pusher_position_rmse": 80.9330618468633,
+          "block_position_rmse": 41.751135215412674,
+          "angle_mae_rad": 0.43858478931962597
+        },
+        "16": {
+          "n": 106,
+          "pusher_position_rmse": 70.81594007337625,
+          "block_position_rmse": 34.68920505955839,
+          "angle_mae_rad": 0.39587970067677536
+        },
+        "32": {
+          "n": 4,
+          "pusher_position_rmse": 20.397525097644248,
+          "block_position_rmse": 19.070313900948705,
+          "angle_mae_rad": 0.24168735742568973
+        }
+      },
+      "planning": {
+        "episodes": 50,
+        "final_success": 2,
+        "ever_success": 22,
+        "final_cost": 0.008919869797886254,
+        "regret": 0.0034697985454477023,
+        "spearman": 0.4544597069597069
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "method": "gaussian",
+    "run_id": "gaussian-s0-20260913T214253-97d19b52dc9f",
+    "metrics": {
+      "final_eval/success_rate": 0.72,
+      "final_eval/mean_state_dist": 197.0362091064453,
+      "final_eval/mean_visual_dist": 3.3487179793792516,
+      "final_eval/mean_proprio_dist": 63.59486770629883,
+      "final_eval/mean_div_visual_emb": 96.16356658935547
+    },
+    "source_metrics_sha256": "d5543b05076afd860e1a37b704a76b1e9bd88679b7a25f5f20647002be8e6210",
+    "training_wall_seconds": 16397.992594959214,
+    "planning_wall_seconds": 1484.617837882135
+  },
+  {
+    "method": "sparse",
+    "run_id": "sparse-s0-20260914T125613-d870e47ee0cf",
+    "metrics": {
+      "final_eval/success_rate": 0.8,
+      "final_eval/mean_state_dist": 126.90292358398438,
+      "final_eval/mean_visual_dist": 2.970588461947279,
+      "final_eval/mean_proprio_dist": 45.42782211303711,
+      "final_eval/mean_div_visual_emb": 47.56744384765625
+    },
+    "source_metrics_sha256": "a9ff348bf1d11ddfd44f9b5a672546b31b2cb5af9800ff25f7912707aeb4f8f7",
+    "training_wall_seconds": 13863.054305663798,
+    "planning_wall_seconds": 1472.0846691569313
+  }
+]

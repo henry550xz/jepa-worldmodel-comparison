@@ -1,0 +1,102 @@
+{
+  "scores": {
+    "train": {
+      "position_rmse": 0.195833543546503,
+      "velocity_rmse": 0.17245732462371102,
+      "permutation_position_rmse": 0.1873848135241554,
+      "permutation_velocity_rmse": 0.175329165070953
+    },
+    "validation": {
+      "position_rmse": 0.2243812934957028,
+      "velocity_rmse": 0.1932492831474569,
+      "permutation_position_rmse": 0.20614302129502857,
+      "permutation_velocity_rmse": 0.20008988884878362
+    },
+    "test": {
+      "position_rmse": 0.20765503234035862,
+      "velocity_rmse": 0.18542253477608547,
+      "permutation_position_rmse": 0.19396040679382442,
+      "permutation_velocity_rmse": 0.18322534638291288
+    }
+  },
+  "selected_step": 100,
+  "history": [
+    {
+      "step": 100,
+      "train": 0.8511643409729004,
+      "validation": 1.1215516328811646
+    },
+    {
+      "step": 200,
+      "train": 0.8005430102348328,
+      "validation": 1.1677758693695068
+    },
+    {
+      "step": 300,
+      "train": 0.7945172190666199,
+      "validation": 1.2285516262054443
+    },
+    {
+      "step": 400,
+      "train": 0.6983346343040466,
+      "validation": 1.260260820388794
+    },
+    {
+      "step": 500,
+      "train": 0.6690038442611694,
+      "validation": 1.2980717420578003
+    },
+    {
+      "step": 600,
+      "train": 0.6340517401695251,
+      "validation": 1.3045457601547241
+    },
+    {
+      "step": 700,
+      "train": 0.5476822853088379,
+      "validation": 1.2970905303955078
+    },
+    {
+      "step": 800,
+      "train": 0.49993130564689636,
+      "validation": 1.3536056280136108
+    },
+    {
+      "step": 900,
+      "train": 0.5173234939575195,
+      "validation": 1.3753522634506226
+    },
+    {
+      "step": 1000,
+      "train": 0.36479467153549194,
+      "validation": 1.399692416191101
+    },
+    {
+      "step": 1100,
+      "train": 0.3504015803337097,
+      "validation": 1.4178175926208496
+    },
+    {
+      "step": 1200,
+      "train": 0.3604363799095154,
+      "validation": 1.4293025732040405
+    },
+    {
+      "step": 1300,
+      "train": 0.2712089419364929,
+      "validation": 1.4573619365692139
+    },
+    {
+      "step": 1400,
+      "train": 0.24592849612236023,
+      "validation": 1.473924160003662
+    },
+    {
+      "step": 1500,
+      "train": 0.2753570079803467,
+      "validation": 1.5231584310531616
+    }
+  ],
+  "parameters": 127116,
+  "validation_loss": 1.1215516328811646
+}

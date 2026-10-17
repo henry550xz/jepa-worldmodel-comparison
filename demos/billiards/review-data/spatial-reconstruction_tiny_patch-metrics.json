@@ -1,0 +1,91 @@
+{
+  "train": {
+    "mse": 0.00012335785140749067,
+    "foreground_mse": 0.0010131997987627983,
+    "background_mse": 8.709826215635985e-05,
+    "foreground_fraction": 0.039152923971414566
+  },
+  "validation": {
+    "mse": 0.0012958083534613252,
+    "foreground_mse": 0.019326461479067802,
+    "background_mse": 0.000580372812692076,
+    "foreground_fraction": 0.03816453367471695
+  },
+  "history": [
+    {
+      "step": 100,
+      "train_mse": 0.001529698260128498,
+      "validation_mse": 0.003108919132500887
+    },
+    {
+      "step": 200,
+      "train_mse": 0.0007451461860910058,
+      "validation_mse": 0.002399149350821972
+    },
+    {
+      "step": 300,
+      "train_mse": 0.00047438289038836956,
+      "validation_mse": 0.001933897496201098
+    },
+    {
+      "step": 400,
+      "train_mse": 0.00033984906622208655,
+      "validation_mse": 0.0016649669269099832
+    },
+    {
+      "step": 500,
+      "train_mse": 0.0002651662507560104,
+      "validation_mse": 0.0015273340977728367
+    },
+    {
+      "step": 600,
+      "train_mse": 0.00021765510609839112,
+      "validation_mse": 0.0014506923034787178
+    },
+    {
+      "step": 700,
+      "train_mse": 0.00018408172763884068,
+      "validation_mse": 0.0013992202002555132
+    },
+    {
+      "step": 800,
+      "train_mse": 0.0001589263411005959,
+      "validation_mse": 0.0013591941678896546
+    },
+    {
+      "step": 900,
+      "train_mse": 0.0001392745616612956,
+      "validation_mse": 0.0013253852957859635
+    },
+    {
+      "step": 1000,
+      "train_mse": 0.00012349977623671293,
+      "validation_mse": 0.0012958083534613252
+    }
+  ],
+  "selected_step": 1000,
+  "parameters": 82880,
+  "frames": {
+    "train": 16,
+    "validation": 1040
+  },
+  "tiny_frames": [
+    0,
+    4,
+    8,
+    12,
+    17,
+    21,
+    25,
+    29,
+    34,
+    38,
+    42,
+    46,
+    51,
+    55,
+    59,
+    64
+  ],
+  "scope": "current-image reconstruction, not future prediction"
+}

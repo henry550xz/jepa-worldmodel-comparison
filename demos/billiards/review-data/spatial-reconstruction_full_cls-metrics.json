@@ -1,0 +1,124 @@
+{
+  "train": {
+    "mse": 0.009318110533058643,
+    "foreground_mse": 0.23195505142211914,
+    "background_mse": 0.000426021171733737,
+    "foreground_fraction": 0.03840593993663788
+  },
+  "validation": {
+    "mse": 0.009322433732450008,
+    "foreground_mse": 0.23236413300037384,
+    "background_mse": 0.0004723949823528528,
+    "foreground_fraction": 0.03816453367471695
+  },
+  "history": [
+    {
+      "step": 100,
+      "train_mse": 0.011968658305704594,
+      "validation_mse": 0.012546706013381481
+    },
+    {
+      "step": 200,
+      "train_mse": 0.012426568195223808,
+      "validation_mse": 0.012172870337963104
+    },
+    {
+      "step": 300,
+      "train_mse": 0.012809986248612404,
+      "validation_mse": 0.011872850358486176
+    },
+    {
+      "step": 400,
+      "train_mse": 0.01102971751242876,
+      "validation_mse": 0.011116455309092999
+    },
+    {
+      "step": 500,
+      "train_mse": 0.010304814204573631,
+      "validation_mse": 0.010479781776666641
+    },
+    {
+      "step": 600,
+      "train_mse": 0.009723873808979988,
+      "validation_mse": 0.009861301630735397
+    },
+    {
+      "step": 700,
+      "train_mse": 0.009581715799868107,
+      "validation_mse": 0.009617333300411701
+    },
+    {
+      "step": 800,
+      "train_mse": 0.009561077691614628,
+      "validation_mse": 0.009549502283334732
+    },
+    {
+      "step": 900,
+      "train_mse": 0.009420565329492092,
+      "validation_mse": 0.009520679712295532
+    },
+    {
+      "step": 1000,
+      "train_mse": 0.0094698341563344,
+      "validation_mse": 0.00943921972066164
+    },
+    {
+      "step": 1100,
+      "train_mse": 0.00929702166467905,
+      "validation_mse": 0.009417780674993992
+    },
+    {
+      "step": 1200,
+      "train_mse": 0.009342305362224579,
+      "validation_mse": 0.009400850161910057
+    },
+    {
+      "step": 1300,
+      "train_mse": 0.009425316005945206,
+      "validation_mse": 0.009375597350299358
+    },
+    {
+      "step": 1400,
+      "train_mse": 0.009233152493834496,
+      "validation_mse": 0.009365124627947807
+    },
+    {
+      "step": 1500,
+      "train_mse": 0.009424854069948196,
+      "validation_mse": 0.009366613812744617
+    },
+    {
+      "step": 1600,
+      "train_mse": 0.0093421321362257,
+      "validation_mse": 0.009350809268653393
+    },
+    {
+      "step": 1700,
+      "train_mse": 0.009248761460185051,
+      "validation_mse": 0.009358792565762997
+    },
+    {
+      "step": 1800,
+      "train_mse": 0.009433255530893803,
+      "validation_mse": 0.009330029599368572
+    },
+    {
+      "step": 1900,
+      "train_mse": 0.009323089383542538,
+      "validation_mse": 0.009341251105070114
+    },
+    {
+      "step": 2000,
+      "train_mse": 0.009297924116253853,
+      "validation_mse": 0.009322433732450008
+    }
+  ],
+  "selected_step": 2000,
+  "parameters": 82880,
+  "frames": {
+    "train": 3120,
+    "validation": 1040
+  },
+  "tiny_frames": null,
+  "scope": "current-image reconstruction, not future prediction"
+}
