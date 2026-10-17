@@ -1,6 +1,6 @@
 {
   "status": "running \u00b7 partial ablation",
-  "updated_at": "2026-10-17T22:02:31.101295+00:00",
+  "updated_at": "2026-10-17T22:12:34.783622+00:00",
   "source_sha": "8df2eb1c89555303583aa55341aa59c0cf4ef8b5",
   "run_id": "billiards-jepa-priority-791-v1",
   "note": "Single seed; five conditions, two methods, 10,000 updates each. Physical readouts remain diagnostic; latent ratios are not cross-objective quality scores.",
@@ -90,12 +90,48 @@
     {
       "id": "n5",
       "label": "5 balls",
-      "status": "running"
+      "status": "validated",
+      "metrics": {
+        "gaussian": {
+          "native_h1": 0.21482987753613647,
+          "native_h32": 2.349870823860042,
+          "physical_h32": {
+            "position_rmse": 0.38473695997279206,
+            "velocity_rmse": 0.26517796687788975,
+            "permutation_position_rmse": 0.3471715416701608,
+            "permutation_velocity_rmse": 0.27099746482111214
+          },
+          "actual_future_h32": {
+            "position_rmse": 0.23995422375267345,
+            "velocity_rmse": 0.1847328893974247,
+            "permutation_position_rmse": 0.19455526169425635,
+            "permutation_velocity_rmse": 0.18607899677729467
+          },
+          "training_seconds": 560.0725198141299
+        },
+        "sparse": {
+          "native_h1": 0.23955051921679907,
+          "native_h32": 0.9742980419812218,
+          "physical_h32": {
+            "position_rmse": 0.24435502341284113,
+            "velocity_rmse": 0.192137758294682,
+            "permutation_position_rmse": 0.2024275807308037,
+            "permutation_velocity_rmse": 0.19047537527000968
+          },
+          "actual_future_h32": {
+            "position_rmse": 0.24120308807468463,
+            "velocity_rmse": 0.18263433896037456,
+            "permutation_position_rmse": 0.1937720086310948,
+            "permutation_velocity_rmse": 0.1811685926799877
+          },
+          "training_seconds": 567.9748888807371
+        }
+      }
     },
     {
       "id": "random-color",
       "label": "Random colors",
-      "status": "pending"
+      "status": "running"
     },
     {
       "id": "random-background",
