@@ -92,6 +92,5 @@ reported as a completed result.
 
 [Start with the summary cover](https://henry550xz.github.io/jepa-billiards-demo/).
 Three pages cover the original comparisons, PushT layer/mechanism evidence and
-controlled billiards. [Speaking script](docs/GORDON_RESEARCH_BRIEFING_SCRIPT.md) ·
-[Evidence synthesis](docs/GORDON_RESEARCH_SYNTHESIS.md). The billiards page labels
+controlled billiards. [Evidence synthesis](docs/GORDON_RESEARCH_SYNTHESIS.md). The billiards page labels
 the five-condition JEPA ablation separately and publishes only validated cells.

@@ -5,3 +5,5 @@
 
 /* Navigation between the two research views. */
 header{flex-wrap:wrap}
+
+body.embedded header,body.embedded .intro,body.embedded main>p,body.embedded .lower,body.embedded footer{display:none}body.embedded main{padding:0;max-width:none}body.embedded canvas{height:310px}body.embedded .lab{border-radius:0;box-shadow:none}body.embedded .stats{margin:10px 0}body.embedded .stats strong{font-size:20px}@media(max-width:760px){body.embedded .lab{grid-template-columns:1fr}body.embedded aside{display:none}body.embedded canvas{height:260px}body.embedded .toolbar>span,body.embedded #hint{display:none}}
