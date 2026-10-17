@@ -1,6 +1,6 @@
 {
   "status": "running \u00b7 partial ablation",
-  "updated_at": "2026-10-17T22:32:45.117789+00:00",
+  "updated_at": "2026-10-17T22:33:48.764080+00:00",
   "source_sha": "8df2eb1c89555303583aa55341aa59c0cf4ef8b5",
   "run_id": "billiards-jepa-priority-791-v1",
   "note": "Single seed; five conditions, two methods, 10,000 updates each. Physical readouts remain diagnostic; latent ratios are not cross-objective quality scores.",
@@ -131,12 +131,48 @@
     {
       "id": "random-color",
       "label": "Random colors",
-      "status": "running"
+      "status": "validated",
+      "metrics": {
+        "gaussian": {
+          "native_h1": 0.32123183416985734,
+          "native_h32": 10.598065561782514,
+          "physical_h32": {
+            "position_rmse": 0.3127125970727779,
+            "velocity_rmse": 0.20033918233755435,
+            "permutation_position_rmse": 0.3026416812801077,
+            "permutation_velocity_rmse": 0.20914949639659672
+          },
+          "actual_future_h32": {
+            "position_rmse": 0.2379698557217303,
+            "velocity_rmse": 0.17144453216668223,
+            "permutation_position_rmse": 0.20741730027313127,
+            "permutation_velocity_rmse": 0.16842436975978212
+          },
+          "training_seconds": 587.6442854618654
+        },
+        "sparse": {
+          "native_h1": 0.3347745931946071,
+          "native_h32": 1.9313609015501059,
+          "physical_h32": {
+            "position_rmse": 0.25268938377927247,
+            "velocity_rmse": 0.19686663175299102,
+            "permutation_position_rmse": 0.2301276440197008,
+            "permutation_velocity_rmse": 0.2141735532858591
+          },
+          "actual_future_h32": {
+            "position_rmse": 0.26230836670062396,
+            "velocity_rmse": 0.187669425432746,
+            "permutation_position_rmse": 0.20900915088839575,
+            "permutation_velocity_rmse": 0.19428281598929745
+          },
+          "training_seconds": 566.1678937789984
+        }
+      }
     },
     {
       "id": "random-background",
       "label": "Random backgrounds",
-      "status": "pending"
+      "status": "running"
     }
   ]
 }
