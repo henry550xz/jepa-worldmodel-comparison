@@ -1,0 +1,11 @@
+{
+  "scope": "Completed learning diagnostic and PushT interactive visualization",
+  "source": "482d186fb1ebb61770c2b5b006bae0224d4f923e",
+  "files": {
+    "results/billiards-pilot/tiny-images.json": "9cbd670c5764fb01b5bec69edfc05e2feded16008ddb757430ff073fedd204ee",
+    "results/billiards-pilot/tiny-physical.json": "0ca093ccdef7eda931fcacc218877e1deb9d3195e2ef761ea3ad14e7292e6c22",
+    "results/billiards-pilot/learning-images.json": "3f5687517929c78fe3b54e4f48825156d588f3a6d0f0aee54767ddb09ae64b61",
+    "results/billiards-pilot/learning-physical.json": "5995f6dba6f69dc03cb6f1c5da45adb76e42046cbb0f3115557d545d9825ad21"
+  },
+  "validation": "All 53 run files rehashed; six checkpoints and all 36 forecast horizon metrics verified. Atlas browser checks: 13 datasets, 68 metrics, 14 figures, pagination and mobile layout."
+}

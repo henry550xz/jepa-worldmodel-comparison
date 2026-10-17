@@ -5,6 +5,7 @@ and when does that information support useful dynamics and decisions?
 We compare **Pixel prediction**, **Gaussian JEPA** and **Sparse LpWM** under
 matched data and training settings. No objective is presumed superior.
 
+**[PushT representation atlas](https://henry550xz.github.io/jepa-billiards-demo/pusht.html)** ·
 **[Interactive 3D demo](https://henry550xz.github.io/jepa-billiards-demo/research.html)** ·
 [3D methods and reproduction](docs/BILLIARDS_METHODS.md) ·
 [3D preliminary results](docs/BILLIARDS_RESULTS.md) ·
@@ -15,7 +16,7 @@ matched data and training settings. No objective is presumed superior.
 | System | Purpose | Inputs | Evidence status |
 |---|---|---|---|
 | PushT | Connect representation, action-conditioned dynamics and control | RGB histories and actions | Completed seed-0 comparisons, encoder-depth studies and frozen-checkpoint mechanism diagnostics |
-| 3D billiards | Examine motion and collisions with known ground-truth dynamics | Three synchronized RGB views over time; no state inputs or actions | Validated simulator and 1,000-update screening; longer learning diagnostic in progress as of 2026-10-17 |
+| 3D billiards | Examine motion and collisions with known ground-truth dynamics | Three synchronized RGB views over time; no state inputs or actions | Validated simulator and 1,000-update screening; completed 10,000-update learning diagnostic; full factor study pending |
 
 ## What we have learned
 
@@ -33,9 +34,9 @@ universal nuisance removal or semantic factorization.
 
 **The 3D screening is a learning diagnostic, not a converged model comparison.**
 Pixel's decoded images are largely uniform and its predicted-feature state readout
-is unstable. Gaussian and Sparse physical readouts are also weak. A bounded
-training-duration and tiny-subset fitting study is running to distinguish learning
-and readout limitations before expanding the factor comparisons.
+is unstable. Gaussian and Sparse physical readouts are also weak. A [completed learning diagnostic](docs/BILLIARDS_PILOT_RESULTS.md) found that more
+updates alone do not establish a useful physical baseline. Pixel remains behind
+image persistence; physical readout improvements in the JEPAs are modest.
 
 ## Reading guide
 

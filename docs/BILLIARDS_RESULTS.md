@@ -70,8 +70,7 @@ not yet a complete collision-prediction or probe-capacity study.
 
 These are short-run measurements, not end-to-end study cost or scaling guarantees.
 
-As of 2026-10-17, a bounded diagnostic is in progress: each objective first fits
-one training episode for 2,000 updates, then separately trains on all 48 episodes
-for 10,000 updates. Physical probes and foreground-sensitive image controls follow
-each stage. The run is not yet a completed result in this release. No full factor
-ablation is reported. Proposed extensions are described in the methods document.
+The bounded diagnostic has now completed: 2,000-update tiny-subset fits and
+10,000-update full-training-set fits for each objective. See the separate
+[learning diagnostic results](BILLIARDS_PILOT_RESULTS.md); the screening evidence
+above remains unchanged. No full factor ablation is reported.

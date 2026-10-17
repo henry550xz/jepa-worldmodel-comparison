@@ -1,0 +1,1037 @@
+{
+  "scope": "image-only physical readout; permutation scores are set metrics",
+  "methods": {
+    "pixel": {
+      "layers": {
+        "block_01": {
+          "position_rmse": 0.21353102259728418,
+          "velocity_rmse": 0.18749725956955354,
+          "permutation_position_rmse": 0.20292851381993512,
+          "permutation_velocity_rmse": 0.1867689554564822
+        },
+        "block_02": {
+          "position_rmse": 0.2139043019532767,
+          "velocity_rmse": 0.1875233846294797,
+          "permutation_position_rmse": 0.20306924638583543,
+          "permutation_velocity_rmse": 0.18715780632013707
+        },
+        "block_03": {
+          "position_rmse": 0.21386592101834315,
+          "velocity_rmse": 0.18745684350014127,
+          "permutation_position_rmse": 0.2031084930656407,
+          "permutation_velocity_rmse": 0.18733583267666523
+        },
+        "block_04": {
+          "position_rmse": 0.21393353142582014,
+          "velocity_rmse": 0.1874524264387119,
+          "permutation_position_rmse": 0.20317049583949368,
+          "permutation_velocity_rmse": 0.1873740552654945
+        },
+        "block_05": {
+          "position_rmse": 0.21397834386449624,
+          "velocity_rmse": 0.18757197261640776,
+          "permutation_position_rmse": 0.2031975545812353,
+          "permutation_velocity_rmse": 0.18753832912028437
+        },
+        "block_06": {
+          "position_rmse": 0.21395777451719805,
+          "velocity_rmse": 0.18758727037631298,
+          "permutation_position_rmse": 0.20316687806026448,
+          "permutation_velocity_rmse": 0.18743658800374685
+        },
+        "block_07": {
+          "position_rmse": 0.21397239126542153,
+          "velocity_rmse": 0.1876383011325237,
+          "permutation_position_rmse": 0.2031608150085371,
+          "permutation_velocity_rmse": 0.1877435178147095
+        },
+        "block_08": {
+          "position_rmse": 0.21397313687803327,
+          "velocity_rmse": 0.18765041360142556,
+          "permutation_position_rmse": 0.20317093360515645,
+          "permutation_velocity_rmse": 0.18773001214320195
+        },
+        "block_09": {
+          "position_rmse": 0.21403074485105078,
+          "velocity_rmse": 0.1877194509963896,
+          "permutation_position_rmse": 0.20317242789544543,
+          "permutation_velocity_rmse": 0.18776468238988892
+        },
+        "block_10": {
+          "position_rmse": 0.2140320867903835,
+          "velocity_rmse": 0.1877479761822199,
+          "permutation_position_rmse": 0.20320867382467347,
+          "permutation_velocity_rmse": 0.18744956491278045
+        },
+        "block_11": {
+          "position_rmse": 0.21400381269866078,
+          "velocity_rmse": 0.1877669456867493,
+          "permutation_position_rmse": 0.2031742711597307,
+          "permutation_velocity_rmse": 0.1874819220228965
+        },
+        "block_12": {
+          "position_rmse": 0.21401673353251552,
+          "velocity_rmse": 0.18774717555484507,
+          "permutation_position_rmse": 0.20317995393899918,
+          "permutation_velocity_rmse": 0.18748724797556193
+        },
+        "linked": {
+          "position_rmse": 0.21309190469599534,
+          "velocity_rmse": 0.18798124131008598,
+          "permutation_position_rmse": 0.2032838081856614,
+          "permutation_velocity_rmse": 0.1877231504441665
+        }
+      },
+      "horizons": {
+        "1": {
+          "predicted": {
+            "position_rmse": 10.196967163948267,
+            "velocity_rmse": 5.368503221745758,
+            "permutation_position_rmse": 10.13025481752636,
+            "permutation_velocity_rmse": 5.356501020343698
+          },
+          "true_future_probe": {
+            "position_rmse": 0.1968790385542506,
+            "velocity_rmse": 0.20518411831732927,
+            "permutation_position_rmse": 0.18357999122359997,
+            "permutation_velocity_rmse": 0.20654184946231574
+          }
+        },
+        "2": {
+          "predicted": {
+            "position_rmse": 16.27942985898305,
+            "velocity_rmse": 9.291862285168135,
+            "permutation_position_rmse": 16.211438970985853,
+            "permutation_velocity_rmse": 9.279230431750516
+          },
+          "true_future_probe": {
+            "position_rmse": 0.19736821998457793,
+            "velocity_rmse": 0.20805719909295098,
+            "permutation_position_rmse": 0.1824055874453941,
+            "permutation_velocity_rmse": 0.20563956231630637
+          }
+        },
+        "4": {
+          "predicted": {
+            "position_rmse": 15.50051056587248,
+            "velocity_rmse": 9.41117946855625,
+            "permutation_position_rmse": 15.4644572646196,
+            "permutation_velocity_rmse": 9.400139176126645
+          },
+          "true_future_probe": {
+            "position_rmse": 0.193083392097838,
+            "velocity_rmse": 0.2014876939418832,
+            "permutation_position_rmse": 0.18024401302157628,
+            "permutation_velocity_rmse": 0.193909003832275
+          }
+        },
+        "8": {
+          "predicted": {
+            "position_rmse": 12.736893063381437,
+            "velocity_rmse": 8.151021259189413,
+            "permutation_position_rmse": 12.712638172688964,
+            "permutation_velocity_rmse": 8.122653669378892
+          },
+          "true_future_probe": {
+            "position_rmse": 0.18275610411754695,
+            "velocity_rmse": 0.19148208584497456,
+            "permutation_position_rmse": 0.17571185284340912,
+            "permutation_velocity_rmse": 0.18072394197209102
+          }
+        },
+        "16": {
+          "predicted": {
+            "position_rmse": 12.896648893620318,
+            "velocity_rmse": 8.294267350766747,
+            "permutation_position_rmse": 12.871478894296063,
+            "permutation_velocity_rmse": 8.259991550388815
+          },
+          "true_future_probe": {
+            "position_rmse": 0.19246174056554122,
+            "velocity_rmse": 0.17087824488631584,
+            "permutation_position_rmse": 0.1839049497794739,
+            "permutation_velocity_rmse": 0.18104515083165731
+          }
+        },
+        "32": {
+          "predicted": {
+            "position_rmse": 12.882724971392873,
+            "velocity_rmse": 8.309355496753707,
+            "permutation_position_rmse": 12.84636784677991,
+            "permutation_velocity_rmse": 8.282900851442795
+          },
+          "true_future_probe": {
+            "position_rmse": 0.2179648168710051,
+            "velocity_rmse": 0.18003724739516755,
+            "permutation_position_rmse": 0.20682564966336497,
+            "permutation_velocity_rmse": 0.17642640642169985
+          }
+        }
+      },
+      "event_strata": {
+        "free": {
+          "1": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 10.190804631243113,
+              "velocity_rmse": 5.368072799558463,
+              "permutation_position_rmse": 10.12926847890667,
+              "permutation_velocity_rmse": 5.355046871871457
+            }
+          },
+          "2": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 16.268617213556915,
+              "velocity_rmse": 9.289656707199997,
+              "permutation_position_rmse": 16.206773244112576,
+              "permutation_velocity_rmse": 9.274604993912257
+            }
+          },
+          "4": {
+            "episodes": 11,
+            "error": {
+              "position_rmse": 15.47906746871284,
+              "velocity_rmse": 9.395713437191509,
+              "permutation_position_rmse": 15.454237923035578,
+              "permutation_velocity_rmse": 9.385165486390791
+            }
+          },
+          "8": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 12.738279619300721,
+              "velocity_rmse": 8.16587707887819,
+              "permutation_position_rmse": 12.708471520574971,
+              "permutation_velocity_rmse": 8.121895646803738
+            }
+          },
+          "16": {
+            "episodes": 0,
+            "error": null
+          },
+          "32": {
+            "episodes": 0,
+            "error": null
+          }
+        },
+        "wall": {
+          "1": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 10.288962241146384,
+              "velocity_rmse": 5.37495541841249,
+              "permutation_position_rmse": 10.145038389364156,
+              "permutation_velocity_rmse": 5.378266067794068
+            }
+          },
+          "2": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 16.440766220531714,
+              "velocity_rmse": 9.324883353698922,
+              "permutation_position_rmse": 16.281264427824166,
+              "permutation_velocity_rmse": 9.348337370456045
+            }
+          },
+          "4": {
+            "episodes": 5,
+            "error": {
+              "position_rmse": 15.547581278983458,
+              "velocity_rmse": 9.445115593765525,
+              "permutation_position_rmse": 15.486916079247242,
+              "permutation_velocity_rmse": 9.432997627609842
+            }
+          },
+          "8": {
+            "episodes": 6,
+            "error": {
+              "position_rmse": 12.747534871288803,
+              "velocity_rmse": 8.136889325502615,
+              "permutation_position_rmse": 12.72571812002699,
+              "permutation_velocity_rmse": 8.14021798119945
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 12.909909249219515,
+              "velocity_rmse": 8.288952713112936,
+              "permutation_position_rmse": 12.874335834657895,
+              "permutation_velocity_rmse": 8.264302059640118
+            }
+          },
+          "32": {
+            "episodes": 9,
+            "error": {
+              "position_rmse": 12.86705597120381,
+              "velocity_rmse": 8.308187822327444,
+              "permutation_position_rmse": 12.840330024541768,
+              "permutation_velocity_rmse": 8.308358705988885
+            }
+          }
+        },
+        "ball": {
+          "1": {
+            "episodes": 0,
+            "error": null
+          },
+          "2": {
+            "episodes": 0,
+            "error": null
+          },
+          "4": {
+            "episodes": 0,
+            "error": null
+          },
+          "8": {
+            "episodes": 2,
+            "error": {
+              "position_rmse": 12.699352453647885,
+              "velocity_rmse": 8.133884864333538,
+              "permutation_position_rmse": 12.69002190342705,
+              "permutation_velocity_rmse": 8.072782613621424
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 12.883374889661201,
+              "velocity_rmse": 8.29957858519143,
+              "permutation_position_rmse": 12.868621319669856,
+              "permutation_velocity_rmse": 8.255678790506405
+            }
+          },
+          "32": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 12.897093716627468,
+              "velocity_rmse": 8.30377221642281,
+              "permutation_position_rmse": 12.85445800775921,
+              "permutation_velocity_rmse": 8.250548713612124
+            }
+          }
+        }
+      },
+      "supervised_image_to_state_to_physics": {
+        "label_access": "supervised physical-state history probe plus exact physics",
+        "valid_initial_states": 8,
+        "total": 16,
+        "h32_valid_subset": {
+          "position_rmse": 0.2546400946508184,
+          "velocity_rmse": 0.1956475442854594,
+          "permutation_position_rmse": 0.20764524528473058,
+          "permutation_velocity_rmse": 0.1905593104133054
+        },
+        "warning": "valid subset is selected; report invalid fraction, not an unconditional score"
+      }
+    },
+    "gaussian": {
+      "layers": {
+        "block_01": {
+          "position_rmse": 0.206951212645763,
+          "velocity_rmse": 0.1816854333528701,
+          "permutation_position_rmse": 0.19832555915124284,
+          "permutation_velocity_rmse": 0.18391961287574063
+        },
+        "block_02": {
+          "position_rmse": 0.20693696544786466,
+          "velocity_rmse": 0.18209071903487292,
+          "permutation_position_rmse": 0.19762211195616053,
+          "permutation_velocity_rmse": 0.18492774399559142
+        },
+        "block_03": {
+          "position_rmse": 0.20721813129608443,
+          "velocity_rmse": 0.18250976829599252,
+          "permutation_position_rmse": 0.19747139401324765,
+          "permutation_velocity_rmse": 0.18467096916563783
+        },
+        "block_04": {
+          "position_rmse": 0.20701899543825492,
+          "velocity_rmse": 0.1827779254783213,
+          "permutation_position_rmse": 0.19713187879442437,
+          "permutation_velocity_rmse": 0.18472018909919763
+        },
+        "block_05": {
+          "position_rmse": 0.20693182022150824,
+          "velocity_rmse": 0.1829251779984731,
+          "permutation_position_rmse": 0.19692461663467234,
+          "permutation_velocity_rmse": 0.1850025370747619
+        },
+        "block_06": {
+          "position_rmse": 0.2067851627228106,
+          "velocity_rmse": 0.18297785002537426,
+          "permutation_position_rmse": 0.19677229595971574,
+          "permutation_velocity_rmse": 0.18479068907983426
+        },
+        "block_07": {
+          "position_rmse": 0.2065392340763436,
+          "velocity_rmse": 0.183028827020989,
+          "permutation_position_rmse": 0.1964909445497236,
+          "permutation_velocity_rmse": 0.18468899405377343
+        },
+        "block_08": {
+          "position_rmse": 0.20646144319452303,
+          "velocity_rmse": 0.1830489609511643,
+          "permutation_position_rmse": 0.19644116382815613,
+          "permutation_velocity_rmse": 0.18479875804352422
+        },
+        "block_09": {
+          "position_rmse": 0.20635559234056566,
+          "velocity_rmse": 0.18302631307981926,
+          "permutation_position_rmse": 0.19631035739718528,
+          "permutation_velocity_rmse": 0.18470440608700173
+        },
+        "block_10": {
+          "position_rmse": 0.20630993967513223,
+          "velocity_rmse": 0.18300702886051134,
+          "permutation_position_rmse": 0.19630109115742045,
+          "permutation_velocity_rmse": 0.18471285171232973
+        },
+        "block_11": {
+          "position_rmse": 0.20631229882493382,
+          "velocity_rmse": 0.1829592344362577,
+          "permutation_position_rmse": 0.19624133582572775,
+          "permutation_velocity_rmse": 0.18479532362255038
+        },
+        "block_12": {
+          "position_rmse": 0.20638490954192462,
+          "velocity_rmse": 0.1828303547162967,
+          "permutation_position_rmse": 0.19619559227595487,
+          "permutation_velocity_rmse": 0.1848033006068052
+        },
+        "linked": {
+          "position_rmse": 0.20907542505345503,
+          "velocity_rmse": 0.1834174643362489,
+          "permutation_position_rmse": 0.19888175967051763,
+          "permutation_velocity_rmse": 0.18538907468836344
+        }
+      },
+      "horizons": {
+        "1": {
+          "predicted": {
+            "position_rmse": 0.18545607922460333,
+            "velocity_rmse": 0.19717219710561135,
+            "permutation_position_rmse": 0.17685505014365716,
+            "permutation_velocity_rmse": 0.19285676338320754
+          },
+          "true_future_probe": {
+            "position_rmse": 0.18489818824441664,
+            "velocity_rmse": 0.19748650928236677,
+            "permutation_position_rmse": 0.17691830644511589,
+            "permutation_velocity_rmse": 0.19275572133834504
+          }
+        },
+        "2": {
+          "predicted": {
+            "position_rmse": 0.18752808291770315,
+            "velocity_rmse": 0.20520096460257992,
+            "permutation_position_rmse": 0.18016252813756584,
+            "permutation_velocity_rmse": 0.1943368128239907
+          },
+          "true_future_probe": {
+            "position_rmse": 0.1871764587742813,
+            "velocity_rmse": 0.20487398629045214,
+            "permutation_position_rmse": 0.18046270415904805,
+            "permutation_velocity_rmse": 0.1981494961954084
+          }
+        },
+        "4": {
+          "predicted": {
+            "position_rmse": 0.1978452885561678,
+            "velocity_rmse": 0.2043875577726034,
+            "permutation_position_rmse": 0.1928454084125064,
+            "permutation_velocity_rmse": 0.1817072089826626
+          },
+          "true_future_probe": {
+            "position_rmse": 0.19801512261794915,
+            "velocity_rmse": 0.20098328587997066,
+            "permutation_position_rmse": 0.19044903718049375,
+            "permutation_velocity_rmse": 0.1887863112010813
+          }
+        },
+        "8": {
+          "predicted": {
+            "position_rmse": 0.19542579769124468,
+            "velocity_rmse": 0.1915024571184407,
+            "permutation_position_rmse": 0.18929882099115278,
+            "permutation_velocity_rmse": 0.19789687979847978
+          },
+          "true_future_probe": {
+            "position_rmse": 0.18910330075398835,
+            "velocity_rmse": 0.17943380483350946,
+            "permutation_position_rmse": 0.18089114862739158,
+            "permutation_velocity_rmse": 0.1844970417184661
+          }
+        },
+        "16": {
+          "predicted": {
+            "position_rmse": 0.20268575105092318,
+            "velocity_rmse": 0.1802334047211636,
+            "permutation_position_rmse": 0.1898109724152313,
+            "permutation_velocity_rmse": 0.19849276336043156
+          },
+          "true_future_probe": {
+            "position_rmse": 0.19408374952637858,
+            "velocity_rmse": 0.18176483916095706,
+            "permutation_position_rmse": 0.18040202622134993,
+            "permutation_velocity_rmse": 0.18778060546382205
+          }
+        },
+        "32": {
+          "predicted": {
+            "position_rmse": 0.22187463178566735,
+            "velocity_rmse": 0.18025511020615542,
+            "permutation_position_rmse": 0.2069657354448241,
+            "permutation_velocity_rmse": 0.1935026993222612
+          },
+          "true_future_probe": {
+            "position_rmse": 0.21806329890723802,
+            "velocity_rmse": 0.1734640226312936,
+            "permutation_position_rmse": 0.2045877761154511,
+            "permutation_velocity_rmse": 0.17414649151195935
+          }
+        }
+      },
+      "event_strata": {
+        "free": {
+          "1": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 0.17372831683285508,
+              "velocity_rmse": 0.1952155700388314,
+              "permutation_position_rmse": 0.16388267024163014,
+              "permutation_velocity_rmse": 0.190561709291744
+            }
+          },
+          "2": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 0.17618937888392466,
+              "velocity_rmse": 0.20248498817270358,
+              "permutation_position_rmse": 0.16779124591122774,
+              "permutation_velocity_rmse": 0.19070961025349842
+            }
+          },
+          "4": {
+            "episodes": 11,
+            "error": {
+              "position_rmse": 0.16854975868586786,
+              "velocity_rmse": 0.21657862467630168,
+              "permutation_position_rmse": 0.1626716338869821,
+              "permutation_velocity_rmse": 0.1834679845543536
+            }
+          },
+          "8": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.13831115996635052,
+              "velocity_rmse": 0.1943638966962043,
+              "permutation_position_rmse": 0.13172682567525876,
+              "permutation_velocity_rmse": 0.19724756171005894
+            }
+          },
+          "16": {
+            "episodes": 0,
+            "error": null
+          },
+          "32": {
+            "episodes": 0,
+            "error": null
+          }
+        },
+        "wall": {
+          "1": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 0.3123786101802498,
+              "velocity_rmse": 0.22448434956467814,
+              "permutation_position_rmse": 0.3123786101802498,
+              "permutation_velocity_rmse": 0.22448434956467814
+            }
+          },
+          "2": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 0.3114932610058775,
+              "velocity_rmse": 0.24231470746071043,
+              "permutation_position_rmse": 0.3114932610058775,
+              "permutation_velocity_rmse": 0.24231470746071043
+            }
+          },
+          "4": {
+            "episodes": 5,
+            "error": {
+              "position_rmse": 0.25051343220604577,
+              "velocity_rmse": 0.17459614716397773,
+              "permutation_position_rmse": 0.24655504843605158,
+              "permutation_velocity_rmse": 0.17777212482248309
+            }
+          },
+          "8": {
+            "episodes": 6,
+            "error": {
+              "position_rmse": 0.2698947920524841,
+              "velocity_rmse": 0.18434048810401574,
+              "permutation_position_rmse": 0.2625414809188827,
+              "permutation_velocity_rmse": 0.19777682138321742
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.2671697162412145,
+              "velocity_rmse": 0.18824865972497556,
+              "permutation_position_rmse": 0.25170993571195616,
+              "permutation_velocity_rmse": 0.19861779678404545
+            }
+          },
+          "32": {
+            "episodes": 9,
+            "error": {
+              "position_rmse": 0.2373588219808059,
+              "velocity_rmse": 0.19078562750321232,
+              "permutation_position_rmse": 0.2185146689856867,
+              "permutation_velocity_rmse": 0.20681419579044807
+            }
+          }
+        },
+        "ball": {
+          "1": {
+            "episodes": 0,
+            "error": null
+          },
+          "2": {
+            "episodes": 0,
+            "error": null
+          },
+          "4": {
+            "episodes": 0,
+            "error": null
+          },
+          "8": {
+            "episodes": 2,
+            "error": {
+              "position_rmse": 0.10237399577023379,
+              "velocity_rmse": 0.20082824661931967,
+              "permutation_position_rmse": 0.10237399577023379,
+              "permutation_velocity_rmse": 0.20082824661931967
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.1038430068985994,
+              "velocity_rmse": 0.1718447045053058,
+              "permutation_position_rmse": 0.09326584992543789,
+              "permutation_velocity_rmse": 0.19836765112682106
+            }
+          },
+          "32": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.20502641212291842,
+              "velocity_rmse": 0.17765694988023784,
+              "permutation_position_rmse": 0.19273068117146244,
+              "permutation_velocity_rmse": 0.18589871291011414
+            }
+          }
+        }
+      },
+      "supervised_image_to_state_to_physics": {
+        "label_access": "supervised physical-state history probe plus exact physics",
+        "valid_initial_states": 9,
+        "total": 16,
+        "h32_valid_subset": {
+          "position_rmse": 0.24229719467519922,
+          "velocity_rmse": 0.1971668264394857,
+          "permutation_position_rmse": 0.2137508070382587,
+          "permutation_velocity_rmse": 0.19547814130076918
+        },
+        "warning": "valid subset is selected; report invalid fraction, not an unconditional score"
+      }
+    },
+    "sparse": {
+      "layers": {
+        "block_01": {
+          "position_rmse": 0.20020429588318442,
+          "velocity_rmse": 0.18045768919707372,
+          "permutation_position_rmse": 0.19322328805839561,
+          "permutation_velocity_rmse": 0.18042632564061936
+        },
+        "block_02": {
+          "position_rmse": 0.20003265729221414,
+          "velocity_rmse": 0.18012214490577727,
+          "permutation_position_rmse": 0.19383435750077677,
+          "permutation_velocity_rmse": 0.1805291394411825
+        },
+        "block_03": {
+          "position_rmse": 0.20037869784491077,
+          "velocity_rmse": 0.18007643148668653,
+          "permutation_position_rmse": 0.19407002224312894,
+          "permutation_velocity_rmse": 0.18066383583308804
+        },
+        "block_04": {
+          "position_rmse": 0.20052086695852137,
+          "velocity_rmse": 0.17987633193818825,
+          "permutation_position_rmse": 0.19411565565810474,
+          "permutation_velocity_rmse": 0.18072663861685134
+        },
+        "block_05": {
+          "position_rmse": 0.2008390111577524,
+          "velocity_rmse": 0.1797155237530902,
+          "permutation_position_rmse": 0.19438925912209104,
+          "permutation_velocity_rmse": 0.1806463026739693
+        },
+        "block_06": {
+          "position_rmse": 0.2010348020665253,
+          "velocity_rmse": 0.1796203452484636,
+          "permutation_position_rmse": 0.1944958665038583,
+          "permutation_velocity_rmse": 0.1806745067840909
+        },
+        "block_07": {
+          "position_rmse": 0.20112418243193608,
+          "velocity_rmse": 0.1795475676484449,
+          "permutation_position_rmse": 0.1945560790221384,
+          "permutation_velocity_rmse": 0.18053012858599582
+        },
+        "block_08": {
+          "position_rmse": 0.20118895355586155,
+          "velocity_rmse": 0.17947260451659283,
+          "permutation_position_rmse": 0.19467154435554307,
+          "permutation_velocity_rmse": 0.18036250461058678
+        },
+        "block_09": {
+          "position_rmse": 0.20124919947661088,
+          "velocity_rmse": 0.1793502637454877,
+          "permutation_position_rmse": 0.19474673836609555,
+          "permutation_velocity_rmse": 0.18027138743194618
+        },
+        "block_10": {
+          "position_rmse": 0.20134116583411565,
+          "velocity_rmse": 0.1792835031994941,
+          "permutation_position_rmse": 0.19479878339194787,
+          "permutation_velocity_rmse": 0.18018981270472886
+        },
+        "block_11": {
+          "position_rmse": 0.20143778828146416,
+          "velocity_rmse": 0.17922584670820524,
+          "permutation_position_rmse": 0.1948232205026929,
+          "permutation_velocity_rmse": 0.17991314821095725
+        },
+        "block_12": {
+          "position_rmse": 0.20159142414136047,
+          "velocity_rmse": 0.1791987902253305,
+          "permutation_position_rmse": 0.1949551073177755,
+          "permutation_velocity_rmse": 0.179820505215781
+        },
+        "linked": {
+          "position_rmse": 0.2048867947886415,
+          "velocity_rmse": 0.1806379608458704,
+          "permutation_position_rmse": 0.19484786187310627,
+          "permutation_velocity_rmse": 0.1820924729128807
+        }
+      },
+      "horizons": {
+        "1": {
+          "predicted": {
+            "position_rmse": 0.1773003923507295,
+            "velocity_rmse": 0.1917725699569704,
+            "permutation_position_rmse": 0.16859868877473214,
+            "permutation_velocity_rmse": 0.1944672750477575
+          },
+          "true_future_probe": {
+            "position_rmse": 0.17715164411576184,
+            "velocity_rmse": 0.1922345343054825,
+            "permutation_position_rmse": 0.16875134516127596,
+            "permutation_velocity_rmse": 0.19506592558432428
+          }
+        },
+        "2": {
+          "predicted": {
+            "position_rmse": 0.17954591925935542,
+            "velocity_rmse": 0.19484113385147375,
+            "permutation_position_rmse": 0.16969724129472402,
+            "permutation_velocity_rmse": 0.18743489439880537
+          },
+          "true_future_probe": {
+            "position_rmse": 0.18031335621795844,
+            "velocity_rmse": 0.19643927136086448,
+            "permutation_position_rmse": 0.1701805936003517,
+            "permutation_velocity_rmse": 0.18815114882240289
+          }
+        },
+        "4": {
+          "predicted": {
+            "position_rmse": 0.1890529792126098,
+            "velocity_rmse": 0.18916023550378933,
+            "permutation_position_rmse": 0.1781604289489415,
+            "permutation_velocity_rmse": 0.18426963759942383
+          },
+          "true_future_probe": {
+            "position_rmse": 0.18463348174961822,
+            "velocity_rmse": 0.1950424233281486,
+            "permutation_position_rmse": 0.173069046746758,
+            "permutation_velocity_rmse": 0.18221035157796256
+          }
+        },
+        "8": {
+          "predicted": {
+            "position_rmse": 0.19727911588568314,
+            "velocity_rmse": 0.18178563577533274,
+            "permutation_position_rmse": 0.18621425078799528,
+            "permutation_velocity_rmse": 0.18270680338263456
+          },
+          "true_future_probe": {
+            "position_rmse": 0.17481996504715577,
+            "velocity_rmse": 0.1754711043997789,
+            "permutation_position_rmse": 0.16456528692794806,
+            "permutation_velocity_rmse": 0.18590164005484863
+          }
+        },
+        "16": {
+          "predicted": {
+            "position_rmse": 0.1897501595337437,
+            "velocity_rmse": 0.1842061617665797,
+            "permutation_position_rmse": 0.1863463107254681,
+            "permutation_velocity_rmse": 0.1897514640203142
+          },
+          "true_future_probe": {
+            "position_rmse": 0.18637219737770822,
+            "velocity_rmse": 0.17444069177653676,
+            "permutation_position_rmse": 0.17816630908798584,
+            "permutation_velocity_rmse": 0.17644890105609093
+          }
+        },
+        "32": {
+          "predicted": {
+            "position_rmse": 0.21771580390440376,
+            "velocity_rmse": 0.18452489748143996,
+            "permutation_position_rmse": 0.20576026326652425,
+            "permutation_velocity_rmse": 0.1976177667146355
+          },
+          "true_future_probe": {
+            "position_rmse": 0.2173805814999447,
+            "velocity_rmse": 0.17681004617940155,
+            "permutation_position_rmse": 0.20510310195514878,
+            "permutation_velocity_rmse": 0.17711716757037504
+          }
+        }
+      },
+      "event_strata": {
+        "free": {
+          "1": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 0.16534828214925726,
+              "velocity_rmse": 0.1908461384955808,
+              "permutation_position_rmse": 0.15533667431465065,
+              "permutation_velocity_rmse": 0.19373290347033648
+            }
+          },
+          "2": {
+            "episodes": 15,
+            "error": {
+              "position_rmse": 0.1683545888079288,
+              "velocity_rmse": 0.1936910359225161,
+              "permutation_position_rmse": 0.15708080274727967,
+              "permutation_velocity_rmse": 0.1857316372467322
+            }
+          },
+          "4": {
+            "episodes": 11,
+            "error": {
+              "position_rmse": 0.16497419370244426,
+              "velocity_rmse": 0.19923381407617421,
+              "permutation_position_rmse": 0.15283173137480507,
+              "permutation_velocity_rmse": 0.18798628422104594
+            }
+          },
+          "8": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.15219257463948999,
+              "velocity_rmse": 0.18296848308845748,
+              "permutation_position_rmse": 0.13636992403788087,
+              "permutation_velocity_rmse": 0.1760071172208244
+            }
+          },
+          "16": {
+            "episodes": 0,
+            "error": null
+          },
+          "32": {
+            "episodes": 0,
+            "error": null
+          }
+        },
+        "wall": {
+          "1": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 0.30473931465747267,
+              "velocity_rmse": 0.2051676600400311,
+              "permutation_position_rmse": 0.30473931465747267,
+              "permutation_velocity_rmse": 0.2051676600400311
+            }
+          },
+          "2": {
+            "episodes": 1,
+            "error": {
+              "position_rmse": 0.3010627515530439,
+              "velocity_rmse": 0.21134289223294261,
+              "permutation_position_rmse": 0.3010627515530439,
+              "permutation_velocity_rmse": 0.21134289223294261
+            }
+          },
+          "4": {
+            "episodes": 5,
+            "error": {
+              "position_rmse": 0.23344169838361273,
+              "velocity_rmse": 0.16484554937810697,
+              "permutation_position_rmse": 0.22402022043873937,
+              "permutation_velocity_rmse": 0.17581667489107705
+            }
+          },
+          "8": {
+            "episodes": 6,
+            "error": {
+              "position_rmse": 0.2679518549761689,
+              "velocity_rmse": 0.1714767794602736,
+              "permutation_position_rmse": 0.25801257410178524,
+              "permutation_velocity_rmse": 0.18338917513664435
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.24840591799532452,
+              "velocity_rmse": 0.1944332315327728,
+              "permutation_position_rmse": 0.24440866695874597,
+              "permutation_velocity_rmse": 0.19775450797135133
+            }
+          },
+          "32": {
+            "episodes": 9,
+            "error": {
+              "position_rmse": 0.23294018880967646,
+              "velocity_rmse": 0.1967077159083022,
+              "permutation_position_rmse": 0.22107651609449444,
+              "permutation_velocity_rmse": 0.20426843551082444
+            }
+          }
+        },
+        "ball": {
+          "1": {
+            "episodes": 0,
+            "error": null
+          },
+          "2": {
+            "episodes": 0,
+            "error": null
+          },
+          "4": {
+            "episodes": 0,
+            "error": null
+          },
+          "8": {
+            "episodes": 2,
+            "error": {
+              "position_rmse": 0.05751076125385527,
+              "velocity_rmse": 0.20553690203213854,
+              "permutation_position_rmse": 0.05751076125385527,
+              "permutation_velocity_rmse": 0.20553690203213854
+            }
+          },
+          "16": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.10151229477783699,
+              "velocity_rmse": 0.1733768685300142,
+              "permutation_position_rmse": 0.09856114121414279,
+              "permutation_velocity_rmse": 0.18139567462515177
+            }
+          },
+          "32": {
+            "episodes": 8,
+            "error": {
+              "position_rmse": 0.2036923705388781,
+              "velocity_rmse": 0.17770539710616115,
+              "permutation_position_rmse": 0.18484356009419975,
+              "permutation_velocity_rmse": 0.19605158284247903
+            }
+          }
+        }
+      },
+      "supervised_image_to_state_to_physics": {
+        "label_access": "supervised physical-state history probe plus exact physics",
+        "valid_initial_states": 8,
+        "total": 16,
+        "h32_valid_subset": {
+          "position_rmse": 0.22458530772466265,
+          "velocity_rmse": 0.1950542616367586,
+          "permutation_position_rmse": 0.2112331890791671,
+          "permutation_velocity_rmse": 0.19747975928131006
+        },
+        "warning": "valid subset is selected; report invalid fraction, not an unconditional score"
+      }
+    }
+  },
+  "geometry": {
+    "balls": 2,
+    "frames": 65,
+    "radius": 0.07,
+    "spatial": 3,
+    "state_dim": 6,
+    "dt": 0.04
+  },
+  "bounds": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "privileged_state_affine": {
+    "1": {
+      "position_rmse": 0.0027130000199994146,
+      "velocity_rmse": 0.07013879446703757,
+      "permutation_position_rmse": 0.0027130000199994146,
+      "permutation_velocity_rmse": 0.07013879446703757
+    },
+    "2": {
+      "position_rmse": 0.005480782349790311,
+      "velocity_rmse": 0.0716724535989666,
+      "permutation_position_rmse": 0.005480782349790311,
+      "permutation_velocity_rmse": 0.0716724535989666
+    },
+    "4": {
+      "position_rmse": 0.011038487288377563,
+      "velocity_rmse": 0.13346663172175424,
+      "permutation_position_rmse": 0.011038487288377563,
+      "permutation_velocity_rmse": 0.13346663172175424
+    },
+    "8": {
+      "position_rmse": 0.027377590495378506,
+      "velocity_rmse": 0.17837736665426007,
+      "permutation_position_rmse": 0.027377590495378506,
+      "permutation_velocity_rmse": 0.17837736665426007
+    },
+    "16": {
+      "position_rmse": 0.078088744347923,
+      "velocity_rmse": 0.21224970954544953,
+      "permutation_position_rmse": 0.0757341908170796,
+      "permutation_velocity_rmse": 0.1811281899347425
+    },
+    "32": {
+      "position_rmse": 0.18467313068033742,
+      "velocity_rmse": 0.17951898654137832,
+      "permutation_position_rmse": 0.16145262670629904,
+      "permutation_velocity_rmse": 0.15687619490204832
+    }
+  },
+  "exact_state_oracle_h32": {
+    "position_rmse": 2.717265891350084e-16,
+    "velocity_rmse": 1.0260815124820689e-16,
+    "permutation_position_rmse": 2.717265891350084e-16,
+    "permutation_velocity_rmse": 1.0260815124820689e-16
+  }
+}

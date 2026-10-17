@@ -1,0 +1,845 @@
+{
+  "scope": "Image-only diagnostic evaluation on training/validation, not test selection.\n\nRGB MSE is in [0,1] units. Foreground masks use the fixed renderer background,\nonly for evaluation; no masks or state labels enter model fitting.\n",
+  "methods": {
+    "pixel": {
+      "training_episode": [
+        {
+          "episode": "episode-21000000",
+          "actual_feature_variance_trace": 1.2126838555559516e-05,
+          "predicted_feature_variance_trace": 8.483055353281088e-06,
+          "latent_prediction_mse": 97.57554626464844,
+          "actual_feature_norm": 20.24382972717285,
+          "predicted_feature_norm": 108.91619110107422,
+          "prediction": {
+            "mse": 0.012531991116702557,
+            "foreground_mse": 0.2839999198913574,
+            "background_mse": 0.0015378650277853012,
+            "foreground_fraction": 0.03892248868942261
+          },
+          "persistence": {
+            "mse": 0.0006346036097966135,
+            "foreground_mse": 0.014274454675614834,
+            "background_mse": 8.220591553254053e-05,
+            "foreground_fraction": 0.03892248868942261
+          },
+          "background": {
+            "mse": 0.009766199626028538,
+            "foreground_mse": 0.250914067029953,
+            "background_mse": 3.552713678800501e-15,
+            "foreground_fraction": 0.03892248868942261
+          },
+          "actual_feature_decoder": {
+            "mse": 0.0686003565788269,
+            "foreground_mse": 0.1265394240617752,
+            "background_mse": 0.0662539005279541,
+            "foreground_fraction": 0.03892248868942261
+          }
+        }
+      ],
+      "validation": [
+        {
+          "episode": "episode-21000048",
+          "actual_feature_variance_trace": 1.4896639186190441e-05,
+          "predicted_feature_variance_trace": 1.2025737305521034e-05,
+          "latent_prediction_mse": 97.57466888427734,
+          "actual_feature_norm": 20.243785858154297,
+          "predicted_feature_norm": 108.91584014892578,
+          "prediction": {
+            "mse": 0.012516941875219345,
+            "foreground_mse": 0.2850922644138336,
+            "background_mse": 0.0015378650277853012,
+            "foreground_fraction": 0.03871947526931763
+          },
+          "persistence": {
+            "mse": 0.0010123151587322354,
+            "foreground_mse": 0.02202535606920719,
+            "background_mse": 0.0001659295812714845,
+            "foreground_fraction": 0.03871947526931763
+          },
+          "background": {
+            "mse": 0.009752352721989155,
+            "foreground_mse": 0.2518720328807831,
+            "background_mse": 3.552713678800501e-15,
+            "foreground_fraction": 0.03871947526931763
+          },
+          "actual_feature_decoder": {
+            "mse": 0.06791076064109802,
+            "foreground_mse": 0.11182956397533417,
+            "background_mse": 0.0661417618393898,
+            "foreground_fraction": 0.03871947526931763
+          }
+        },
+        {
+          "episode": "episode-21000049",
+          "actual_feature_variance_trace": 4.63532251160359e-06,
+          "predicted_feature_variance_trace": 3.328924321976956e-06,
+          "latent_prediction_mse": 97.57870483398438,
+          "actual_feature_norm": 20.244096755981445,
+          "predicted_feature_norm": 108.91812133789062,
+          "prediction": {
+            "mse": 0.0123904412612319,
+            "foreground_mse": 0.28458860516548157,
+            "background_mse": 0.0015378650277853012,
+            "foreground_fraction": 0.038341451436281204
+          },
+          "persistence": {
+            "mse": 0.0009472783422097564,
+            "foreground_mse": 0.0208986084908247,
+            "background_mse": 0.00015181615890469402,
+            "foreground_fraction": 0.038341451436281204
+          },
+          "background": {
+            "mse": 0.009639938361942768,
+            "foreground_mse": 0.2514233887195587,
+            "background_mse": 3.552713678800501e-15,
+            "foreground_fraction": 0.038341451436281204
+          },
+          "actual_feature_decoder": {
+            "mse": 0.06831975281238556,
+            "foreground_mse": 0.11458197981119156,
+            "background_mse": 0.0664752647280693,
+            "foreground_fraction": 0.038341451436281204
+          }
+        },
+        {
+          "episode": "episode-21000050",
+          "actual_feature_variance_trace": 1.7586853573448025e-06,
+          "predicted_feature_variance_trace": 8.436518328380771e-07,
+          "latent_prediction_mse": 97.57868957519531,
+          "actual_feature_norm": 20.244054794311523,
+          "predicted_feature_norm": 108.91802978515625,
+          "prediction": {
+            "mse": 0.012549051083624363,
+            "foreground_mse": 0.28522059321403503,
+            "background_mse": 0.0015378650277853012,
+            "foreground_fraction": 0.038815148174762726
+          },
+          "persistence": {
+            "mse": 0.0007360901217907667,
+            "foreground_mse": 0.01605398952960968,
+            "background_mse": 0.0001175134239019826,
+            "foreground_fraction": 0.038815148174762726
+          },
+          "background": {
+            "mse": 0.009780430234968662,
+            "foreground_mse": 0.25197458267211914,
+            "background_mse": 3.552713678800501e-15,
+            "foreground_fraction": 0.038815148174762726
+          },
+          "actual_feature_decoder": {
+            "mse": 0.06856261938810349,
+            "foreground_mse": 0.12014157325029373,
+            "background_mse": 0.06647973507642746,
+            "foreground_fraction": 0.038815148174762726
+          }
+        },
+        {
+          "episode": "episode-21000051",
+          "actual_feature_variance_trace": 5.864640115760267e-06,
+          "predicted_feature_variance_trace": 2.6434850042278413e-06,
+          "latent_prediction_mse": 97.57847595214844,
+          "actual_feature_norm": 20.24407386779785,
+          "predicted_feature_norm": 108.91797637939453,
+          "prediction": {
+            "mse": 0.012435519136488438,
+            "foreground_mse": 0.28593742847442627,
+            "background_mse": 0.0015378650277853012,
+            "foreground_fraction": 0.03831811621785164
+          },
+          "persistence": {
+            "mse": 0.0010075392201542854,
+            "foreground_mse": 0.021987078711390495,
+            "background_mse": 0.00017161155119538307,
+            "foreground_fraction": 0.03831811621785164
+          },
+          "background": {
+            "mse": 0.009679805487394333,
+            "foreground_mse": 0.2526169419288635,
+            "background_mse": 3.552713678800501e-15,
+            "foreground_fraction": 0.03831811621785164
+          },
+          "actual_feature_decoder": {
+            "mse": 0.06865036487579346,
+            "foreground_mse": 0.1258835345506668,
+            "background_mse": 0.0663699060678482,
+            "foreground_fraction": 0.03831811621785164
+          }
+        },
+        {
+          "episode": "episode-21000052",
+          "actual_feature_variance_trace": 4.668270412366837e-05,
+          "predicted_feature_variance_trace": 1.4932760677766055e-05,
+          "latent_prediction_mse": 97.57371520996094,
+          "actual_feature_norm": 20.244041442871094,
+          "predicted_feature_norm": 108.91600799560547,
+          "prediction": {
+            "mse": 0.01207933109253645,
+            "foreground_mse": 0.2871471643447876,
+            "background_mse": 0.0015378649113699794,
+            "foreground_fraction": 0.03690869361162186
+          },
+          "persistence": {
+            "mse": 0.0008085676818154752,
+            "foreground_mse": 0.018571581691503525,
+            "background_mse": 0.0001278329873457551,
+            "foreground_fraction": 0.03690869361162186
+          },
+          "background": {
+            "mse": 0.00936474371701479,
+            "foreground_mse": 0.2537273168563843,
+            "background_mse": 3.552713678800501e-15,
+            "foreground_fraction": 0.03690869361162186
+          },
+          "actual_feature_decoder": {
+            "mse": 0.06884077936410904,
+            "foreground_mse": 0.12868839502334595,
+            "background_mse": 0.06654723733663559,
+            "foreground_fraction": 0.03690869361162186
+          }
+        },
+        {
+          "episode": "episode-21000053",
+          "actual_feature_variance_trace": 1.2117595815652749e-06,
+          "predicted_feature_variance_trace": 4.5408302185023786e-07,
+          "latent_prediction_mse": 97.5785140991211,
+          "actual_feature_norm": 20.244029998779297,
+          "predicted_feature_norm": 108.91791534423828,
+          "prediction": {
+            "mse": 0.01246229000389576,
+            "foreground_mse": 0.28601235151290894,
+            "background_mse": 0.0015378650277853012,
+            "foreground_fraction": 0.038402121514081955
+          },
+          "persistence": {
+            "mse": 0.0007243192521855235,
+            "foreground_mse": 0.016105927526950836,
+            "background_mse": 0.00011004332191077992,
+            "foreground_fraction": 0.038402121514081955
+          },
+          "background": {
+            "mse": 0.009706396609544754,
+            "foreground_mse": 0.2527567744255066,
+            "background_mse": 3.552713467042264e-15,
+            "foreground_fraction": 0.038402121514081955
+          },
+          "actual_feature_decoder": {
+            "mse": 0.06894441694021225,
+            "foreground_mse": 0.12218780815601349,
+            "background_mse": 0.06681811064481735,
+            "foreground_fraction": 0.038402121514081955
+          }
+        },
+        {
+          "episode": "episode-21000054",
+          "actual_feature_variance_trace": 1.6470273749291664e-06,
+          "predicted_feature_variance_trace": 9.509880669611448e-07,
+          "latent_prediction_mse": 97.57948303222656,
+          "actual_feature_norm": 20.24411964416504,
+          "predicted_feature_norm": 108.91845703125,
+          "prediction": {
+            "mse": 0.012549892999231815,
+            "foreground_mse": 0.28525927662849426,
+            "background_mse": 0.0015378650277853012,
+            "foreground_fraction": 0.03881281614303589
+          },
+          "persistence": {
+            "mse": 0.0008066145819611847,
+            "foreground_mse": 0.017582125961780548,
+            "background_mse": 0.00012921809684485197,
+            "foreground_fraction": 0.03881281614303589
+          },
+          "background": {
+            "mse": 0.009781436994671822,
+            "foreground_mse": 0.2520156502723694,
+            "background_mse": 3.552713678800501e-15,
+            "foreground_fraction": 0.03881281614303589
+          },
+          "actual_feature_decoder": {
+            "mse": 0.06767474114894867,
+            "foreground_mse": 0.11016896367073059,
+            "background_mse": 0.06595882028341293,
+            "foreground_fraction": 0.03881281614303589
+          }
+        },
+        {
+          "episode": "episode-21000055",
+          "actual_feature_variance_trace": 3.6404849197424483e-06,
+          "predicted_feature_variance_trace": 1.7673604588708258e-06,
+          "latent_prediction_mse": 97.57844543457031,
+          "actual_feature_norm": 20.24405860900879,
+          "predicted_feature_norm": 108.91793060302734,
+          "prediction": {
+            "mse": 0.012549740262329578,
+            "foreground_mse": 0.28476157784461975,
+            "background_mse": 0.0015378650277853012,
+            "foreground_fraction": 0.03888048604130745
+          },
+          "persistence": {
+            "mse": 0.0010948439594358206,
+            "foreground_mse": 0.02312019281089306,
+            "background_mse": 0.00020384528033901006,
+            "foreground_fraction": 0.03888048604130745
+          },
+          "background": {
+            "mse": 0.009781291708350182,
+            "foreground_mse": 0.2515732944011688,
+            "background_mse": 3.552713467042264e-15,
+            "foreground_fraction": 0.03888048604130745
+          },
+          "actual_feature_decoder": {
+            "mse": 0.06976232677698135,
+            "foreground_mse": 0.13406676054000854,
+            "background_mse": 0.06716099381446838,
+            "foreground_fraction": 0.03888048604130745
+          }
+        },
+        {
+          "episode": "episode-21000056",
+          "actual_feature_variance_trace": 1.10145647340687e-05,
+          "predicted_feature_variance_trace": 9.24431788007496e-06,
+          "latent_prediction_mse": 97.57644653320312,
+          "actual_feature_norm": 20.243900299072266,
+          "predicted_feature_norm": 108.91680908203125,
+          "prediction": {
+            "mse": 0.012496737763285637,
+            "foreground_mse": 0.2850317656993866,
+            "background_mse": 0.0015378650277853012,
+            "foreground_fraction": 0.03865647315979004
+          },
+          "persistence": {
+            "mse": 0.0007587583968415856,
+            "foreground_mse": 0.01683576963841915,
+            "background_mse": 0.00011228762741666287,
+            "foreground_fraction": 0.03865647315979004
+          },
+          "background": {
+            "mse": 0.00973405223339796,
+            "foreground_mse": 0.25180912017822266,
+            "background_mse": 3.552713678800501e-15,
+            "foreground_fraction": 0.03865647315979004
+          },
+          "actual_feature_decoder": {
+            "mse": 0.06834254413843155,
+            "foreground_mse": 0.11840831488370895,
+            "background_mse": 0.06632935255765915,
+            "foreground_fraction": 0.03865647315979004
+          }
+        },
+        {
+          "episode": "episode-21000057",
+          "actual_feature_variance_trace": 1.1622338206507266e-05,
+          "predicted_feature_variance_trace": 1.4042604561836924e-05,
+          "latent_prediction_mse": 97.57270050048828,
+          "actual_feature_norm": 20.243648529052734,
+          "predicted_feature_norm": 108.91473388671875,
+          "prediction": {
+            "mse": 0.012319169007241726,
+            "foreground_mse": 0.28670409321784973,
+            "background_mse": 0.0015378650277853012,
+            "foreground_fraction": 0.03780708461999893
+          },
+          "persistence": {
+            "mse": 0.0005222380277700722,
+            "foreground_mse": 0.012187999673187733,
+            "background_mse": 6.385963934008032e-05,
+            "foreground_fraction": 0.03780708461999893
+          },
+          "background": {
+            "mse": 0.009576498530805111,
+            "foreground_mse": 0.2532990574836731,
+            "background_mse": 3.552713467042264e-15,
+            "foreground_fraction": 0.03780708461999893
+          },
+          "actual_feature_decoder": {
+            "mse": 0.06919699907302856,
+            "foreground_mse": 0.12464967370033264,
+            "background_mse": 0.06701812148094177,
+            "foreground_fraction": 0.03780708461999893
+          }
+        },
+        {
+          "episode": "episode-21000058",
+          "actual_feature_variance_trace": 1.6970237766145146e-06,
+          "predicted_feature_variance_trace": 1.5088951386132976e-06,
+          "latent_prediction_mse": 97.57920837402344,
+          "actual_feature_norm": 20.244108200073242,
+          "predicted_feature_norm": 108.91832733154297,
+          "prediction": {
+            "mse": 0.012550917454063892,
+            "foreground_mse": 0.28452011942863464,
+            "background_mse": 0.0015378650277853012,
+            "foreground_fraction": 0.03891782462596893
+          },
+          "persistence": {
+            "mse": 0.0005778435152024031,
+            "foreground_mse": 0.012645592913031578,
+            "background_mse": 8.917506056604907e-05,
+            "foreground_fraction": 0.03891782462596893
+          },
+          "background": {
+            "mse": 0.009782068431377411,
+            "foreground_mse": 0.25135189294815063,
+            "background_mse": 3.552713678800501e-15,
+            "foreground_fraction": 0.03891782462596893
+          },
+          "actual_feature_decoder": {
+            "mse": 0.06872057169675827,
+            "foreground_mse": 0.1217137798666954,
+            "background_mse": 0.06657467782497406,
+            "foreground_fraction": 0.03891782462596893
+          }
+        },
+        {
+          "episode": "episode-21000059",
+          "actual_feature_variance_trace": 3.885826117766555e-06,
+          "predicted_feature_variance_trace": 2.248597866127966e-06,
+          "latent_prediction_mse": 97.5784683227539,
+          "actual_feature_norm": 20.244050979614258,
+          "predicted_feature_norm": 108.91793823242188,
+          "prediction": {
+            "mse": 0.012553742155432701,
+            "foreground_mse": 0.28394922614097595,
+            "background_mse": 0.001537865144200623,
+            "foreground_fraction": 0.039006493985652924
+          },
+          "persistence": {
+            "mse": 0.0012360173277556896,
+            "foreground_mse": 0.026263071224093437,
+            "background_mse": 0.000220175163121894,
+            "foreground_fraction": 0.039006493985652924
+          },
+          "background": {
+            "mse": 0.009784777648746967,
+            "foreground_mse": 0.25084996223449707,
+            "background_mse": 3.552713678800501e-15,
+            "foreground_fraction": 0.039006493985652924
+          },
+          "actual_feature_decoder": {
+            "mse": 0.06883290410041809,
+            "foreground_mse": 0.12313449382781982,
+            "background_mse": 0.0666288211941719,
+            "foreground_fraction": 0.039006493985652924
+          }
+        },
+        {
+          "episode": "episode-21000060",
+          "actual_feature_variance_trace": 1.7166760244435864e-06,
+          "predicted_feature_variance_trace": 1.3348429774850956e-06,
+          "latent_prediction_mse": 97.5772705078125,
+          "actual_feature_norm": 20.243938446044922,
+          "predicted_feature_norm": 108.9172592163086,
+          "prediction": {
+            "mse": 0.011205661110579967,
+            "foreground_mse": 0.2906569838523865,
+            "background_mse": 0.0015378650277853012,
+            "foreground_fraction": 0.03343880549073219
+          },
+          "persistence": {
+            "mse": 0.0005551615031436086,
+            "foreground_mse": 0.014236578717827797,
+            "background_mse": 8.184416947187856e-05,
+            "foreground_fraction": 0.03343880549073219
+          },
+          "background": {
+            "mse": 0.008589556440711021,
+            "foreground_mse": 0.2568739056587219,
+            "background_mse": 3.552713467042264e-15,
+            "foreground_fraction": 0.03343880549073219
+          },
+          "actual_feature_decoder": {
+            "mse": 0.06844287365674973,
+            "foreground_mse": 0.12822909653186798,
+            "background_mse": 0.0663745254278183,
+            "foreground_fraction": 0.03343880549073219
+          }
+        },
+        {
+          "episode": "episode-21000061",
+          "actual_feature_variance_trace": 3.8634003431070596e-05,
+          "predicted_feature_variance_trace": 1.2889704521512613e-05,
+          "latent_prediction_mse": 97.57379150390625,
+          "actual_feature_norm": 20.243793487548828,
+          "predicted_feature_norm": 108.9153060913086,
+          "prediction": {
+            "mse": 0.012421797029674053,
+            "foreground_mse": 0.2872670590877533,
+            "background_mse": 0.0015378650277853012,
+            "foreground_fraction": 0.03809177130460739
+          },
+          "persistence": {
+            "mse": 0.0010188777232542634,
+            "foreground_mse": 0.022639092057943344,
+            "background_mse": 0.0001627127203391865,
+            "foreground_fraction": 0.03809177130460739
+          },
+          "background": {
+            "mse": 0.009668332524597645,
+            "foreground_mse": 0.2538168728351593,
+            "background_mse": 3.552713678800501e-15,
+            "foreground_fraction": 0.03809177130460739
+          },
+          "actual_feature_decoder": {
+            "mse": 0.06928177922964096,
+            "foreground_mse": 0.12862825393676758,
+            "background_mse": 0.06693165004253387,
+            "foreground_fraction": 0.03809177130460739
+          }
+        },
+        {
+          "episode": "episode-21000062",
+          "actual_feature_variance_trace": 1.777935040081502e-06,
+          "predicted_feature_variance_trace": 1.0822274134625331e-06,
+          "latent_prediction_mse": 97.57946014404297,
+          "actual_feature_norm": 20.244123458862305,
+          "predicted_feature_norm": 108.91844177246094,
+          "prediction": {
+            "mse": 0.012552491389214993,
+            "foreground_mse": 0.28474733233451843,
+            "background_mse": 0.0015378650277853012,
+            "foreground_fraction": 0.03889215365052223
+          },
+          "persistence": {
+            "mse": 0.0009270517039112747,
+            "foreground_mse": 0.02008754014968872,
+            "background_mse": 0.0001517041673650965,
+            "foreground_fraction": 0.03889215365052223
+          },
+          "background": {
+            "mse": 0.009783589281141758,
+            "foreground_mse": 0.2515569031238556,
+            "background_mse": 3.552713678800501e-15,
+            "foreground_fraction": 0.03889215365052223
+          },
+          "actual_feature_decoder": {
+            "mse": 0.06811001896858215,
+            "foreground_mse": 0.11599407345056534,
+            "background_mse": 0.06617234647274017,
+            "foreground_fraction": 0.03889215365052223
+          }
+        },
+        {
+          "episode": "episode-21000063",
+          "actual_feature_variance_trace": 1.3452599887386896e-05,
+          "predicted_feature_variance_trace": 4.91320406581508e-06,
+          "latent_prediction_mse": 97.57709503173828,
+          "actual_feature_norm": 20.24397087097168,
+          "predicted_feature_norm": 108.91717529296875,
+          "prediction": {
+            "mse": 0.012492328882217407,
+            "foreground_mse": 0.28548330068588257,
+            "background_mse": 0.0015378650277853012,
+            "foreground_fraction": 0.03857946768403053
+          },
+          "persistence": {
+            "mse": 0.001088698161765933,
+            "foreground_mse": 0.022845081984996796,
+            "background_mse": 0.00021566738723777235,
+            "foreground_fraction": 0.03857946768403053
+          },
+          "background": {
+            "mse": 0.009730732068419456,
+            "foreground_mse": 0.2522256672382355,
+            "background_mse": 3.552713678800501e-15,
+            "foreground_fraction": 0.03857946768403053
+          },
+          "actual_feature_decoder": {
+            "mse": 0.06826905161142349,
+            "foreground_mse": 0.11857078224420547,
+            "background_mse": 0.06625057011842728,
+            "foreground_fraction": 0.03857946768403053
+          }
+        }
+      ]
+    },
+    "gaussian": {
+      "training_episode": [
+        {
+          "episode": "episode-21000000",
+          "actual_feature_variance_trace": 100.14154052734375,
+          "predicted_feature_variance_trace": 98.20965576171875,
+          "latent_prediction_mse": 0.004358605947345495,
+          "actual_feature_norm": 9.982695579528809,
+          "predicted_feature_norm": 9.892900466918945
+        }
+      ],
+      "validation": [
+        {
+          "episode": "episode-21000048",
+          "actual_feature_variance_trace": 93.60575866699219,
+          "predicted_feature_variance_trace": 73.18115997314453,
+          "latent_prediction_mse": 0.5412424802780151,
+          "actual_feature_norm": 10.144905090332031,
+          "predicted_feature_norm": 8.673154830932617
+        },
+        {
+          "episode": "episode-21000049",
+          "actual_feature_variance_trace": 88.97478485107422,
+          "predicted_feature_variance_trace": 74.70636749267578,
+          "latent_prediction_mse": 0.48822101950645447,
+          "actual_feature_norm": 9.728446006774902,
+          "predicted_feature_norm": 8.672077178955078
+        },
+        {
+          "episode": "episode-21000050",
+          "actual_feature_variance_trace": 79.70719146728516,
+          "predicted_feature_variance_trace": 67.60395050048828,
+          "latent_prediction_mse": 0.3309507668018341,
+          "actual_feature_norm": 9.926629066467285,
+          "predicted_feature_norm": 9.12311840057373
+        },
+        {
+          "episode": "episode-21000051",
+          "actual_feature_variance_trace": 95.46185302734375,
+          "predicted_feature_variance_trace": 86.64668273925781,
+          "latent_prediction_mse": 0.4648575186729431,
+          "actual_feature_norm": 10.078819274902344,
+          "predicted_feature_norm": 9.532509803771973
+        },
+        {
+          "episode": "episode-21000052",
+          "actual_feature_variance_trace": 96.43356323242188,
+          "predicted_feature_variance_trace": 72.95320129394531,
+          "latent_prediction_mse": 0.4123092591762543,
+          "actual_feature_norm": 10.470259666442871,
+          "predicted_feature_norm": 8.87134075164795
+        },
+        {
+          "episode": "episode-21000053",
+          "actual_feature_variance_trace": 89.4876708984375,
+          "predicted_feature_variance_trace": 82.05308532714844,
+          "latent_prediction_mse": 0.3646194636821747,
+          "actual_feature_norm": 9.865711212158203,
+          "predicted_feature_norm": 9.279788970947266
+        },
+        {
+          "episode": "episode-21000054",
+          "actual_feature_variance_trace": 75.98822021484375,
+          "predicted_feature_variance_trace": 69.43853759765625,
+          "latent_prediction_mse": 0.23127490282058716,
+          "actual_feature_norm": 9.645889282226562,
+          "predicted_feature_norm": 9.047041893005371
+        },
+        {
+          "episode": "episode-21000055",
+          "actual_feature_variance_trace": 85.26528930664062,
+          "predicted_feature_variance_trace": 74.98651885986328,
+          "latent_prediction_mse": 0.43158939480781555,
+          "actual_feature_norm": 9.911750793457031,
+          "predicted_feature_norm": 9.239815711975098
+        },
+        {
+          "episode": "episode-21000056",
+          "actual_feature_variance_trace": 93.72354125976562,
+          "predicted_feature_variance_trace": 77.34712219238281,
+          "latent_prediction_mse": 0.29398345947265625,
+          "actual_feature_norm": 10.068909645080566,
+          "predicted_feature_norm": 9.062228202819824
+        },
+        {
+          "episode": "episode-21000057",
+          "actual_feature_variance_trace": 74.71965026855469,
+          "predicted_feature_variance_trace": 57.05573272705078,
+          "latent_prediction_mse": 0.3125905990600586,
+          "actual_feature_norm": 10.374763488769531,
+          "predicted_feature_norm": 9.034537315368652
+        },
+        {
+          "episode": "episode-21000058",
+          "actual_feature_variance_trace": 79.53096008300781,
+          "predicted_feature_variance_trace": 61.197853088378906,
+          "latent_prediction_mse": 0.2670041620731354,
+          "actual_feature_norm": 9.935797691345215,
+          "predicted_feature_norm": 8.726337432861328
+        },
+        {
+          "episode": "episode-21000059",
+          "actual_feature_variance_trace": 87.21162414550781,
+          "predicted_feature_variance_trace": 76.90696716308594,
+          "latent_prediction_mse": 0.4180593192577362,
+          "actual_feature_norm": 9.820318222045898,
+          "predicted_feature_norm": 8.994370460510254
+        },
+        {
+          "episode": "episode-21000060",
+          "actual_feature_variance_trace": 92.0377426147461,
+          "predicted_feature_variance_trace": 69.5948486328125,
+          "latent_prediction_mse": 0.3580024242401123,
+          "actual_feature_norm": 10.477166175842285,
+          "predicted_feature_norm": 8.84466552734375
+        },
+        {
+          "episode": "episode-21000061",
+          "actual_feature_variance_trace": 65.78114318847656,
+          "predicted_feature_variance_trace": 58.85620880126953,
+          "latent_prediction_mse": 0.4544508755207062,
+          "actual_feature_norm": 10.405210494995117,
+          "predicted_feature_norm": 9.383262634277344
+        },
+        {
+          "episode": "episode-21000062",
+          "actual_feature_variance_trace": 79.03325653076172,
+          "predicted_feature_variance_trace": 69.16178894042969,
+          "latent_prediction_mse": 0.3372576832771301,
+          "actual_feature_norm": 9.770794868469238,
+          "predicted_feature_norm": 8.993528366088867
+        },
+        {
+          "episode": "episode-21000063",
+          "actual_feature_variance_trace": 98.74675750732422,
+          "predicted_feature_variance_trace": 80.32350158691406,
+          "latent_prediction_mse": 0.51090008020401,
+          "actual_feature_norm": 10.139246940612793,
+          "predicted_feature_norm": 8.96468734741211
+        }
+      ]
+    },
+    "sparse": {
+      "training_episode": [
+        {
+          "episode": "episode-21000000",
+          "actual_feature_variance_trace": 40.388790130615234,
+          "predicted_feature_variance_trace": 39.694419860839844,
+          "latent_prediction_mse": 0.0022054004948586226,
+          "actual_feature_norm": 7.279500484466553,
+          "predicted_feature_norm": 7.215319633483887
+        }
+      ],
+      "validation": [
+        {
+          "episode": "episode-21000048",
+          "actual_feature_variance_trace": 30.395095825195312,
+          "predicted_feature_variance_trace": 22.593055725097656,
+          "latent_prediction_mse": 0.18921329081058502,
+          "actual_feature_norm": 6.810339450836182,
+          "predicted_feature_norm": 5.680959224700928
+        },
+        {
+          "episode": "episode-21000049",
+          "actual_feature_variance_trace": 25.983055114746094,
+          "predicted_feature_variance_trace": 17.366653442382812,
+          "latent_prediction_mse": 0.16221335530281067,
+          "actual_feature_norm": 6.282832622528076,
+          "predicted_feature_norm": 4.9090399742126465
+        },
+        {
+          "episode": "episode-21000050",
+          "actual_feature_variance_trace": 27.47495460510254,
+          "predicted_feature_variance_trace": 17.587738037109375,
+          "latent_prediction_mse": 0.13028006255626678,
+          "actual_feature_norm": 7.071201801300049,
+          "predicted_feature_norm": 5.609963417053223
+        },
+        {
+          "episode": "episode-21000051",
+          "actual_feature_variance_trace": 33.82584762573242,
+          "predicted_feature_variance_trace": 25.418514251708984,
+          "latent_prediction_mse": 0.169527068734169,
+          "actual_feature_norm": 7.199233531951904,
+          "predicted_feature_norm": 6.1766438484191895
+        },
+        {
+          "episode": "episode-21000052",
+          "actual_feature_variance_trace": 28.600788116455078,
+          "predicted_feature_variance_trace": 21.336746215820312,
+          "latent_prediction_mse": 0.1452014148235321,
+          "actual_feature_norm": 6.744662284851074,
+          "predicted_feature_norm": 5.7069010734558105
+        },
+        {
+          "episode": "episode-21000053",
+          "actual_feature_variance_trace": 32.81507110595703,
+          "predicted_feature_variance_trace": 26.406705856323242,
+          "latent_prediction_mse": 0.13420410454273224,
+          "actual_feature_norm": 7.08844518661499,
+          "predicted_feature_norm": 6.27465295791626
+        },
+        {
+          "episode": "episode-21000054",
+          "actual_feature_variance_trace": 25.620216369628906,
+          "predicted_feature_variance_trace": 17.534677505493164,
+          "latent_prediction_mse": 0.10207214206457138,
+          "actual_feature_norm": 6.913522720336914,
+          "predicted_feature_norm": 5.625551700592041
+        },
+        {
+          "episode": "episode-21000055",
+          "actual_feature_variance_trace": 31.302526473999023,
+          "predicted_feature_variance_trace": 24.740436553955078,
+          "latent_prediction_mse": 0.16614694893360138,
+          "actual_feature_norm": 7.196940898895264,
+          "predicted_feature_norm": 6.300014972686768
+        },
+        {
+          "episode": "episode-21000056",
+          "actual_feature_variance_trace": 31.839773178100586,
+          "predicted_feature_variance_trace": 23.872774124145508,
+          "latent_prediction_mse": 0.09724936634302139,
+          "actual_feature_norm": 6.8063883781433105,
+          "predicted_feature_norm": 5.840703964233398
+        },
+        {
+          "episode": "episode-21000057",
+          "actual_feature_variance_trace": 19.48748779296875,
+          "predicted_feature_variance_trace": 13.653160095214844,
+          "latent_prediction_mse": 0.1025804802775383,
+          "actual_feature_norm": 7.088647365570068,
+          "predicted_feature_norm": 5.627283573150635
+        },
+        {
+          "episode": "episode-21000058",
+          "actual_feature_variance_trace": 24.81409454345703,
+          "predicted_feature_variance_trace": 16.472698211669922,
+          "latent_prediction_mse": 0.11557118594646454,
+          "actual_feature_norm": 6.737748622894287,
+          "predicted_feature_norm": 5.418614387512207
+        },
+        {
+          "episode": "episode-21000059",
+          "actual_feature_variance_trace": 26.754127502441406,
+          "predicted_feature_variance_trace": 19.67227554321289,
+          "latent_prediction_mse": 0.16801998019218445,
+          "actual_feature_norm": 6.850611209869385,
+          "predicted_feature_norm": 5.497645378112793
+        },
+        {
+          "episode": "episode-21000060",
+          "actual_feature_variance_trace": 30.440820693969727,
+          "predicted_feature_variance_trace": 24.725845336914062,
+          "latent_prediction_mse": 0.13916611671447754,
+          "actual_feature_norm": 6.682068347930908,
+          "predicted_feature_norm": 5.925469875335693
+        },
+        {
+          "episode": "episode-21000061",
+          "actual_feature_variance_trace": 21.568092346191406,
+          "predicted_feature_variance_trace": 16.876100540161133,
+          "latent_prediction_mse": 0.14566996693611145,
+          "actual_feature_norm": 7.2557373046875,
+          "predicted_feature_norm": 6.296343803405762
+        },
+        {
+          "episode": "episode-21000062",
+          "actual_feature_variance_trace": 24.154312133789062,
+          "predicted_feature_variance_trace": 15.707216262817383,
+          "latent_prediction_mse": 0.13128256797790527,
+          "actual_feature_norm": 6.899044036865234,
+          "predicted_feature_norm": 5.286227226257324
+        },
+        {
+          "episode": "episode-21000063",
+          "actual_feature_variance_trace": 31.10367774963379,
+          "predicted_feature_variance_trace": 23.612071990966797,
+          "latent_prediction_mse": 0.21876469254493713,
+          "actual_feature_norm": 6.728659629821777,
+          "predicted_feature_norm": 5.708700180053711
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Actual-feature decoder is a compatibility diagnostic, not a trained autoencoder.",
+    "Latent magnitudes are not comparable quality scores across objectives.",
+    "One training episode tests memorization, not generalization.",
+    "Physical probes and collision strata are in physical-screen/metrics.json."
+  ]
+}
