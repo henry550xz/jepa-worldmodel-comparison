@@ -11,6 +11,21 @@ matched data and training settings. No objective is presumed superior.
 [3D preliminary results](docs/BILLIARDS_RESULTS.md) ·
 [PushT mechanism findings](docs/MECHANISM_FINDINGS.md)
 
+## Run the capacity study
+
+On a Slurm cluster:
+
+```bash
+git clone https://github.com/henry550xz/jepa-worldmodel-comparison.git
+cd jepa-worldmodel-comparison
+bash scripts/study/capacity.sbatch
+```
+
+The script creates its environment and dataset, fits CPU controls, then submits
+GPU training and dependent CPU analysis. No data archive is needed.
+If required, prefix the launch with `JEPA_SLURM_ACCOUNT=your_account`.
+[Full instructions and cluster settings](docs/CAPACITY_COLLABORATOR_HANDOFF.md).
+
 ## Two complementary experiments
 
 | System | Purpose | Inputs | Evidence status |
