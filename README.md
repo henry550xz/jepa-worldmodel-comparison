@@ -99,5 +99,7 @@ the five-condition JEPA ablation separately and publishes only validated cells.
 
 [Protocol and experiment matrix](docs/BILLIARDS_CAPACITY_PROTOCOL.md): fixed visual
 backbone, history latents6/12/24/48, and independently fitted predictor capacities.
-CPU preparation is in progress. Full image-model training is unrun; this proposal
+Local preparation was stopped for an external-machine handoff. Full image-model training is unrun; this proposal
 does not replace the completed scene-ablation results.
+
+[Clone-and-run guide for the capacity experiment](docs/BILLIARDS_CAPACITY_RUNBOOK.md).

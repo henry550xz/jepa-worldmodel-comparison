@@ -1,0 +1,7 @@
+# Capacity pipeline's tested CPU environment, Python 3.10.
+# Install torch==2.8.0 separately with the CPU/CUDA wheel appropriate for the host.
+numpy==2.2.6
+scipy==1.15.3
+einops==0.8.1
+Pillow==12.2.0
+matplotlib==3.10.9

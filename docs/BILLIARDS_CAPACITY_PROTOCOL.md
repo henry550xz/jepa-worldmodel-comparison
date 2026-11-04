@@ -1,9 +1,12 @@
 # Billiards capacity experiment v1
 
-Status: CPU preparation authorized on 2026-11-04. Full image-model training is
-not launched or authorized on a paid GPU by this instruction. This protocol
-implements the accepted proposal; all configurations share one frozen dataset.
-Config: `conf/study/billiards-capacity.json`. New results remain separate from
+Status: designed, implemented and CPU smoke-tested. Execution is handed off to
+the user on another machine; local preparation was stopped before completion.
+No full image-model training has run. This protocol implements the accepted
+proposal; all configurations must share one frozen dataset.
+Config: `conf/study/billiards-capacity.json`.
+[Clone-and-run instructions](BILLIARDS_CAPACITY_RUNBOOK.md) cover installation,
+stage commands, resume behavior, outputs and interpretation. New results remain separate from
 historical billiards pilots and the completed five-condition scene ablation.
 
 ## Question and interpretable comparisons
