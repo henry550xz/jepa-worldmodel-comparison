@@ -94,3 +94,10 @@ reported as a completed result.
 Three pages cover the original comparisons, PushT layer/mechanism evidence and
 controlled billiards. [Evidence synthesis](docs/GORDON_RESEARCH_SYNTHESIS.md). The billiards page labels
 the five-condition JEPA ablation separately and publishes only validated cells.
+
+## Capacity experiment preparation
+
+[Protocol and experiment matrix](docs/BILLIARDS_CAPACITY_PROTOCOL.md): fixed visual
+backbone, history latents6/12/24/48, and independently fitted predictor capacities.
+CPU preparation is in progress. Full image-model training is unrun; this proposal
+does not replace the completed scene-ablation results.

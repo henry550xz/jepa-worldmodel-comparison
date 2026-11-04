@@ -1,0 +1,17 @@
+{
+  "protocol": "billiards-capacity-v1",
+  "authorization": "CPU preparation and independent controls authorized; full image training awaits GPU/resource decision",
+  "condition": {"id":"capacity-base","balls":2,"radius":0.07,"bounds":[1,1,1],"appearance":"unique","height":48,"width":144,"seed_base":41000000},
+  "splits": {"world_train":512,"world_validation":128,"probe_train":256,"probe_validation":128,"test":256},
+  "frames":65,"dt":0.04,"history":3,
+  "encoder_width":128,"encoder_depth":12,"patch":8,"temporal_width":256,
+  "latent_sizes":[6,12,24,48],"methods":["gaussian","sparse"],"seeds":[0,1,2],
+  "predictors":{"affine":0,"mlp64":64,"mlp256":256},
+  "image_updates":20000,"image_batch":32,"image_lr":0.0003,"image_min_lr":0.00003,"warmup":500,"weight_decay":0.0001,
+  "feature_updates":10000,"feature_batch":256,"feature_lr":0.001,
+  "readout_updates":10000,"readout_width":64,"ridge_grid":[0.001,0.01,0.1,1.0],
+  "projections":256,"reg_weight":0.5,"horizons":[1,2,4,8,16,32],
+  "origin_frame":2,"validation_every":1000,"save_updates":[5000,10000,20000],
+  "disk_reserve_bytes":4294967296,"noninferiority_margin":0.10,
+  "cpu_threads":1,"activation_checkpointing":true
+}
