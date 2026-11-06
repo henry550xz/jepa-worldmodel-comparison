@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": "capacity-time-position.pdf",
+      "bytes": 25880,
+      "sha256": "40ae41771afd46028abdfef01bfec6ab32b53deac8cd52b8f2e7bf6fabc65845"
+    },
+    {
+      "path": "capacity-time-position.png",
+      "bytes": 218549,
+      "sha256": "a07b86550100ffabee838547c71a5e95a9ed7b7b044be5f111192ab2ba9e1a16"
+    },
+    {
+      "path": "capacity-time-velocity.pdf",
+      "bytes": 25691,
+      "sha256": "4020ad74de7ee315e97e308c4de16dbfd1979a722945baa7b862f40a7cec8489"
+    },
+    {
+      "path": "capacity-time-velocity.png",
+      "bytes": 225166,
+      "sha256": "534c303f7ed2b133a07ea9c34dcdb6b205cf763de60bf7a7c8bb3f5bb9ea5754"
+    },
+    {
+      "path": "curves.json",
+      "bytes": 76917,
+      "sha256": "b10275a36e7c2fe8be7ad2eebbfad427ef2bcc8f2ee7ff79ba367ceb293ca14f"
+    },
+    {
+      "path": "research-report.pdf",
+      "bytes": 56647,
+      "sha256": "3b303b1381a9396ac851e4d11ddb294cb6dc6d9f9b0321f1a7de7161b3c47900"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 16772,
+      "sha256": "c148b76f5a5d0ef4de7dd8d64f47dc3b8382609442c518395bcb6e1f45c54719"
+    }
+  ]
+}

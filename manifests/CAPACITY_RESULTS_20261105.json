@@ -1,0 +1,76 @@
+{
+  "publication": "Billiards capacity results \u2014 November 5, 2026",
+  "snapshot": "2026-11-05 22:00:13 EST",
+  "original_experiment_source": "968e6a825be49d662f303cf630315024f2f86d33",
+  "numerical_snapshot_sha256": "21fe079122d3decc68e57b6e51004abb439a26726aebedb5e6a59aba025b844a",
+  "scope": "Curated scientific report, aggregate curves, three-seed summaries and plot reproduction; private operational history excluded.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8091,
+      "sha256": "e285f4f208c2cc425edec0c3330ec41f412f814e3951ea6b2ed31eba3d2ad336"
+    },
+    {
+      "path": "docs/BILLIARDS_CAPACITY_PROTOCOL.md",
+      "bytes": 7624,
+      "sha256": "c45ef9216ccb85b3e6d85e4799929c20dbea5d9e7d8c16b2e2b79b5ead71b985"
+    },
+    {
+      "path": "docs/BILLIARDS_CAPACITY_RESULTS.md",
+      "bytes": 11971,
+      "sha256": "a224a5e75c655202537b91df1c1ba45fc9245d041b8a002a560f369c2508fb00"
+    },
+    {
+      "path": "docs/BILLIARDS_CAPACITY_RUNBOOK.md",
+      "bytes": 10216,
+      "sha256": "222cd0c8bb7fe983a9bda23bbc7c3b82c7d0bf675e42d00d74ef1a97232e7bd3"
+    },
+    {
+      "path": "docs/capacity-results-20261105/capacity-time-position.pdf",
+      "bytes": 25880,
+      "sha256": "40ae41771afd46028abdfef01bfec6ab32b53deac8cd52b8f2e7bf6fabc65845"
+    },
+    {
+      "path": "docs/capacity-results-20261105/capacity-time-position.png",
+      "bytes": 218549,
+      "sha256": "a07b86550100ffabee838547c71a5e95a9ed7b7b044be5f111192ab2ba9e1a16"
+    },
+    {
+      "path": "docs/capacity-results-20261105/capacity-time-velocity.pdf",
+      "bytes": 25691,
+      "sha256": "4020ad74de7ee315e97e308c4de16dbfd1979a722945baa7b862f40a7cec8489"
+    },
+    {
+      "path": "docs/capacity-results-20261105/capacity-time-velocity.png",
+      "bytes": 225166,
+      "sha256": "534c303f7ed2b133a07ea9c34dcdb6b205cf763de60bf7a7c8bb3f5bb9ea5754"
+    },
+    {
+      "path": "docs/capacity-results-20261105/checksums.json",
+      "bytes": 1120,
+      "sha256": "fe916838736cd5fb156cd87cb145096305f77a6578ccf460871b29f5be492b1a"
+    },
+    {
+      "path": "docs/capacity-results-20261105/curves.json",
+      "bytes": 76917,
+      "sha256": "b10275a36e7c2fe8be7ad2eebbfad427ef2bcc8f2ee7ff79ba367ceb293ca14f"
+    },
+    {
+      "path": "docs/capacity-results-20261105/research-report.pdf",
+      "bytes": 56647,
+      "sha256": "3b303b1381a9396ac851e4d11ddb294cb6dc6d9f9b0321f1a7de7161b3c47900"
+    },
+    {
+      "path": "docs/capacity-results-20261105/summary.json",
+      "bytes": 16772,
+      "sha256": "c148b76f5a5d0ef4de7dd8d64f47dc3b8382609442c518395bcb6e1f45c54719"
+    },
+    {
+      "path": "scripts/study/plot_capacity_results.py",
+      "bytes": 3829,
+      "sha256": "1ed75f0a15e04425daff1363b2d6799e93a7045ae6f9b6ef335467e78398e7a8"
+    }
+  ],
+  "repository": "henry550xz/jepa-worldmodel-comparison",
+  "base_commit": "edec045e9558a0db590a463537fa8fe0970c7ac9"
+}

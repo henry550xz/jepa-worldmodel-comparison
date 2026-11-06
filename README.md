@@ -11,6 +11,26 @@ matched data and training settings. No objective is presumed superior.
 [3D preliminary results](docs/BILLIARDS_RESULTS.md) ·
 [PushT mechanism findings](docs/MECHANISM_FINDINGS.md)
 
+## Latest capacity results — November 5, 2026
+
+**[Results and figures](docs/BILLIARDS_CAPACITY_RESULTS.md)** ·
+[Report PDF](docs/capacity-results-20261105/research-report.pdf) ·
+[Playback and plots](https://henry550xz.github.io/jepa-billiards-demo/capacity.html) ·
+[Numbers and individual seeds](docs/capacity-results-20261105/summary.json)
+
+How do environment complexity, latent size and predictor complexity relate?
+Two balls in 3D have 12 position/velocity coordinates. The completed primary sweep
+compares L6/12/24/48 × affine/MLP-64/MLP-256, with three seeds per setting
+(12 Gaussian encoders / 36 predictor fits). Including Sparse L6 gives 15 encoders
+and 45 fits so far; all nine true-state controls are complete.
+
+Smaller latents did not automatically simplify prediction. Larger predictors fit
+one step better but can become unstable during rollouts. **A reliable image-based
+physical forecasting baseline, minimum sufficient latent size and required
+predictor width have not been established.** Larger Sparse codes and supervised
+state-recovery references remain queued as of the saved update. The results page
+separates completed work, queued checks and proposed environment-complexity sweeps.
+
 ## Run the capacity study
 
 On a Slurm cluster:
@@ -31,7 +51,7 @@ If required, prefix the launch with `JEPA_SLURM_ACCOUNT=your_account`.
 | System | Purpose | Inputs | Evidence status |
 |---|---|---|---|
 | PushT | Connect representation, action-conditioned dynamics and control | RGB histories and actions | Completed seed-0 comparisons, encoder-depth studies and frozen-checkpoint mechanism diagnostics |
-| 3D billiards | Examine motion and collisions with known ground-truth dynamics | Three synchronized RGB views over time; no state inputs or actions | Validated simulator and 1,000-update screening; completed 10,000-update learning diagnostic; full factor study pending |
+| 3D billiards | Examine motion and collisions with known ground-truth dynamics | Three synchronized RGB views over time; no state inputs or actions | Validated simulator, historical learning/scene diagnostics, and completed four-size Gaussian capacity sweep (three seeds); additional capacity controls queued |
 
 ## What we have learned
 
@@ -92,13 +112,15 @@ model components retain their authorship in [LICENSE](LICENSE) and [NOTICE](NOTI
 The billiards environment, comparison harness and evaluation are study additions.
 
 This is a curated scientific repository. The [original provenance](manifests/SCIENTIFIC_PROVENANCE.json)
-and [update manifest](manifests/SCIENTIFIC_UPDATE_20261017.json) identify historical
+[update manifest](manifests/SCIENTIFIC_UPDATE_20261017.json) and
+[capacity results manifest](manifests/CAPACITY_RESULTS_20261105.json) identify historical
 sources and compact evidence hashes. Its Git history is not the full experimental
 history. Datasets and historical model checkpoints are not bundled; reproduction
 commands create new runs. Follow-up PushT summaries include audited tables and
 figures, not all raw banks required to rerun those panels.
 
-All current method comparisons use one training seed. Candidate ranking is not
+Earlier method comparisons use one training seed; the November 5 capacity results
+use three training seeds per completed block. Candidate ranking is not
 closed-loop success; equal updates are not equal FLOPs; probe errors are not a
 complete measure of representation information. Planned or running work is not
 reported as a completed result.
@@ -110,11 +132,13 @@ Three pages cover the original comparisons, PushT layer/mechanism evidence and
 controlled billiards. [Evidence synthesis](docs/GORDON_RESEARCH_SYNTHESIS.md). The billiards page labels
 the five-condition JEPA ablation separately and publishes only validated cells.
 
-## Capacity experiment preparation
+## Capacity experiment protocol and results
 
 [Protocol and experiment matrix](docs/BILLIARDS_CAPACITY_PROTOCOL.md): fixed visual
 backbone, history latents6/12/24/48, and independently fitted predictor capacities.
-Local preparation was stopped for an external-machine handoff. Full image-model training is unrun; this proposal
-does not replace the completed scene-ablation results.
+The [completed capacity results](docs/BILLIARDS_CAPACITY_RESULTS.md) include the
+full Gaussian latent/predictor sweep, Sparse L6 and true-state controls. Additional
+checks remain queued. These results are separate from historical scene ablations.
 
 [Clone-and-run guide for the capacity experiment](docs/BILLIARDS_CAPACITY_RUNBOOK.md).
+

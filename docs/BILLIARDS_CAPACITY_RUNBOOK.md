@@ -28,14 +28,18 @@ The predictor consumes one history latent, not three per-frame latents.
 
 ## Current completion status
 
-Implementation and five CPU tests passed, including tiny end-to-end runs and
-exact equality between resumed and uninterrupted feature training. These tests
-are not research results. Local preparation was stopped for the user's handoff
-while generating the dataset; its partial files remain on the original machine.
-No complete capacity dataset, nine-control result, or full-size CPU timing estimate
-was finalized there. No full image-model training or GPU execution was performed.
-A fresh clone does not contain dataset/checkpoint artifacts: `prepare` creates them.
-Older completed scene-ablation results in this repository are a separate experiment.
+The [November 5 results](BILLIARDS_CAPACITY_RESULTS.md) cover the completed
+Gaussian L6/12/24/48 sweep with all three predictor capacities and three seeds,
+plus Sparse L6 and nine true-state controls. Larger Sparse codes and supervised
+image-state references remain queued at that saved update. A reliable visual
+forecasting baseline has not yet been established; see the results and controls
+before interpreting the sweep as a sufficient-dimension test.
+
+The historical local CPU preparation was stopped for an external-machine handoff.
+The published results come from a later complete shared dataset and image-model
+execution, not those interrupted preparation files. A fresh clone contains
+compact results but no dataset or checkpoints; the commands below create a new
+independent run. Historical scene-ablation results are a separate experiment.
 
 ## 1. Clone and install
 
@@ -191,3 +195,4 @@ Do not interpret a native persistence ratio as cross-objective physical superior
 A run is complete only after every planned stage, checkpoint/receipt, evaluation,
 and report is present and verified. A successful `images` command alone is not
 completion. Neither this runbook nor a partial plot claims the study has finished.
+

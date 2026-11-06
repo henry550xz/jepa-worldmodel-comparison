@@ -1,9 +1,12 @@
 # Billiards capacity experiment v1
 
-Status: designed, implemented and CPU smoke-tested. Execution is handed off to
-the user on another machine; local preparation was stopped before completion.
-No full image-model training has run. This protocol implements the accepted
-proposal; all configurations must share one frozen dataset.
+Results update (November 5, 2026): the primary Gaussian capacity sweep is complete
+at all four latent sizes and three seeds. Sparse L6 and all nine true-state
+predictor controls are also complete: 15 encoders / 45 frozen predictors total.
+[Results, figures and baseline limitations](BILLIARDS_CAPACITY_RESULTS.md).
+Larger Sparse codes and supervised image-state references remain queued at this
+saved update. The scientific protocol below is unchanged; all configurations
+share one frozen dataset.
 Config: `conf/study/billiards-capacity.json`.
 [Clone-and-run instructions](BILLIARDS_CAPACITY_RUNBOOK.md) cover installation,
 stage commands, resume behavior, outputs and interpretation. New results remain separate from
@@ -119,3 +122,4 @@ prepares data, privileged-state controls, CPU timing and figures, then stops.
 Full image training is a separate explicit stage (`images`), followed by `cache`
 and CPU `downstream`. Existing runs require `--resume`; configs and receipts
 are checked. Use a persistent process manager for long jobs.
+
